@@ -1,0 +1,40 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-12T18:27:05Z",
+    "timestamp_areas_base": "2026-11-12T18:26:04Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2428330302,
+      "lat": 46.0177802,
+      "lon": 10.8741072,
+      "tags": {
+        "highway": "trailhead",
+        "name": "Salita al Maso di Agriconda"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3079089393,
+      "lat": 46.4396296,
+      "lon": 11.8402448,
+      "tags": {
+        "highway": "trailhead"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11200230944,
+      "lat": 46.3964537,
+      "lon": 11.1442999,
+      "tags": {
+        "highway": "trailhead",
+        "name": "punto di partenza del percorso dei mulini altolinor"
+      }
+    }
+  ]
+}
