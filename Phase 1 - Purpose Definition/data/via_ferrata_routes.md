@@ -1,84 +1,54 @@
 ### Dataset Metadata & Overview
 
-* **Generator and Version**: The data was extracted using the Overpass API version 0.7.62.4, conforming to OSM API version 0.6.
+* **Generator and Version**: Overpass API 0.7.62.4, OSM API version 0.6. The JSON root has `version`, `generator`, `osm3s` and `elements`; only `elements` holds data.
 
 
-* **Geographical Scope**: The dataset covers a wide area across the Trentino-Alto Adige and Veneto regions of Italy (bounding box: roughly `45.70` to `46.51` latitude, `10.45` to `11.89` longitude), focusing exclusively on alpine environments like the Dolomites and the Brenta Group.
+* **Geographical Scope**: Via ferrata (protected climbing routes) and the hiking routes that reach them in Trentino.
 
 
-* **Data Structure**: The export consists of 22 OSM elements, all of which are of the `way` type.
+* **Data Structure**: 264 elements: 235 `way` (with `bounds` and full `geometry`, on average 37.7 points) and 29 `relation` (with `bounds` and `tags`, but **no `members`**, so they cannot be linked to the ways).
 
 
-* **Total Counts & Members**: There are 22 distinct `way` features. Each way contains a `bounds` object (bounding box coordinates) and a `geometry` array, which provides the sequential latitude and longitude points that map the physical path of the route.
+* **Ways** (`highway`): `via_ferrata` 157, `path` 74, `steps` 1. `via_ferrata_scale` 212, `sac_scale` 157 (alpine_hiking 50, demanding_mountain_hiking 38, demanding_alpine_hiking 37, difficult_alpine_hiking 23, ...).
 
 
-* **Timestamps**: The base OSM data timestamp is 2026-11-12T18:09:59Z.
-
+* **Relations** (`route`): `hiking` 22, `via_ferrata` 6, `climbing` 1; all with `type=route`, and `network=lwn` on 23 of the 29.
 
 
 ### Mandatory Fields & Explanation
 
-Within this specific dataset, the following JSON keys and OSM tags are consistently populated across all 22 way elements:
-
-* **`type`**: Always specified as "way", indicating a linear feature composed of a sequence of nodes (coordinates) that define a path.
+* **`type`**, **`id`**, **`bounds`**: element kind, OSM id and bounding box.
 
 
-* **`id`**: A unique numerical identifier assigned to each OSM way (e.g., 26141700 for the Via Ferrata dei Campanili del Latemar).
+* **`geometry`**: only for the ways.
 
 
-* **`bounds`**: Provides the geographic bounding box (`minlat`, `minlon`, `maxlat`, `maxlon`) that completely encloses the specific path.
-
-
-* **`geometry`**: An ordered array of objects, each containing a `lat` and `lon` coordinate. This array draws the physical line of the via ferrata on the map.
-
-
-* **`tags`**: A collection of key-value pairs defining the attributes of the path. The following tags are mandatory in this dataset:
-
-
-* **`highway`**: Always present, but the value varies between `via_ferrata` and `path`. This dictates the primary classification of the route in the OSM database.
-
-
-* **`via_ferrata_scale`**: Always present. This defines the technical difficulty of the equipped route using the standard numerical scale (e.g., 1, 2, 3, 4, 5, 6, with modifiers like "+" or "-"). Interestingly, one path (id 81112175) is tagged with a scale of "0", indicating an equipped trail rather than a true via ferrata.
-
-
-
+* **`tags`**: always present.
 
 
 ### Optional Fields & Explanation
 
-The following tags are not universally present across all ways, reflecting varying levels of mapper detail, regional naming conventions, or specific physical characteristics of the routes:
-
-* **`name`**: The primary name of the route (e.g., "Ferrata Monte Roen"). While present on almost all features, it is occasionally absent (e.g., id 76746744), usually indicating a minor connecting segment or an unnamed variation of a larger route.
+* **Difficulty**: `via_ferrata_scale` (0, 1, 1+, 2, 2+, 3-, 3, 3+, 4 ...), `sac_scale`, and for relations `cai_scale` 11 (EEA:F/PD/MD/D).
 
 
-* **`sac_scale`**: The Swiss Alpine Club hiking scale (e.g., `demanding_alpine_hiking`, `mountain_hiking`). It is frequently present to indicate the seriousness of the terrain, but omitted on some shorter or connecting segments.
+* **Equipment**: `safety_rope` 20, `via_ferrata` 19 (path, cable, escape), `assisted_trail` 12, `cable_number` 5, `bridge`/`bridge:structure=simple-suspension` 5, `tunnel` 8.
 
 
-* **Language-specific names (`name:de`, `name:it`)**: Used to provide translations (German and Italian) for routes in bilingual areas like South Tyrol (e.g., "Maximiliansteig" / "Via ferrata Maximilian"). Absent in monolingual areas or where the mapper only provided the local name.
+* **Name**: 141 of 264 ("Via Ferrata delle Trincee" 11 ways, "Via ferrata delle Bocchette Alte" 10), `name:de` 15, `name:it`.
 
 
-* **`surface`**: Describes the physical ground type (e.g., `rock`, `dirt`, `ground`, `metal`, `gravel`, `unpaved`). Its absence simply means the mapper didn't explicitly record the terrain type.
+* **Relations**: `ref` 12, `osmc:symbol` 12, `operator` 15 (SAT, CAI), `website` 12, `distance` 11 (km), `ascent` 11, `descent`, `duration:forward` 11, `duration:backward`, `from`, `to`, `reg_ref`.
 
 
-* **Routing and Access Tags (`bicycle`, `foot`, `horse`, `motor_vehicle`, `wheelchair`)**: Used to explicitly grant or deny access to specific modes of transport (e.g., `bicycle: no`, `foot: yes`). When absent, default regional or national access laws for alpine paths apply.
+* **Other**: `surface` 79, `trail_visibility` 75, `access` 10, `layer`, `note`, `fixme` 6, `sport` 9, `source` 15, `wikidata` 15.
 
 
-* **`trail_visibility`**: Describes how easy the path is to follow visually (e.g., `excellent`, `good`, `intermediate`).
-
-
-* **`via_ferrata`**: Sometimes used as a boolean flag (e.g., `yes` or `cable`) alongside the `highway=path` tag to indicate equipped sections.
-
-
-* **Infrastructure tags (`bridge`, `tunnel`, `ladder`, `safety_rope`, `safety_rope_side`)**: Used to detail specific artificial aids along the route (e.g., a tunnel on the Ferrata delle Trincee). Absent if no such features exist or if they weren't mapped.
-
-
-* **`incline`**: Indicates the general direction of travel relative to elevation (`up`).
-
-
-* **`operator`**: Specifies the organization responsible for maintaining the route (e.g., "Club Alpino Italiano").
-
-
-* **`source`, `source:url`, `website`, `wikipedia`, `wikidata**`: Metadata linking the route to external verification or informational pages.
-
-
-* **`fixme`, `note**`: Mappers use these to leave notes for future editors (e.g., "Imprecise placement", or warnings about rockfalls and closures like on the Ferrata Alfredo Benini).
+# todo (suggested):
+- remove timestamp
+- re-export the 29 relations with their `members` (or `out geom` of relations), otherwise the routes and the 235 ways cannot be linked, and the ways are scattered segments
+- link the ways to a named route through `name` as a fallback (e.g. "Via ferrata delle Bocchette Alte" 10 ways)
+- split the `via_ferrata` ways from the access `path`/`steps` ways, which are approaches and descents, not the ferrata itself
+- normalize the difficulty to a single ordered scale: `via_ferrata_scale` (0-6, with + and -) as the main one, with `cai_scale` EEA:F-D as an alternative
+- turn `duration:*` into minutes and `distance` into a number in km, and `safety_rope`/`assisted_trail` into booleans
+- remove `fixme`, `note`, `source`, `wikidata`, `osmc:symbol`, `layer`, `bicycle`, `horse`, `motor_vehicle`
+- link each via ferrata to the starting hut/trailhead nearby and to the municipality

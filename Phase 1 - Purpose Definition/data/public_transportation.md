@@ -1,69 +1,62 @@
 ### Dataset Metadata & Overview
 
-* **Generator and Version**: The data was exported using the Overpass API version 0.7.62.4, conforming to OSM API version 0.6.
+* **Generator and Version**: Overpass API 0.7.62.4, OSM API version 0.6. The JSON root has `version`, `generator`, `osm3s` and `elements`; only `elements` holds data.
 
 
-* **Geographical Scope**: The dataset covers a wide area in northern Italy, heavily featuring the city of Trento and its suburbs, as well as alpine valleys (like Val di Fassa and Val di Non) and the area around Riva del Garda.
+* **Geographical Scope**: Public transport of Trentino: bus stops, railway stations, bus stations and cable cars/lifts, around Trento, the valleys (Val di Fassa, Val di Non) and the Garda area.
 
 
-* **Data Structure**: The export consists exclusively of `node` elements. In OSM, a node represents a specific single point on the earth's surface defined by latitude and longitude.
+* **Data Structure**: 4948 elements: 4624 `node` (with `lat`/`lon`), 322 `way` (with `nodes` and `center`) and 2 `relation` (with `members` and `center`: Rovereto, a `stop_area`, and Cles - Piazza Fiera, a multipolygon).
 
 
-* **Total Counts**: There are exactly 249 `node` objects included in this extract.
+* **Categories** (`public_transport`): `platform` 4021, `station` 408, `stop_position` 32, `stop_area` 1; 486 elements have none.
 
 
-* **Timestamps**: The base OSM data timestamp is 2026-11-12T18:22:05Z, and the areas base timestamp is 2026-11-12T17:25:56Z.
+* **Bus**: `highway=bus_stop` 4032, `bus=yes` 3266, `amenity=bus_station` 19.
 
+
+* **Rail**: `railway=station` 54, `railway=halt` 17, `train` 61, network "Ferrovia Trento-Malé-Mezzana" 37.
+
+
+* **Lifts**: `aerialway` is set on 794 elements: `station` 582, `chair_lift` 139, `gondola` 55, `cable_car` 15.
 
 
 ### Mandatory Fields & Explanation
 
-Within this specific dataset structure, the following fields are consistently populated across all elements:
-
-* **`type`**: Always specified as "node", indicating the geometric nature of the element as a single point.
+* **`type`**, **`id`**: element kind and OSM id.
 
 
-* **`id`**: A unique numerical identifier assigned to each OSM node.
+* **`tags`**: always present.
 
 
-* **`lat` and `lon**`: The precise latitude and longitude coordinates that define the node's location on the map.
-
-
-* **`tags`**: A collection of key-value pairs defining the attributes of the node. Because this dataset is a mixed collection of transport POIs, there isn't one single mandatory tag for every node, but every node has at least one primary feature tag. The most common primary tags are:
-
-
-* **`highway=bus_stop`**: The most prevalent tag in the dataset, used to identify bus stops.
-
-
-* **`aerialway=station`**: Used extensively to identify cable car, gondola, and chairlift stations, common in the alpine regions.
-
-
-* **`railway=station` or `railway=halt**`: Used to identify train stations (e.g., along the Ferrovia Trento-Malé-Mezzana).
-
-
-
+* **Location**: `lat`/`lon` for nodes, `center` for ways and relations.
 
 
 ### Optional Fields & Explanation
 
-The following tags are applied to the nodes to provide rich metadata, but their presence is highly variable depending on the specific type of transport feature and the mapper's level of detail:
-
-* **`name`**: The designated name of the station or stop (e.g., "Trento Santa Chiara", "Paolina"). It is present on almost all nodes but is technically optional in the OSM schema.
+* **`name`**: 4470 of 4948 (478 without name, mainly platforms).
 
 
-* **`public_transport`**: Often used alongside the primary tags to clarify the role in the public transport network (e.g., `public_transport=platform`, `public_transport=station`, `public_transport=stop_position`).
+* **Operator and network**: `operator` 661 (Trentino Trasporti with many spellings, RFI, ATV, DolomitiBus), `network` 141, `ref` 394, `route_ref` 38.
 
 
-* **Amenities (`shelter`, `bench`, `bin`, `lit`)**: Highly common on `highway=bus_stop` nodes to indicate if the stop has a roof, seating, a trash can, or street lighting (`yes` or `no`).
+* **Services at the stop**: `shelter` 2324, `bench` 1620, `bin` 1209, `lit` 1003, `tactile_paving` 1223, `wheelchair` 408, `departures_board` 239, `internet_access` 32.
 
 
-* **Accessibility (`wheelchair`, `tactile_paving`)**: Indicates if the stop or station is accessible to wheelchair users (`yes`, `no`, or `limited`) and if it has tactile paving for the visually impaired.
+* **Lifts**: `aerialway:capacity` 153, `aerialway:occupancy` 191, `aerialway:duration` 124, `aerialway:bubble` 68, `aerialway:heating` 49, `aerialway:access` 99, `aerialway:summer:access` 128, `aerialway:station` 65.
 
 
-* **Aerialway Specifics (`aerialway:access`, `aerialway:summer:access`, `aerialway:station`)**: Detail whether an aerialway station allows boarding (`entry`), alighting (`exit`), or both, and whether it operates in the summer.
+* **Other**: `ele` 90, `wikidata` 68, `wikipedia` 55, `building` 93, `oneway` 39, `bicycle` 35, `source` 105, `note` 36, `name:it` 35, `alt_name` 32, `check_date:shelter` 128.
 
 
-* **Network & Operator (`network`, `operator`)**: Identify the transport company or system (e.g., "Trentino Trasporti", "Rete Ferroviaria Italiana").
-
-
-* **`ele`**: Elevation in meters above sea level, frequently added to alpine aerialway stations.
+# todo (suggested):
+- remove timestamp
+- split the file by mode: bus stops, railway stations, bus stations and lifts (`aerialway`), because their attributes and use are different
+- keep the `public_transport` tag as the type (stop vs. platform vs. station) and avoid counting the same stop twice (platform + stop_position + station nodes)
+- turn ways and relations into points using `center`
+- normalize `operator` ("Trentino Trasporti", "Trentino trasporti S.p.A.", "Trentino trasporti", ...)
+- drop the 478 elements without name, or give them a fallback name; they are mostly platforms
+- remove stop-furniture tags that are not needed (`bench`, `bin`, `shelter`, `tactile_paving`, `lit`, `check_date:shelter`, `source`, `note`)
+- move the `aerialway` lifts to the same class as the ones in full_stroller_mtb.json, and keep `aerialway:capacity|duration|occupancy` as numbers
+- add the distance of each stop to the nearest trailhead and trail, and the municipality (point-in-polygon)
+- remove `wikidata`, `wikipedia`, `building`

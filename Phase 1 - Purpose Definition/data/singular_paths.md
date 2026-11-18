@@ -1,63 +1,51 @@
 ### Dataset Metadata & Overview
 
-* **Generator and Version**: The data was exported using the Overpass API version 0.7.62.4, adhering to OSM API version 0.6.
+* **Generator and Version**: Overpass API 0.7.62.4, OSM API version 0.6. The JSON root has `version`, `generator`, `osm3s` and `elements`; only `elements` holds data.
 
 
-* **Geographical Scope**: The dataset covers a vast network of local trails, dedicated cycleways (like the "Ciclovia dei laghi" and "Ciclovia della Valle dell'Adige"), and alpine hiking paths (e.g., "Sentiero del Ponale Giacomo Cis") across Trentino.
+* **Geographical Scope**: Single path/track/cycleway segments of Trentino, as OSM `way` objects.
 
 
-* **Data Structure**: The export consists exclusively of `way` elements. In OSM, a way is an ordered list of nodes defining a polyline or polygon; in this dataset, they define linear route segments. Each way contains an array of `geometry` objects providing the exact latitude and longitude for every node along the path.
+* **Data Structure**: 11954 `way` elements, each with `bounds` and a `geometry` array of `lat`/`lon` points (on average 25.6 points per way). There are no `nodes` and no `center`.
 
 
-* **Total Counts**: The provided snippet shows a subset of `way` objects, but the full file contains many individual trail and cycleway segments.
-
-
-* **Timestamps**: The base OSM data timestamp is 2026-11-12T18:09:59Z, and the areas base timestamp is 2026-11-12T17:25:56Z.
-
+* **Types** (`highway`): `path` 5357, `track` 3691, `cycleway` 2612, `footway` 276, `pedestrian` 18.
 
 
 ### Mandatory Fields & Explanation
 
-Within this specific dataset structure, the following fields are consistently populated across all elements:
-
-* **`type`**: Always specified as "way", indicating the geometric nature of the element as a linear feature.
+* **`type`**, **`id`**, **`bounds`**, **`geometry`**: element kind, OSM id, bounding box and line geometry.
 
 
-* **`id`**: A unique numerical identifier assigned to each OSM way.
-
-
-* **`bounds`**: A bounding box (`minlat`, `minlon`, `maxlat`, `maxlon`) defining the spatial extent of the specific way segment.
-
-
-* **`geometry`**: An array of coordinate pairs (`lat`, `lon`) that define the exact physical path of the route segment.
-
-
-* **`tags`**: A collection of key-value pairs defining the attributes of the way. Every way in this dataset has a primary feature tag:
-
-
-* **`highway=*`**: This tag is universally present to classify the type of route. Common values in this dataset include `cycleway`, `path`, and `track`.
-
-
-
+* **`tags`**: always present, with `highway` always set.
 
 
 ### Optional Fields & Explanation
 
-The following tags are applied to the ways to provide rich metadata, but their presence is highly variable depending on the specific type of route and the mapper's level of detail:
-
-* **Access Restrictions (`bicycle`, `foot`, `horse`, `motor_vehicle`)**: Indicates who is allowed to use the path (e.g., `designated`, `yes`, `no`, `permissive`).
+* **Surface and quality**: `surface` 9224 (ground 2408, asphalt 2329, gravel 1240, compacted 757, dirt 749, ...), `tracktype` 3517, `smoothness` 1856, `width` 2002, `incline` 1711, `trail_visibility` 2378.
 
 
-* **Surface and Quality (`surface`, `smoothness`, `tracktype`)**: Describes the physical condition of the route (e.g., `asphalt`, `gravel`, `dirt`, `paving_stones`, and track grades from `grade1` to `grade5`).
+* **Hiking difficulty**: `sac_scale` 4429 (hiking 2303, mountain_hiking 1992, demanding_mountain_hiking 104, alpine_hiking 16, ...).
 
 
-* **Topography & Engineering (`incline`, `bridge`, `tunnel`, `layer`)**: Notes steepness or if the segment crosses over or under another feature.
+* **Biking**: `mtb:scale` 9024, `mtb:scale:uphill` 2156, `mtb:scale:imba` 174, `bicycle` 5451, `cycleway` 521.
 
 
-* **Difficulty Scales (`mtb:scale`, `mtb:scale:uphill`, `sac_scale`)**: Very common on mountain routes to indicate the technical difficulty for mountain bikers and hikers.
+* **Access**: `foot` 5699, `horse` 1714, `motor_vehicle` 1497, `access` 849, `forestry` 866, `emergency` 857, `designation` 774 (forest road types).
 
 
-* **Naming (`name`, `ref`)**: The official or common name of the specific trail segment or the broader cycle network it belongs to.
+* **Names**: `name` 2381 of 11954, `name:de`, `name:it`.
 
 
-* **Other Attributes (`lit`, `segregated`, `dog`)**: Indicates if the path has street lighting, if pedestrians and cyclists are physically separated on a cycleway, and rules for dogs.
+* **Urban tags**: `lit` 2483, `segregated` 1864, `crossing`, `footway=sidewalk|crossing`, `layer`, `bridge` 484, `tunnel` 133, `wheelchair` 644.
+
+
+# todo (suggested):
+- remove timestamp
+- keep only the segments that are useful for hiking: `highway=path|footway|track` for hiking, and `cycleway` only for bike itineraries (split them, since `cycleway` 2612 is mostly urban cycle paths)
+- remove urban noise tags: `lit`, `segregated`, `crossing`, `footway`, `layer`, `inline_skates`, `disabled`
+- convert `width`, `incline`, `est_width` to numbers, and `sac_scale`/`mtb:scale` to ordered difficulty levels
+- keep one difficulty vocabulary for hikes (`sac_scale`) and one for bikes (`mtb:scale`), with the same names as in ways.json
+- replace the full `geometry` with a simplified line or length in metres, and compute `length` for each segment
+- group segments into the routes of trails.json/mtb.json by `id` membership instead of keeping 12k isolated lines
+- assign each segment to a municipality for weather lookup

@@ -1,66 +1,65 @@
 ### Dataset Metadata & Overview
 
-* **Generator and Version**: The data was exported using the Overpass API version 0.7.62.4, conforming to OSM API version 0.6.
+* **Generator and Version**: Overpass API 0.7.62.4, OSM API version 0.6. The JSON root has `version`, `generator`, `osm3s` and `elements`; only `elements` holds data.
 
 
-* **Geographical Scope**: The dataset covers a wide region in Trentino, Italy, stretching from the Adige Valley area eastwards into the Fiemme and Fassa Valleys. The bounding boxes (`bounds`) indicate latitudes spanning roughly from 45.69 to 46.47 and longitudes from 10.92 to 11.78.
+* **Geographical Scope**: Mountain-bike and cycling routes of Trentino.
 
 
-* **Data Structure**: The export consists of 2 distinct OSM elements, both of which are of the `relation` type. These relations represent grouped collections of paths that form unified routes.
+* **Data Structure**: 144 `relation` elements (route relations), each with `bounds` and a `members` array where every way carries its full `geometry` (`lat`/`lon` points). This is why the file is about 20 MB.
 
 
-* **Total Counts & Members**: There are exactly 2 `relation` objects. Instead of direct node coordinates, these relations contain arrays of `members`. Each member is a `way` (a segment of the trail) defined by an array of geometric coordinate pairs (`lat` and `lon`). Relation 31315 has 136 way members, and relation 32281 has 64 way members.
+* **Route types** (`route`): `mtb` 91 and `bicycle` 53. The `bicycle` ones are mostly cycle paths (ciclovie), the `mtb` ones are trails for mountain bikes.
 
 
-* **Timestamps**: The base OSM data timestamp is 2026-11-12T18:07:57Z, and the areas base timestamp is 2026-11-12T17:25:56Z.
+* **Networks** (`network`): `lcn` 47, `ncn` 25, `rcn` 20, `mtb` 11, `lwn` 5, `icn` 1; 35 relations have none.
 
+
+* **Members**: 12785 `way` with empty role, 1137 `forward`, 487 `backward`, plus 49 `guidepost` and 48 unlabeled `node` members.
 
 
 ### Mandatory Fields & Explanation
 
-Within this specific dataset structure, the following fields are consistently populated across the relation elements:
-
-* **`type`**: Always specified as "relation", indicating the element groups other elements (ways) together to form a larger logical entity (a route).
+* **`type`**, **`id`**, **`bounds`**: relation kind, OSM id and bounding box.
 
 
-* **`id`**: A unique numerical identifier assigned to each OSM relation (e.g., 31315 and 32281).
+* **`members`**: list of ways (with `geometry`) and nodes, each with `role`.
 
 
-* **`bounds`**: A bounding box defining the maximum spatial extent of the entire relation (min/max latitude and longitude).
-
-
-* **`members`**: An array of the ways that constitute the route. Each member dictates its `type` (always "way" here), a `ref` ID, a `role` (often empty, but sometimes "forward" or "backward" to dictate route direction), and a `geometry` array containing the specific latitude and longitude nodes that form that segment.
-
-
-* **`tags`**: A collection of key-value pairs defining the attributes of the route as a whole. The following tags are always present in this specific extract:
-
-
-* **`name`**: The designated name of the route (e.g., "Ciclovia delle Valli di Fiemme e Fassa").
-
-
-* **`type`**: Always set to `route`, indicating the relation's purpose.
-
-
-
+* **`tags`**: always `route` (mtb or bicycle) and `type` ("route").
 
 
 ### Optional Fields & Explanation
 
-The following tags are applied to the relations as a whole, but are not strictly universally present across all elements of this type in OSM, reflecting the specific nature of these routes:
-
-* **`route`**: Specifies the transport mode for the route. In relation 31315, it is explicitly set to `bicycle`, confirming it as a cycleway.
+* **`name`**: 111 of 144. 23 of them are stages of the same itinerary, "SICAI Ciclo" (`ref` "SI-C", with `stage`, `cai_scale:mtb` MC/OC and `date`).
 
 
-* **`network`**: Indicates the scope of the route network. Relation 31315 is tagged `rcn` (Regional Cycling Network).
+* **`ref`** 105, **`network`** 109, **`operator`** 53 (tourist boards, Comune di Trento, Provincia Autonoma di Trento), **`cycle_network`** 14 ("bicipolitana Trento", EuroVelo).
 
 
-* **`ref`**: A reference number or code assigned to the route (e.g., "5").
+* **Route description**: `from` 51, `to` 51, `via`, `roundtrip` 25, `oneway` 12, `distance` 23, `ascent` 8, `descent` 5, `length` 2.
 
 
-* **`colour`**: Specifies the color used on signposts or maps for the route (e.g., "#840000").
+* **Difficulty**: `cai_scale:mtb` and `cai_scale:mtb:uphill` 23, `mtb:scale` 8 (1-3), `mtb:type` 8 (crosscountry, freeride, allmountain, ...).
 
 
-* **`length`**: The calculated or stated length of the route (e.g., "50.5" km).
+* **Names in other languages**: `name:de` 8, `name:it` 8, `operator:de`, `operator:it`.
 
 
-* **`website`**: A URL providing official information about the route.
+* **Links and metadata**: `website` 25, `wikipedia` 8, `wikidata` 6, `colour` 32, `osmc:symbol` 6, `source` 24, `note` 15, `fixme` 6, `description` 5, `state` 2 ("proposed").
+
+
+# todo:
+- remove timestamp
+- divide between btm and cliclovie
+
+## suggested todo:
+- divide between MTB (`route=mtb`) and cycleways/cycle routes (`route=bicycle`, "ciclovie") as already planned: they are different kinds of activity
+- use `network` as a level: `icn`/`ncn` (international/national), `rcn` (regional), `lcn` (local), `mtb`
+- unify the 23 "SICAI Ciclo" relations into one parent route with 23 stages (`stage` is already there)
+- convert `distance`, `length`, `ascent`, `descent` to numbers in one unit (kilometres and metres); `distance` is in km as text ("4.070") in other files
+- keep only the difficulty fields useful for a user (`mtb:scale`, `cai_scale:mtb`, `mtb:type`), and convert `roundtrip`/`oneway` to booleans
+- remove `fixme`, `note`, `osmc:symbol`, `colour`, `source`, `state=proposed` (proposed routes do not exist yet)
+- compute the length from the geometry for the routes that do not have `distance`
+- simplify the member geometry (or keep only `bounds` and a centroid) to reduce the 20 MB, and avoid the very long `members` arrays
+- link routes to the municipalities they cross and to the trailheads/public transport near their start

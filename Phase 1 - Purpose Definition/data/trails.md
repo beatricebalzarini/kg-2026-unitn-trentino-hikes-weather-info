@@ -1,66 +1,65 @@
 ### Dataset Metadata & Overview
 
-* **Generator and Version**: The data was exported using the Overpass API version 0.7.62.4, adhering to OSM API version 0.6.
+* **Generator and Version**: Overpass API 0.7.62.4, OSM API version 0.6. The JSON root has `version`, `generator`, `osm3s` and `elements`; only `elements` holds data.
 
 
-* **Geographical Scope**: The dataset covers established hiking trails and local walking networks across Trentino, frequently mapping routes maintained by the local alpine club (SAT).
+* **Geographical Scope**: Hiking route relations (`route=hiking`) of Trentino.
 
 
-* **Data Structure**: The export consists exclusively of `relation` elements. A relation in OSM is a logical grouping of other elements; here, it groups multiple `way` (and occasionally `node`) members to form continuous, named hiking routes with full geometric coordinates.
+* **Data Structure**: 1657 `relation` elements (1656 `type=route`, 1 `type=superroute`), each with `bounds` and `members` with full `geometry` for ways. It is the largest file (about 87 MB).
 
 
-* **Total Counts**: The provided snippet shows the first 4 `relation` objects, though the full file likely contains many more.
+* **Networks** (`network`): `lwn` (local) 1479, `rwn` (regional) 86, `nwn` (national) 51, `iwn` (international) 9, `local` 2.
 
 
-* **Timestamps**: The base OSM data timestamp is 2026-11-12T17:41:18Z, and the areas base timestamp is 2026-11-12T17:25:56Z.
-
+* **Members**: 34125 `way` with empty role, 127 `alternative`, 48 `excursion`, 42 `forward`, 26 `alternative:2`, 23 `connection`, plus 796 `guidepost` nodes and 478 unlabeled nodes.
 
 
 ### Mandatory Fields & Explanation
 
-Within this specific dataset structure, the following fields are consistently populated across all elements:
-
-* **`type`**: Always specified as "relation", indicating the logical grouping nature of the element.
+* **`type`**, **`id`**, **`bounds`**: relation kind, OSM id and bounding box.
 
 
-* **`id`**: A unique numerical identifier assigned to each OSM relation.
+* **`members`**: ways (with `geometry`) and nodes, with `role`.
 
 
-* **`bounds`**: A bounding box (`minlat`, `minlon`, `maxlat`, `maxlon`) defining the total spatial extent of the route.
-
-
-* **`members`**: An array of the specific OSM elements (mostly `ways` with full geometry coordinates) that make up the route.
-
-
-* **`tags`**: A collection of key-value pairs defining the attributes of the route. The following tags are mandatory in this dataset to classify the element as a walking/hiking route:
-
-
-* **`type=route`**: Defines the relation specifically as a route.
-
-
-* **`route=hiking` or `route=foot**`: Specifies the mode of transport, classifying these as pedestrian or hiking trails.
-
-
-* **`name`**: The designated name of the route (e.g., "Senter del Lof", "Sentiero della Croce").
-
-
-
+* **`tags`**: `route` (always "hiking") and `type` are always present. `network` is on 1627 of 1657.
 
 
 ### Optional Fields & Explanation
 
-The following tags are applied to the relations to provide rich metadata, but their presence is highly variable depending on the specific route and the mapper's level of detail:
-
-* **Route Metrics (`distance`, `ascent`, `descent`, `duration:forward`, `duration:backward`)**: Provides calculated or surveyed metrics about the hike's physical demands.
+* **`ref`**: 1485, the trail number (for example SAT numbers). `reg_ref` 1081 is the regional code.
 
 
-* **Difficulty Grading (`cai_scale`)**: Uses the Club Alpino Italiano (CAI) difficulty scale (e.g., "T" for Tourist, "E" for Hiker, "EE" for Expert Hiker).
+* **`name`**: only 762 of 1657: most trails are identified by `ref`, not by name.
 
 
-* **Management & Signage (`network`, `operator`, `ref`, `reg_ref`, `osmc:symbol`, `symbol`, `symbol:it`)**: Extremely common in this dataset to indicate official trail networks (like `lwn` for Local Walking Network), the operating body (usually "Società degli Alpinisti Tridentini" or SAT), official trail numbers (e.g., "420A"), and detailed descriptions of the physical trail blazes (e.g., "red:red:white_stripe:420A:black").
+* **`operator`**: 1362 (mostly SAT, 1133, but also Ecomuseo Argentario 35, CAI 26), with many different spellings.
 
 
-* **Routing Terminals (`from`, `to`)**: Denotes the specific start and end locations of a non-circular route.
+* **Route description**: `from` 1294, `to` 1294, `distance` 1193, `duration:forward` 1158, `duration:backward` 1107, `ascent` 1146, `descent` 1105, `roundtrip` 125, `stage` 106.
 
 
-* **References (`source`, `website`, `note:project_page`)**: Lists where the trail data was sourced from (often SAT or CAI surveys) and provides links to official websites for further information.
+* **Difficulty**: `cai_scale` 1237 (E 886, EE 231, T 42, EEA with sub-grades F/PD/MD/D ~78), `via_ferrata_scale` 22.
+
+
+* **Signs**: `osmc:symbol` 1428, `symbol` 205, `symbol:it` 207.
+
+
+* **Links and sources**: `website` 1158, `source` 1218 ("SAT;survey:CAI" and variants), `note:project_page` 1085 (a wiki link, always the same).
+
+
+* **Other**: `description` (e.g. "Sentiero Italia - Tappa C09"), `importance` 27, `rwn:name`, `network:type` 65, `note` 67, `source:ref` 64.
+
+
+# todo (suggested):
+- remove timestamp
+- split by `network` (local/regional/national/international) or by `cai_scale`, as these are the main filters for a hiker
+- turn `duration:forward`/`backward` ("HH:MM") into minutes and `distance`, `ascent`, `descent` into numbers; check the units, `distance` is a string in kilometres
+- normalize `cai_scale` into a separate numeric/enum difficulty (T, E, EE, EEA, EEA:F/PD/MD/D)
+- normalize `operator` (SAT / Società degli Alpinisti Tridentini / SAT Sezione di ...)
+- give every trail a usable label: only 762 have a `name`, so build one from `ref` + `from` + `to`
+- remove `note:project_page`, `source`, `source:ref`, `osmc:symbol`, `symbol*`, `website`, and long `note`/`description` values
+- drop the `members` geometry from the knowledge-graph file (keep it in a separate geometry file) and keep only `bounds`/start point/end point, since 87 MB is too heavy
+- keep the 1 `superroute` apart: it groups other routes (Sentiero Italia-like) and should be modelled as a parent route
+- link each trail to the trailheads, huts, POIs and municipalities it passes by (spatial join)

@@ -1,75 +1,61 @@
 ### Dataset Metadata & Overview
 
-* **Generator and Version**: The data was exported using the Overpass API version 0.7.62.4, adhering to OSM API version 0.6.
+* **Generator and Version**: Overpass API 0.7.62.4, OSM API version 0.6. The JSON root has `version`, `generator`, `osm3s` and `elements`; only `elements` holds data.
 
 
-* **Geographical Scope**: The dataset covers a wide area in northern Italy, with significant clusters around Trento, Rovereto, Riva del Garda, and various alpine valleys (like Val di Fassa and Val di Non).
+* **Geographical Scope**: Restaurants, bars, cafes, fast food and pubs (`amenity=*`) across Trentino.
 
 
-* **Data Structure**: The export consists exclusively of `node` elements. Nodes represent specific single points on the Earth's surface defined by latitude and longitude coordinates.
+* **Data Structure**: 3145 elements: 2426 `node` (with `lat`/`lon`), 717 `way` (with `nodes` and `center`) and 2 `relation` (with `members` and `center`: Cantina De Tarczal and Malga Valli).
 
 
-* **Total Counts**: There are exactly 126 `node` objects.
-
-
-* **Timestamps**: The base OSM data timestamp is 2026-11-12T18:11:59Z, and the areas base timestamp is 2026-11-12T17:25:56Z.
-
+* **Types** (`amenity`): `restaurant` 1512, `bar` 720, `cafe` 618, `fast_food` 208, `pub` 87.
 
 
 ### Mandatory Fields & Explanation
 
-Within this specific dataset structure, the following fields are consistently populated across all elements:
-
-* **`type`**: Always specified as "node", indicating the geometric nature of the element as a single point.
+* **`type`**, **`id`**: element kind and OSM id.
 
 
-* **`id`**: A unique numerical identifier assigned to each OSM node.
+* **`tags`**: present in every element; `amenity` is the only tag guaranteed in all 3145.
 
 
-* **`lat` and `lon**`: The precise latitude and longitude coordinates that define the node's location on the map.
-
-
-* **`tags`**: A collection of key-value pairs defining the attributes of the node. The following tags are effectively mandatory in this dataset to classify the element:
-
-
-* **`amenity`**: Every node has an `amenity` tag, establishing its primary function. The values present in this dataset are `restaurant`, `cafe`, `bar`, `pub`, and `fast_food`.
-
-
-* **`name`**: Except for a few extremely sparse entries (like node 269348447 which is just a `Bar Esso`), almost every establishment has a designated name.
-
-
-
+* **Location**: `lat`/`lon` for nodes, `center` for ways and relations.
 
 
 ### Optional Fields & Explanation
 
-The following tags are applied to the nodes to provide rich metadata, but their presence is highly variable and depends entirely on the mapper's diligence and the specific type of establishment:
-
-* **Address Details (`addr:city`, `addr:street`, `addr:housenumber`, `addr:postcode`, `addr:country`)**: Frequently included for urban establishments to allow for geocoding and navigation, but often omitted for rural or alpine locations (like mountain huts).
+* **`name`**: 2922 of 3145. Many names are generic and repeat ("Bar Centrale" 21, "Bar Sport" 14).
 
 
-* **Contact Information (`contact:phone`, `phone`, `contact:website`, `website`, `contact:email`, `contact:facebook`, `contact:instagram`)**: Highly prevalent to facilitate reservations and customer inquiries. The OSM schema allows both the `contact:*` prefix and the standalone keys.
+* **Food**: `cuisine` 1035 (multi-valued with `;`), `diet:vegetarian` 141, `diet:vegan` 101, `diet:gluten_free` 32, `takeaway` 188, `delivery` 59.
 
 
-* **`cuisine`**: Describes the type of food served (e.g., `pizza`, `regional`, `italian`, `japanese`, `burger`). Crucial for restaurants and fast-food places, but rarely applied to simple bars or cafes.
+* **Seating and access**: `outdoor_seating` 818, `indoor_seating` 496, `wheelchair` 378, `smoking` 127, `toilets` 82, `internet_access` 95, `reservation` 39.
 
 
-* **`opening_hours`**: A complex string defining when the establishment is open. Very useful for users but requires active maintenance to remain accurate.
+* **Opening and payments**: `opening_hours` 778, `payment:*` (credit/debit cards, cash).
 
 
-* **Dietary Accommodations (`diet:vegetarian`, `diet:vegan`, `diet:gluten_free`, `diet:lactose_free`)**: Increasingly common tags indicating if specific dietary needs are catered to (`yes`/`no`).
+* **Address and contacts**: `addr:*` (street 1365, housenumber 1305, postcode 1236, city 1197, country 763), `phone` 594, `contact:phone` 286, `website` 394, `contact:website` 158, `email` 176, `contact:facebook` 152, `contact:instagram` 82.
 
 
-* **Seating (`outdoor_seating`, `indoor_seating`)**: Indicates if the venue has tables inside or outside.
+* **Overlap with huts**: `tourism` is set on 145 elements (hotel 69, `alpine_hut` 47, guest_house 18, ...). These are restaurants that are also hotels or mountain huts, so they duplicate entries of the other datasets.
 
 
-* **Accessibility (`wheelchair`, `toilets:wheelchair`)**: Indicates if the venue or its toilets are accessible to wheelchair users (`yes`, `no`, or `limited`).
+* **Administrative / noisy tags**: `ref:vatin` 382, `ref:pat:id`, `ref:pat:cat`, `ref:rea_tn`, `ref:it:vat`, `check_date` 397, `check_date:opening_hours` 94, `opening_hours:signed`, `source`, `building` 682.
 
 
-* **Services (`takeaway`, `delivery`, `internet_access`)**: Details additional customer services.
+# todo:
+- remove timestamp
+- remove official references
 
-
-* **Payment (`payment:cash`, `payment:credit_cards`, `payment:lightning`, `currency:XBT`)**: Details accepted payment methods, including a notable presence of cryptocurrency options (Bitcoin/Lightning) in the Trento area.
-
-
-* **Official References (`ref:vatin`)**: The Italian VAT number (Partita IVA) of the operating business.
+## suggested todo:
+- turn ways and relations into points using `center`
+- keep `amenity` as the category (restaurant, bar, cafe, fast_food, pub) and normalize `cuisine` into a list
+- separate the elements with `tourism=alpine_hut|hotel|guest_house` and link them to the accommodation/hut datasets instead of keeping duplicates
+- keep only hiking-relevant attributes: `name`, `amenity`, `cuisine`, `opening_hours`, `outdoor_seating`, `wheelchair`, `diet:*`, `website`, `phone`, and one address
+- merge `phone`/`contact:phone` and `website`/`contact:website`, and drop the social network links
+- remove `check_date*`, `source`, `building`, `opening_hours:signed` (remove the `ref:*` identifiers as already planned)
+- flag amenities within a given distance of a trail or trailhead (for example 500 m) so they become useful in the graph
+- rename `amenity` to something less generic (e.g. `food_drink`) to avoid clashing with `amenity` in other files

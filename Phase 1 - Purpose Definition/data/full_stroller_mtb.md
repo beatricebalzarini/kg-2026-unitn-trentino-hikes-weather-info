@@ -1,69 +1,58 @@
 ### Dataset Metadata & Overview
 
-* **Generator and Version**: The export was created by the Overpass API version 0.7.62.4, using OSM API version 0.6.
+* **Generator and Version**: Overpass API 0.7.62.4, OSM API version 0.6. The JSON root has `version`, `generator`, `osm3s` and `elements`; only `elements` holds data.
 
 
-* **Geographical Scope**: The dataset covers an extensive region in the Italian Alps (Trentino-Alto Adige and Veneto), including areas around Riva del Garda, the Fiemme and Fassa valleys, and the Brenta Dolomites. It captures a wide variety of routes from urban paths to high-altitude via ferratas.
+* **Geographical Scope**: Ways of Trentino that are suitable for strollers and/or mountain bikes (cycleways, tracks, easy roads).
 
 
-* **Data Structure**: The provided subset contains 180 distinct OSM elements, all of which are of the `way` type (representing linear features like paths, roads, and aerialways).
+* **Data Structure**: 11415 `way` elements with only `id`, `type` and `tags`. There is no `geometry`, `bounds`, `center` or `nodes`: the elements cannot be placed on a map.
 
 
-* **Total Counts & Members**: There are 180 `way` objects. Only a portion of these ways have their coordinate `geometry` arrays and `bounds` fully resolved in this subset, while others (especially the initial elements) are truncated and only display their ID and tags.
+* **Types** (`highway`): `cycleway` 2414, `track` 1790, `unclassified` 1652, `residential` 1393, `tertiary` 1241, `path` 863, `secondary` 585, `primary` 472, `service` 379, `footway` 337, `pedestrian` 225, `living_street` 19, `steps` 10, none 22.
 
 
-* **Timestamps**: The base OSM data timestamp is 2026-11-12T18:08:59Z.
-
+* **Aerialways**: 19 ways are lifts (`aerialway`: gondola 12, chair_lift 5, cable_car 2).
 
 
 ### Mandatory Fields & Explanation
 
-Within this specific dataset structure, the following fields are consistently populated across all way elements:
-
-* **`type`**: Always specified as "way", indicating the element is a linear path formed by connected nodes.
+* **`type`**, **`id`**: element kind and OSM id.
 
 
-* **`id`**: A unique numerical identifier assigned to each OSM way (e.g., 4702282 for the Canazei - Pecol gondola).
-
-
-* **`tags`**: A collection of key-value pairs defining the attributes of the path. While the specific tags vary, the `tags` object itself is always present, containing at least one primary classification tag:
-
-
-* **`highway`** or **`aerialway`**: Every element in this list contains one of these two foundational tags to classify the type of route. `highway` is used for roads, cycleways, tracks, paths, and via ferratas, while `aerialway` is used for cable cars, gondolas, and chairlifts.
-
-
-
+* **`tags`**: always present; `highway` is set in 11393 of 11415 (the other 22 include the lifts).
 
 
 ### Optional Fields & Explanation
 
-The following tags and fields are not universally present, reflecting varying levels of mapper detail or specific physical characteristics of the routes:
-
-* **`bounds`** and **`geometry`**: These fields (providing the bounding box and the explicit coordinate points of the path) are only present for the later elements in the list (starting from ID 26141700). The earlier elements are truncated, showing only their tags.
+* **Surface and quality**: `surface` 9451 (asphalt 7074, gravel 497, sett 457, ground 215, ...), `smoothness` 1810, `tracktype` 1798, `width` 1192, `incline` 507, `lanes` 1802.
 
 
-* **`name`** / **`alt_name`** / **`name:de`** / **`name:it`**: The name of the route (e.g., "Ciclovia della Valle dell'Adige"). Absent on minor tracks or residential streets where a name is either unknown or doesn't exist. Regional language tags are common in bilingual areas.
+* **Access**: `bicycle` 4434 (designated 2316, yes 1984), `foot` 3390, `horse` 461, `motor_vehicle` 788, `access` 360, `oneway` 2114.
 
 
-* **`surface`**: Describes the physical ground type (e.g., `asphalt`, `gravel`, `sett`, `rock`, `ground`). Highly relevant for cycling and hiking, but sometimes omitted by mappers.
+* **Biking difficulty**: `mtb:scale` 877, `mtb:scale:uphill` 338. Hiking: `sac_scale` 640.
 
 
-* **`sac_scale`** / **`mtb:scale`** / **`mtb:scale:uphill`** / **`via_ferrata_scale`**: These scales indicate the difficulty of the route for hikers, mountain bikers, and climbers respectively. They are only present on routes where such activities are relevant and when the mapper has specifically assessed the difficulty.
+* **Urban tags**: `lit` 3476, `segregated` 2067, `cycleway:both` 1560, `cycleway` 682, `sidewalk` 903, `maxspeed` 1648, `lane_markings` 1143, `layer` 1177, `bridge` 856, `tunnel` 311, `crossing` 323, `junction=roundabout` 230.
 
 
-* **Routing and Access Tags (`bicycle`, `foot`, `motor_vehicle`, `horse`, `psv`)**: Used to explicitly grant or deny access (e.g., `bicycle: designated`, `motor_vehicle: no`). Often used to differentiate dedicated cycleways from shared paths.
+* **Names and refs**: `name` 6060 ("Ciclovia della Valle dell'Adige" 133), `name:de` 628, `name:it` 577, `ref` 1604 (EV7, SS45bis, ...), `nat_ref` 348, `old_ref` 319.
 
 
-* **`tracktype`**: Used on `highway=track` to indicate the firmness of the surface (grade1 to grade5).
+* **Aerialway tags**: `aerialway:capacity`, `aerialway:duration`, `aerialway:occupancy` on the lifts.
 
 
-* **`lanes`** / **`oneway`** / **`maxspeed`**: Traffic management tags commonly applied to roads (e.g., `highway=primary` or `residential`) but rarely to paths or cycleways.
+# todo:
+- remove timestamp
+- divide per highway e aerialway
+- remove lit, tracktype, bounds and geometry
 
-
-* **`lit`**: Indicates whether the route has street lighting.
-
-
-* **`bridge`** / **`tunnel`** / **`layer`**: Used to indicate when a path crosses over or under another feature or the natural terrain.
-
-
-* **`aerialway` attributes (`capacity`, `duration`, `occupancy`)**: Specific metadata applied only to aerialways like gondolas and chairlifts to describe their operational capacity.
+## suggested todo:
+- this file has no geometry, so the ways cannot be drawn or intersected with municipalities: re-export with `out geom` (or `out center`), or join it with ways.json/singular_paths.json by `id` to get the geometry
+- split it into `road/way` (`highway`) and `aerialway` as already planned, and put the 19 lifts together with the cable cars of public_transportation.json
+- remove the urban/car tags that do not matter to a stroller or a bike: `maxspeed`, `maxspeed:type`, `lanes`, `lane_markings`, `junction`, `sidewalk`, `layer`, `crossing`
+- keep a short quality profile: `surface`, `smoothness`, `width`, `incline`, `bicycle`, `foot`, `wheelchair` and `mtb:scale`
+- convert `surface`/`smoothness` into an ordered quality level (for example 1 = best) usable to rank "stroller-friendly" ways
+- remove the many `*:etymology*` tags, `source*` and `old_ref`
+- check the overlap with ways.json and singular_paths.json (the same `id` can appear in several files): decide which file is the source of truth for geometry and which for attributes

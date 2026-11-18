@@ -1,75 +1,40 @@
 ### Dataset Metadata & Overview
 
-* **Generator and Version**: The data was exported using the Overpass API version 0.7.62.4, conforming to OSM API version 0.6.
+* **Generator and Version**: Overpass API 0.7.62.4, OSM API version 0.6. The JSON root has `version`, `generator`, `osm3s` and `elements`; only `elements` holds data.
 
 
-* **Geographical Scope**: The dataset covers various hiking paths, urban trails, and local walking networks across northern Italy, particularly in the Trentino region.
+* **Geographical Scope**: Stroller-friendly itineraries, mostly near Trento, Andalo and Imèr.
 
 
-* **Data Structure**: The export consists exclusively of `relation` elements. In OSM, a relation is a logical grouping of other elements (nodes, ways, and other relations). In this file, the relations group multiple `way` and `node` members to form continuous, named routes.
+* **Data Structure**: 13 `relation` elements (`route=foot`), each with `bounds` and `members` with `geometry` on the ways. Members: 553 `way` (1 `forward`), 56 `node` (including 1 `start` and 1 `stop`).
 
 
-* **Total Counts**: The provided snippet shows the first 4 `relation` objects, though the full file likely contains more.
-
-
-* **Timestamps**: The base OSM data timestamp is 2026-11-12T18:06:59Z, and the areas base timestamp is 2026-11-12T17:25:56Z.
-
+* **Networks** (`network`): `lwn` 9 (the other 4 have none).
 
 
 ### Mandatory Fields & Explanation
 
-Within this specific dataset structure, the following fields are consistently populated across all elements:
-
-* **`type`**: Always specified as "relation", indicating the logical grouping nature of the element.
+* **`type`**, **`id`**, **`bounds`**, **`members`**: relation kind, OSM id, bounding box and members.
 
 
-* **`id`**: A unique numerical identifier assigned to each OSM relation.
-
-
-* **`bounds`**: A bounding box (`minlat`, `minlon`, `maxlat`, `maxlon`) defining the spatial extent of the entire route.
-
-
-* **`members`**: An array of the specific OSM elements (mostly `ways` with full geometry coordinates) that make up the route.
-
-
-* **`tags`**: A collection of key-value pairs defining the attributes of the route. The following tags are mandatory in this dataset to classify the element as a walking route:
-
-
-* **`type=route`**: Defines the relation specifically as a route.
-
-
-* **`route=foot`**: Specifies the mode of transport for the route, indicating these are pedestrian/hiking trails.
-
-
-* **`name`**: The designated name of the route (e.g., "Giro dei Masi", "Sentiero geologico Antonio Stoppani").
-
-
-
+* **`tags`**: `route` ("foot") and `type` ("route") are always set.
 
 
 ### Optional Fields & Explanation
 
-The following tags are applied to the relations to provide rich metadata, but their presence is variable depending on the specific route and the mapper's level of detail:
-
-* **`network`**: Indicates the scale or managing body of the route. Values like `lwn` (local walking network) or `node_network` are common here.
+* **`name`**: 12 of 13.
 
 
-* **`operator`**: Identifies the organization responsible for maintaining or promoting the route (e.g., "APT Trento, Monte Bondone, Valle dei Laghi", "Comune di Imèr").
+* **Description**: `description` 2, `from` 2, `to` 2, `roundtrip` 1, `ref` 1 ("SAT O281"), `historic` 1.
 
 
-* **`description`**: Provides a textual overview of the route's characteristics or highlights.
+* **Operators and links**: `operator` 2, `website` 3, `url` 1, `wikidata` 2, `wikipedia` 2, `network:type` 2.
 
 
-* **`website` or `url**`: Links to official information pages about the specific hike or trail.
-
-
-* **`historic=yes`**: Used to indicate if the route itself has historical significance.
-
-
-* **`wikidata` and `wikipedia**`: Links to corresponding Wikipedia and Wikidata entries for well-known trails.
-
-
-* **`roundtrip=no`**: Explicitly states if the route is a one-way path rather than a loop.
-
-
-* **Routing Terminals (`from`, `to`)**: Occasionally used to denote the start and end points of a non-circular route.
+# todo (suggested):
+- remove timestamp
+- this is a very small file (13 routes): check that the Overpass query really selects strollers. Nothing in the tags says that a route is stroller-friendly (the stroller filter lives only in the query), so add an explicit `stroller_friendly=yes` flag
+- complete the missing data (distance, duration, surface), which is nearly absent: compute the length from the geometry and the surface from the member ways
+- check for `wheelchair`/`stroller` tags on the member ways and use them to validate the selection
+- remove `wikidata`, `wikipedia`, `url`, `website` if not needed and keep only `name`, `description`, `from`, `to`, `roundtrip`
+- give a common schema with trails.json (same `distance`, `duration`, `ascent` fields) so they can be merged as one `Route` class with a `kind`

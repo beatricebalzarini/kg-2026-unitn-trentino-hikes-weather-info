@@ -1,87 +1,62 @@
 ### Dataset Metadata & Overview
 
-* **Generator and Version**: The data was exported using the Overpass API version 0.7.62.4, adhering to OSM API version 0.6.
+* **Generator and Version**: Overpass API 0.7.62.4, OSM API version 0.6. The JSON root has `version`, `generator`, `osm3s` and `elements`; only `elements` holds data.
 
 
-* **Geographical Scope**: The dataset covers the mountainous areas of northern Italy, particularly around Trentino, Lake Garda, and the Stelvio National Park region.
+* **Geographical Scope**: Accommodation facilities (`tourism=*`) across Trentino; some of them sit on the Lake Garda shore (e.g. Camping Garda, Camping Brione, Punta Lago).
 
 
-* **Data Structure**: The export consists of 99 OSM elements of varying geometric types: 47 `node` elements, 47 `way` elements, and 5 `relation` elements.
+* **Data Structure**: 617 elements of three kinds: 248 `node` (with top-level `lat`/`lon`), 363 `way` (with `nodes`, the list of node ids, and `center`) and 6 `relation` (with `members` and `center`). No `bounds` or full geometry.
 
 
-* **Total Counts & Members**:
-* **Nodes (47)**: Represent single points on the map, usually defining smaller or less detailed properties (e.g., a specific B&B building).
-
-
-* **Ways (47)**: Formed by an ordered list of nodes, these define the footprint of a building or the perimeter of a smaller campground.
-
-
-* **Relations (5)**: Complex `multipolygon` structures used to define the boundaries of large features (in this case, large campsites and Lake Garda itself, which seems to have been caught in the query bounding box).
-
-
-
-
-* **Timestamps**: The base OSM data timestamp is 2026-11-12T18:14:00Z, and the areas base timestamp is 2026-11-12T17:25:56Z.
-
+* **Types** (`tourism`): `guest_house` 407, `camp_site` 99, `chalet` 94, `hostel` 17. Within `guest_house`, the `guest_house=*` tag gives the subtype (bed_and_breakfast 58, agritourism 35, guest_house 3, hotel 2, apartment 2).
 
 
 ### Mandatory Fields & Explanation
 
-Within this specific dataset structure, the following fields are consistently populated depending on the element type:
-
-* **`type`**: Always specified as "node", "way", or "relation", dictating the geometric structure of the element.
+* **`type`**, **`id`**: element kind and OSM id (unique only together with `type`).
 
 
-* **`id`**: A unique numerical identifier assigned to each OSM element.
+* **`tags`**: present in every element. The only tag that is always there is **`tourism`** (the accommodation type).
 
 
-* **Geometric Constituents**:
-* `node` elements strictly contain `lat` and `lon` coordinates.
-
-
-* `way` elements strictly contain an array of `nodes` (node IDs) and a calculated `center` coordinate.
-
-
-* `relation` elements strictly contain an array of `members` (way references) and a calculated `center` coordinate.
-
-
-
-
-* **`tags`**: A collection of key-value pairs defining the attributes of the feature. The following tag is effectively mandatory to classify the accommodation:
-
-
-* **`name`**: Every accommodation facility in this dataset has a designated name.
-
-
-* **Primary Classification Tag**: Almost every element features a primary tag defining its purpose, most commonly `tourism=guest_house`, `tourism=camp_site`, `tourism=chalet`, or `tourism=hostel`. (Note: Lake Garda is tagged `natural=water` but was included in the dataset likely due to spatial overlap with a campsite query).
-
-
-
+* **Location**: `lat`/`lon` for nodes; `center.lat`/`center.lon` for ways and relations. A way's `nodes` array only contains ids, not coordinates, so `center` is the only usable position for ways and relations.
 
 
 ### Optional Fields & Explanation
 
-The following tags are applied to the elements to provide rich metadata, but their presence is highly optional and depends entirely on the mapper's diligence and the specific type of accommodation:
-
-* **Address Details (`addr:city`, `addr:street`, `addr:housenumber`, `addr:postcode`)**: Frequently included for urban or village-based guest houses and B&Bs, allowing for geocoding and navigation. Often omitted for remote alpine chalets or rural campsites.
+* **`name`**: 567 of 617 (50 elements are unnamed). Some names repeat, e.g. 9 elements called "villaggio - bungalow val Molini".
 
 
-* **Contact Information (`contact:phone`, `contact:website`, `contact:email`, `phone`, `website`, `email`)**: Highly prevalent for commercial accommodations like hotels and campsites to facilitate bookings. The OSM schema allows both the `contact:*` prefix and the standalone keys, and both are used interchangeably here.
+* **Address** (`addr:street` 309, `addr:housenumber` 304, `addr:city` 283, `addr:postcode` 271, `addr:country` 107, `addr:province` 22, `addr:place`, `addr:hamlet`): partial and inconsistent (province appears both as "TN" and "Trento").
 
 
-* **Sub-classification tags (`guest_house=bed_and_breakfast`, `guest_house=agritourism`)**: Used to further specify the exact nature of a generic `tourism=guest_house` tag.
+* **Contacts**: `website` 241 and `contact:website` 77, `phone` 202 and `contact:phone` 73, `email` 145 and `contact:email` 73, plus `contact:mobile`, `contact:facebook`, `contact:whatsapp`, `fax`. The same information is split between the plain and the `contact:` keys.
 
 
-* **Camp Site Attributes (`tents`, `caravans`, `motorhome`, `power_supply`, `shower`, `sanitary_dump_station`, `fee`, `dog`)**: A rich set of boolean (`yes`/`no`) tags applied specifically to `tourism=camp_site` features to detail the available amenities and rules.
+* **Camping services**: `caravans` 87, `tents` 84, `motorhome` 69, `power_supply` 94, `sanitary_dump_station` 37, `shower` 36, `toilets` 34, `drinking_water` 30, `capacity:pitches` 24, `static_caravans`, `cabins`.
 
 
-* **`internet_access`**: Indicates the availability of Wi-Fi (usually tagged as `wlan`), often accompanied by `internet_access:fee` to indicate if it is free or paid.
+* **Rooms and quality**: `stars` 34 (1-5), `rooms` 27, `internet_access` 124, `wheelchair` 56, `dog` 61, `fee` 74, `operator` 55, `ele` 18, `opening_hours` 9.
 
 
-* **`wheelchair`**: Indicates accessibility for wheelchair users (`yes`, `no`, or `limited`).
+* **Administrative / noisy tags**: `ref:vatin` 47, `ref:cin` 40 (national accommodation id), `check_date` 40, `source` 27, `building*` (276 elements have `building`, mostly "yes"), plus a few restaurants/hotels with `amenity` (27) and `cuisine` 14.
 
 
-* **`building=yes`**: Often applied to `way` elements to indicate that the polygon represents the physical footprint of the building housing the accommodation.
+# todo: 
+- treat ways as "nodes"
+- delete lake garda
+- treat relations as nodes
+- nodes -> tourism_accomodation
+- remove timestamp
+- remove official references
 
-
-* **Official References (`ref:vatin`, `ref:cin`)**: VAT numbers or Regional Identification Codes (CIN) used in Italy to officially identify registered tourist accommodations.
+## suggested todo:
+- ways and relations carry no point of their own: turn them into points using `center`, so all 617 elements have one `lat`/`lon`
+- merge `contact:phone`/`phone`, `contact:email`/`email`, `contact:website`/`website` into single fields
+- normalize the values: `power_supply` has `y`, `addr:province` has "TN" and "Trento", `stars`, `rooms` and `capacity:pitches` should become numbers, and yes/no flags should become booleans
+- keep `tourism` plus `guest_house` as a two-level category (hotel-like, B&B, agritourism, camp_site, chalet, hostel) instead of a single flat field
+- split the camping-only attributes (`tents`, `caravans`, `motorhome`, `capacity:pitches`, ...) from the room-based ones (`rooms`, `stars`)
+- drop the 50 unnamed elements or give them a fallback label, and deduplicate repeated names that share the same address
+- assign each accommodation to a municipality (point-in-polygon with municipalities.json) and compute the distance to the nearest trailhead
+- remove `building*`, `source`, `ref:vatin`, `ref:cin`, `check_date` and `fax` (not useful for hiking)
