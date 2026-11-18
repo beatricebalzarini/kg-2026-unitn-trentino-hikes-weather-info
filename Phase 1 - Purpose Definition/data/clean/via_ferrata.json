@@ -1,0 +1,736 @@
+[
+ {
+  "id": "via_ferrata/canalino-del-mulaz",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Canalino del Mulaz",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "1",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 4,
+  "duration_forward_min": null,
+  "length_km_computed": 0.199,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.3107152,
+   "lon": 11.8297927
+  },
+  "end": {
+   "lat": 46.3096365,
+   "lon": 11.8312662
+  },
+  "main_way_ids": [
+   "way/1204275731"
+  ]
+ },
+ {
+  "id": "via_ferrata/ferrata-bolver-lugli",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Ferrata Bolver Lugli",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "3",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 5,
+  "duration_forward_min": null,
+  "length_km_computed": 0.671,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.2789757,
+   "lon": 11.8246631
+  },
+  "end": {
+   "lat": 46.2825967,
+   "lon": 11.8273461
+  },
+  "main_way_ids": [
+   "way/191712301"
+  ]
+ },
+ {
+  "id": "via_ferrata/ferrata-cengia-di-pertica-giancarlo-biasin",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Ferrata Cengia di Pertica \"Giancarlo Biasin\"",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "3",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": null,
+  "duration_forward_min": null,
+  "length_km_computed": 0.055,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 45.7036161,
+   "lon": 11.115934
+  },
+  "end": {
+   "lat": 45.7040733,
+   "lon": 11.1161051
+  },
+  "main_way_ids": [
+   "way/599744163"
+  ]
+ },
+ {
+  "id": "via_ferrata/ferrata-degli-alpini",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Ferrata degli Alpini",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": null,
+  "via_ferrata_scale_source": null,
+  "sac_scale_max": null,
+  "duration_forward_min": null,
+  "length_km_computed": 2.544,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.2930166,
+   "lon": 10.5708673
+  },
+  "end": {
+   "lat": 46.3064442,
+   "lon": 10.5753447
+  },
+  "main_way_ids": [
+   "way/1300261877"
+  ]
+ },
+ {
+  "id": "via_ferrata/ferrata-della-miniera-dell-erdemolo",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Ferrata della Miniera dell'Erdemolo",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "2",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": null,
+  "duration_forward_min": null,
+  "length_km_computed": 0.558,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.1247825,
+   "lon": 11.3788693
+  },
+  "end": {
+   "lat": 46.1229201,
+   "lon": 11.3828468
+  },
+  "main_way_ids": [
+   "way/1560981649"
+  ]
+ },
+ {
+  "id": "via_ferrata/ferrata-delle-aquile",
+  "osm_relation_id": "relation/6323454",
+  "kind": "via_ferrata",
+  "name": "Ferrata delle Aquile",
+  "name_variants": null,
+  "wikidata": "Q30884600",
+  "via_ferrata_scale": "4",
+  "via_ferrata_scale_source": "relation",
+  "sac_scale_max": null,
+  "duration_forward_min": null,
+  "length_km_computed": 0.668,
+  "roundtrip": null,
+  "roundtrip_source": null,
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.1408666,
+   "lon": 11.0465761
+  },
+  "end": {
+   "lat": 46.1409158,
+   "lon": 11.0465194
+  },
+  "main_way_ids": [
+   "way/386479403",
+   "way/386479404",
+   "way/386479405",
+   "way/386479406",
+   "way/386479408",
+   "way/386479409",
+   "way/386479410",
+   "way/1565262026"
+  ]
+ },
+ {
+  "id": "via_ferrata/ferrata-di-preore-sentiero-artpinistico",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Ferrata di Preore \"Sentiero Artpinistico\"",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "3",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 5,
+  "duration_forward_min": null,
+  "length_km_computed": 0.913,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.0460587,
+   "lon": 10.7510972
+  },
+  "end": {
+   "lat": 46.0450695,
+   "lon": 10.748765
+  },
+  "main_way_ids": [
+   "way/216057454",
+   "way/1512163842",
+   "way/1512163843"
+  ]
+ },
+ {
+  "id": "via_ferrata/ferrata-eterna-brigata-cadore-c-d",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Ferrata Eterna Brigata Cadore (C/D)",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "4",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 6,
+  "duration_forward_min": null,
+  "length_km_computed": 1.151,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.4450186,
+   "lon": 11.889729
+  },
+  "end": {
+   "lat": 46.4396136,
+   "lon": 11.8830718
+  },
+  "main_way_ids": [
+   "way/368606796"
+  ]
+ },
+ {
+  "id": "via_ferrata/ferrata-falcipieri",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Ferrata Falcipieri",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": null,
+  "via_ferrata_scale_source": null,
+  "sac_scale_max": 5,
+  "duration_forward_min": null,
+  "length_km_computed": 1.336,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 45.7824467,
+   "lon": 11.2000255
+  },
+  "end": {
+   "lat": 45.7840877,
+   "lon": 11.186576
+  },
+  "main_way_ids": [
+   "way/600466122"
+  ]
+ },
+ {
+  "id": "via_ferrata/ferrata-monte-roen",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Ferrata Monte Roen",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "1",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 6,
+  "duration_forward_min": null,
+  "length_km_computed": 0.587,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.3640869,
+   "lon": 11.1969149
+  },
+  "end": {
+   "lat": 46.365082,
+   "lon": 11.1938255
+  },
+  "main_way_ids": [
+   "way/27701977"
+  ]
+ },
+ {
+  "id": "via_ferrata/kaiserj-gersteig-col-ombert",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Kaiserjägersteig Col Ombert",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "4+",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 5,
+  "duration_forward_min": null,
+  "length_km_computed": 0.137,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.4193092,
+   "lon": 11.7979426
+  },
+  "end": {
+   "lat": 46.4183296,
+   "lon": 11.7986673
+  },
+  "main_way_ids": [
+   "way/184613901"
+  ]
+ },
+ {
+  "id": "via_ferrata/sentiero-delle-stel",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Sentiero delle Stel",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": null,
+  "via_ferrata_scale_source": null,
+  "sac_scale_max": 3,
+  "duration_forward_min": null,
+  "length_km_computed": 0.092,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 45.9961603,
+   "lon": 11.0949651
+  },
+  "end": {
+   "lat": 45.9969329,
+   "lon": 11.0953625
+  },
+  "main_way_ids": [
+   "way/1567330012"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-attrezzata-giulio-segata",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via attrezzata Giulio Segata",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "6",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 5,
+  "duration_forward_min": null,
+  "length_km_computed": 0.055,
+  "roundtrip": true,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 45.9898813,
+   "lon": 11.0392398
+  },
+  "end": {
+   "lat": 45.9901704,
+   "lon": 11.0388357
+  },
+  "main_way_ids": [
+   "way/76779026"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-carlo-campalani",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata Carlo Campalani",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "3",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 3,
+  "duration_forward_min": null,
+  "length_km_computed": 0.169,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 45.7203382,
+   "lon": 11.1339131
+  },
+  "end": {
+   "lat": 45.7210646,
+   "lon": 11.1332703
+  },
+  "main_way_ids": [
+   "way/932877045"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-crepa-neigra",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata Crepa Neigra - Variante prima cima",
+  "name_variants": [
+   "Via Ferrata Crepa Neigra",
+   "Via Ferrata Crepa Neigra - Variante prima cima"
+  ],
+  "wikidata": null,
+  "via_ferrata_scale": null,
+  "via_ferrata_scale_source": null,
+  "sac_scale_max": 5,
+  "duration_forward_min": null,
+  "length_km_computed": 0.645,
+  "roundtrip": null,
+  "roundtrip_source": null,
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.4530072,
+   "lon": 11.7637735
+  },
+  "end": {
+   "lat": 46.4535561,
+   "lon": 11.7640697
+  },
+  "main_way_ids": [
+   "way/1531214648",
+   "way/1531214650"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-croce-di-fai",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata Croce di Fai",
+  "name_variants": null,
+  "wikidata": "Q137710122",
+  "via_ferrata_scale": "3",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": null,
+  "duration_forward_min": null,
+  "length_km_computed": 0.315,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.1876558,
+   "lon": 11.0693465
+  },
+  "end": {
+   "lat": 46.1898339,
+   "lon": 11.0689084
+  },
+  "main_way_ids": [
+   "way/1331563960"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-dei-finanzieri",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata dei Finanzieri",
+  "name_variants": null,
+  "wikidata": "Q123377258",
+  "via_ferrata_scale": "3",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 6,
+  "duration_forward_min": null,
+  "length_km_computed": 0.432,
+  "roundtrip": null,
+  "roundtrip_source": null,
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.4411046,
+   "lon": 11.7826158
+  },
+  "end": {
+   "lat": 46.4411746,
+   "lon": 11.7825342
+  },
+  "main_way_ids": [
+   "way/1315881109",
+   "way/1534314296"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-delle-bocchette-alte",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via ferrata delle Bocchette Alte",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "3",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": null,
+  "duration_forward_min": null,
+  "length_km_computed": 0.095,
+  "roundtrip": true,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.1792011,
+   "lon": 10.9020543
+  },
+  "end": {
+   "lat": 46.1790985,
+   "lon": 10.9017829
+  },
+  "main_way_ids": [
+   "way/1433521008"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-delle-trincee",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata delle Trincee",
+  "name_variants": [
+   "Via Ferrata delle Trincee",
+   "Via ferrata delle trincee"
+  ],
+  "wikidata": null,
+  "via_ferrata_scale": "4",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 6,
+  "duration_forward_min": null,
+  "length_km_computed": 2.253,
+  "roundtrip": null,
+  "roundtrip_source": null,
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.4729409,
+   "lon": 11.873668
+  },
+  "end": {
+   "lat": 46.4713919,
+   "lon": 11.8767805
+  },
+  "main_way_ids": [
+   "way/133412549",
+   "way/240797377",
+   "way/364799970",
+   "way/843302297",
+   "way/843302299",
+   "way/843302303",
+   "way/843302305",
+   "way/843302306",
+   "way/843302307",
+   "way/843302308",
+   "way/988400790",
+   "way/988400791"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-ernesto-che-guevara",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata Ernesto Che Guevara",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "3",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 6,
+  "duration_forward_min": null,
+  "length_km_computed": 3.288,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.0267239,
+   "lon": 10.940299
+  },
+  "end": {
+   "lat": 46.0286168,
+   "lon": 10.9259842
+  },
+  "main_way_ids": [
+   "way/550646155"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-forte-barba-di-fior",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata Forte Barba di Fior",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "2",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": null,
+  "duration_forward_min": null,
+  "length_km_computed": 0.175,
+  "roundtrip": true,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.3476188,
+   "lon": 10.6436001
+  },
+  "end": {
+   "lat": 46.3474516,
+   "lon": 10.6430147
+  },
+  "main_way_ids": [
+   "way/1212802228"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-i-magnifici-4",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata I Magnifici 4",
+  "name_variants": [
+   "Magnifici 4",
+   "Via Ferrata I Magnifici 4"
+  ],
+  "wikidata": null,
+  "via_ferrata_scale": "5",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": null,
+  "duration_forward_min": null,
+  "length_km_computed": 0.865,
+  "roundtrip": null,
+  "roundtrip_source": null,
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.4290592,
+   "lon": 11.7431148
+  },
+  "end": {
+   "lat": 46.4278551,
+   "lon": 11.7318492
+  },
+  "main_way_ids": [
+   "way/1416447999",
+   "way/1419242140"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-laurenzi",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata Laurenzi",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "4",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 5,
+  "duration_forward_min": null,
+  "length_km_computed": 0.49,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.4825531,
+   "lon": 11.6516032
+  },
+  "end": {
+   "lat": 46.4798906,
+   "lon": 11.6536501
+  },
+  "main_way_ids": [
+   "way/36780225"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-magico-alverman-al-col-rodella",
+  "osm_relation_id": "relation/13281842",
+  "kind": "via_ferrata",
+  "name": "Via Ferrata Magico Alverman al Col Rodella",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "3+",
+  "via_ferrata_scale_source": "relation",
+  "sac_scale_max": 5,
+  "duration_forward_min": null,
+  "length_km_computed": 0.089,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.4947454,
+   "lon": 11.7486705
+  },
+  "end": {
+   "lat": 46.495248,
+   "lon": 11.7483099
+  },
+  "main_way_ids": [
+   "way/40883911"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-marmolada-cresta-ovest",
+  "osm_relation_id": null,
+  "kind": "via_ferrata",
+  "name": "Via Ferrata Marmolada Cresta Ovest",
+  "name_variants": null,
+  "wikidata": null,
+  "via_ferrata_scale": "3",
+  "via_ferrata_scale_source": "ways_max",
+  "sac_scale_max": 5,
+  "duration_forward_min": null,
+  "length_km_computed": 0.829,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.4387644,
+   "lon": 11.8401822
+  },
+  "end": {
+   "lat": 46.4357003,
+   "lon": 11.8471477
+  },
+  "main_way_ids": [
+   "way/42720165"
+  ]
+ },
+ {
+  "id": "via_ferrata/via-ferrata-rino-pisetta",
+  "osm_relation_id": "relation/18248702",
+  "kind": "via_ferrata",
+  "name": "Via Ferrata Rino Pisetta",
+  "name_variants": null,
+  "wikidata": "Q137710462",
+  "via_ferrata_scale": "5",
+  "via_ferrata_scale_source": "relation",
+  "sac_scale_max": 6,
+  "duration_forward_min": null,
+  "length_km_computed": 0.578,
+  "roundtrip": false,
+  "roundtrip_source": "geometry",
+  "province_rule": "endpoint",
+  "start": {
+   "lat": 46.0527954,
+   "lon": 10.9534477
+  },
+  "end": {
+   "lat": 46.0525775,
+   "lon": 10.948586
+  },
+  "main_way_ids": [
+   "way/173045188"
+  ]
+ }
+]

@@ -1,0 +1,93 @@
+[
+ {
+  "osm_id": "way/1169896810",
+  "files": [
+   "ways",
+   "cultural_landmarks"
+  ]
+ },
+ {
+  "osm_id": "way/1169896811",
+  "files": [
+   "ways",
+   "cultural_landmarks"
+  ]
+ },
+ {
+  "osm_id": "way/292526610",
+  "files": [
+   "ways",
+   "cultural_landmarks"
+  ]
+ },
+ {
+  "osm_id": "way/375997045",
+  "files": [
+   "ways",
+   "cultural_landmarks"
+  ]
+ },
+ {
+  "osm_id": "way/515367356",
+  "files": [
+   "ways",
+   "cultural_landmarks"
+  ]
+ },
+ {
+  "osm_id": "way/88678506",
+  "files": [
+   "ways",
+   "cultural_landmarks"
+  ]
+ },
+ {
+  "osm_id": "way/923976103",
+  "files": [
+   "ways",
+   "cultural_landmarks"
+  ]
+ },
+ {
+  "osm_id": "node/802196772",
+  "files": [
+   "landmarks",
+   "transport_stops"
+  ]
+ },
+ {
+  "osm_id": "way/295394101",
+  "files": [
+   "food_drink",
+   "transport_stops"
+  ]
+ },
+ {
+  "osm_id": "way/1464345944",
+  "files": [
+   "ways",
+   "aerialways"
+  ]
+ },
+ {
+  "osm_id": "way/25916964",
+  "files": [
+   "ways",
+   "aerialways"
+  ]
+ },
+ {
+  "osm_id": "way/25916965",
+  "files": [
+   "ways",
+   "aerialways"
+  ]
+ },
+ {
+  "osm_id": "way/28461142",
+  "files": [
+   "ways",
+   "aerialways"
+  ]
+ }
+]

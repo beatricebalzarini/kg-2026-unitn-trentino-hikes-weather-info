@@ -1,0 +1,1154 @@
+[
+ {
+  "osm_id": "relation/11105161",
+  "name": "Vedretta Occ. del Passo del Folletto",
+  "name_osm": "Vedretta Occ. del Passo del Folletto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0507,
+  "area_inside_pct": 100.0,
+  "lat": 46.1120062,
+  "lon": 10.5898793,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11105162",
+  "name": "Ghiacciaio Sud-Occ. del Corno di Cavento",
+  "name_osm": "Ghiacciaio Sud-Occ. del Corno di Cavento",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0593,
+  "area_inside_pct": 100.0,
+  "lat": 46.1308095,
+  "lon": 10.5863542,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11105168",
+  "name": "Vedretta di Lares",
+  "name_osm": "Vedretta di Lares",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 3.9933,
+  "area_inside_pct": 100.0,
+  "lat": 46.1271372,
+  "lon": 10.5999525,
+  "municipalities_istat": [
+   "022112",
+   "022138",
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11105170",
+  "name": "Vedretta di Folgorida",
+  "name_osm": "Vedretta di Folgorida",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.2114,
+  "area_inside_pct": 100.0,
+  "lat": 46.1500763,
+  "lon": 10.594544,
+  "municipalities_istat": [
+   "022184"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11105171",
+  "name": "Vedretta della Lobbia",
+  "name_osm": "Vedretta della Lobbia",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 4.7767,
+  "area_inside_pct": 100.0,
+  "lat": 46.1515684,
+  "lon": 10.5747483,
+  "municipalities_istat": [
+   "022179",
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11106283",
+  "name": "Ghiacciaio del Presena",
+  "name_osm": "Ghiacciaio del Presena",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.1627,
+  "area_inside_pct": 100.0,
+  "lat": 46.2231825,
+  "lon": 10.5819683,
+  "municipalities_istat": [
+   "022213"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11183944",
+  "name": "Ghiacciaio d'Amola",
+  "name_osm": "Ghiacciaio d'Amola",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.4412,
+  "area_inside_pct": 100.0,
+  "lat": 46.2202747,
+  "lon": 10.6782435,
+  "municipalities_istat": [
+   "022093"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11184589",
+  "name": "Vedretta di Sternai",
+  "name_osm": "Vedretta di Sternai",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0827,
+  "area_inside_pct": 100.0,
+  "lat": 46.475532,
+  "lon": 10.766071,
+  "municipalities_istat": [
+   "022150"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11184595",
+  "name": "Gramsenferner - Vedretta di Grames",
+  "name_osm": "Gramsenferner - Vedretta di Grames",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.7728,
+  "area_inside_pct": 0.1,
+  "lat": 46.4608705,
+  "lon": 10.7104257,
+  "municipalities_istat": [
+   "022150"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/12104202",
+  "name": "Vedretta del Mandrone",
+  "name_osm": "Vedretta del Mandrone",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 2.701,
+  "area_inside_pct": 14.7,
+  "lat": 46.1791766,
+  "lon": 10.5585409,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/15756096",
+  "name": "Hohenferner - Vedretta Alta",
+  "name_osm": "Hohenferner - Vedretta Alta",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.9887,
+  "area_inside_pct": 0.0,
+  "lat": 46.4523585,
+  "lon": 10.6863391,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/16024873",
+  "name": "Zufallferner - Vedretta del Cevedale",
+  "name_osm": "Zufallferner - Vedretta del Cevedale",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 2.8494,
+  "area_inside_pct": 0.2,
+  "lat": 46.4471608,
+  "lon": 10.6210938,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/161280",
+  "name": "Vedretta del Pasquale",
+  "name_osm": "Vedretta del Pasquale",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 1.3713,
+  "area_inside_pct": 0.1,
+  "lat": 46.4443453,
+  "lon": 10.6174443,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/161282",
+  "name": "Fürkeleferner - Vedretta della Forcola",
+  "name_osm": "Fürkeleferner - Vedretta della Forcola",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 1.4811,
+  "area_inside_pct": 1.5,
+  "lat": 46.446791,
+  "lon": 10.6267078,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/162732",
+  "name": "Ghiacciaio dei Forni",
+  "name_osm": "Ghiacciaio dei Forni",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 9.9393,
+  "area_inside_pct": 1.0,
+  "lat": 46.3758976,
+  "lon": 10.5747388,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": "Q3761678",
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/164007",
+  "name": "Vedretta del Rosole",
+  "name_osm": "Vedretta del Rosole",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.9597,
+  "area_inside_pct": 6.3,
+  "lat": 46.4162046,
+  "lon": 10.6187767,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/164008",
+  "name": "Vedretta de la Mare",
+  "name_osm": "Vedretta de la Mare",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 3.3593,
+  "area_inside_pct": 98.5,
+  "lat": 46.4348993,
+  "lon": 10.6336159,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/164009",
+  "name": "Vedretta Rossa",
+  "name_osm": "Vedretta Rossa",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 1.6083,
+  "area_inside_pct": 99.0,
+  "lat": 46.4055238,
+  "lon": 10.6376534,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/165624",
+  "name": "Vedretta del Orsi",
+  "name_osm": "Vedretta del Orsi",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.5149,
+  "area_inside_pct": 92.6,
+  "lat": 46.3737934,
+  "lon": 10.5902291,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/165625",
+  "name": "Ghiacciaio di Dosegù",
+  "name_osm": "Ghiacciaio di Dosegù",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 1.9197,
+  "area_inside_pct": 0.3,
+  "lat": 46.3756872,
+  "lon": 10.5639547,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": "Q115768264",
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/166508",
+  "name": "Vedretta Careser",
+  "name_osm": "Vedretta Careser",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.7538,
+  "area_inside_pct": 100.0,
+  "lat": 46.4513819,
+  "lon": 10.7209334,
+  "municipalities_istat": [
+   "022150",
+   "022136"
+  ],
+  "wikidata": "Q3761681",
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/19322002",
+  "name": "Vedretta di Pisgana",
+  "name_osm": "Vedretta di Pisgana",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 1.6541,
+  "area_inside_pct": 0.0,
+  "lat": 46.1895347,
+  "lon": 10.5413737,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/2269292",
+  "name": "Ghiacciaio della Marmolada",
+  "name_osm": "Ghiacciaio della Marmolada",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 1.0067,
+  "area_inside_pct": 99.2,
+  "lat": 46.438339,
+  "lon": 11.871507,
+  "municipalities_istat": [
+   "022039"
+  ],
+  "wikidata": "Q927878",
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/3320630",
+  "name": "Ghiacciaio dell'Adamello",
+  "name_osm": "Ghiacciaio dell'Adamello",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 9.4998,
+  "area_inside_pct": 0.0,
+  "lat": 46.1512524,
+  "lon": 10.5548597,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": "Q3761700",
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/5475974",
+  "name": "Ghiacciaio del Travignolo",
+  "name_osm": "Ghiacciaio del Travignolo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.158,
+  "area_inside_pct": 100.0,
+  "lat": 46.2892365,
+  "lon": 11.8234355,
+  "municipalities_istat": [
+   "022245"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/6334392",
+  "name": "Vedretta di Brenta inferiore",
+  "name_osm": "Vedretta di Brenta inferiore",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0397,
+  "area_inside_pct": 100.0,
+  "lat": 46.1868348,
+  "lon": 10.8964635,
+  "municipalities_istat": [
+   "022247"
+  ],
+  "wikidata": "Q135917964",
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/6336144",
+  "name": "Vedretta d'Ambiez",
+  "name_osm": "Vedretta d'Ambiez",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0657,
+  "area_inside_pct": 100.0,
+  "lat": 46.1507463,
+  "lon": 10.8719193,
+  "municipalities_istat": [
+   "022231"
+  ],
+  "wikidata": "Q31356414",
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/6336145",
+  "name": "Vedretta del Crozzon",
+  "name_osm": "Vedretta del Crozzon",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0595,
+  "area_inside_pct": 100.0,
+  "lat": 46.1613338,
+  "lon": 10.8733798,
+  "municipalities_istat": [
+   "022247"
+  ],
+  "wikidata": "Q34849126",
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/6336152",
+  "name": "Vedretta dei 12 apostoli",
+  "name_osm": "Vedretta dei 12 apostoli",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0285,
+  "area_inside_pct": 100.0,
+  "lat": 46.1408817,
+  "lon": 10.8488732,
+  "municipalities_istat": [
+   "022228"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/6342850",
+  "name": "Ghiacciaio del Brenta",
+  "name_osm": "Ghiacciaio del Brenta",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0226,
+  "area_inside_pct": 100.0,
+  "lat": 46.1580588,
+  "lon": 10.8747666,
+  "municipalities_istat": [
+   "022247",
+   "022231"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/6344102",
+  "name": "Vedretta dei Sfulmini",
+  "name_osm": "Vedretta dei Sfulmini",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0446,
+  "area_inside_pct": 100.0,
+  "lat": 46.1688104,
+  "lon": 10.8979395,
+  "municipalities_istat": [
+   "022120",
+   "022247"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/9653220",
+  "name": "Ghiacciaio di Scarpacò",
+  "name_osm": "Ghiacciaio di Scarpacò",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0864,
+  "area_inside_pct": 100.0,
+  "lat": 46.2422483,
+  "lon": 10.6812734,
+  "municipalities_istat": [
+   "022213"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/9653222",
+  "name": "Vedretta Presanella",
+  "name_osm": "Vedretta Presanella",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 2.2458,
+  "area_inside_pct": 100.0,
+  "lat": 46.2252525,
+  "lon": 10.6621097,
+  "municipalities_istat": [
+   "022213",
+   "022184",
+   "022093"
+  ],
+  "wikidata": "Q64144545",
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/9692380",
+  "name": "Vedretta d'Agola",
+  "name_osm": "Vedretta d'Agola",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.1688,
+  "area_inside_pct": 100.0,
+  "lat": 46.149691,
+  "lon": 10.8626323,
+  "municipalities_istat": [
+   "022182"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1164714007",
+  "name": "Vedretta del Corno di Lagoscuro",
+  "name_osm": "Vedretta del Corno di Lagoscuro",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0024,
+  "area_inside_pct": 100.0,
+  "lat": 46.2215393,
+  "lon": 10.5742281,
+  "municipalities_istat": [
+   "022213"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1210798293",
+  "name": "Ghiacciaio del Passo di Monte Fumo - 2023",
+  "name_osm": "Ghiacciaio del Passo di Monte Fumo - 2023",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0166,
+  "area_inside_pct": 100.0,
+  "lat": 46.1443989,
+  "lon": 10.5479067,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1210798294",
+  "name": "Vedretta della Lobbia Alta",
+  "name_osm": "Vedretta della Lobbia Alta",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0629,
+  "area_inside_pct": 100.0,
+  "lat": 46.1658587,
+  "lon": 10.5697775,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1210801335",
+  "name": "Vedretta del Cop di Breguzzo - 2023",
+  "name_osm": "Vedretta del Cop di Breguzzo - 2023",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0041,
+  "area_inside_pct": 100.0,
+  "lat": 46.0631657,
+  "lon": 10.5733011,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1294929545",
+  "name": "Ghiacciaio del Vernel",
+  "name_osm": "Ghiacciaio del Vernel",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0753,
+  "area_inside_pct": 100.0,
+  "lat": 46.4362953,
+  "lon": 11.8485064,
+  "municipalities_istat": [
+   "022039",
+   "022250"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/179369613",
+  "name": "Ghiacciaio della Pala",
+  "name_osm": "Ghiacciaio della Pala",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0322,
+  "area_inside_pct": 100.0,
+  "lat": 46.2558552,
+  "lon": 11.8499433,
+  "municipalities_istat": [
+   "022245"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/27736356",
+  "name": "Vedretta di Nardis",
+  "name_osm": "Vedretta di Nardis",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 1.1762,
+  "area_inside_pct": 100.0,
+  "lat": 46.2130734,
+  "lon": 10.6583095,
+  "municipalities_istat": [
+   "022093",
+   "022213"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/27737867",
+  "name": "Vedretta Orientale del Carè Alto",
+  "name_osm": "Vedretta Orientale del Carè Alto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.1363,
+  "area_inside_pct": 100.0,
+  "lat": 46.1065708,
+  "lon": 10.6017235,
+  "municipalities_istat": [
+   "022138"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/300720358",
+  "name": "Vedretta dei Camosci",
+  "name_osm": "Vedretta dei Camosci",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0403,
+  "area_inside_pct": 100.0,
+  "lat": 46.1529974,
+  "lon": 10.8659226,
+  "municipalities_istat": [
+   "022182"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/303360612",
+  "name": "Vadretta Taviela",
+  "name_osm": "Vadretta Taviela",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.2004,
+  "area_inside_pct": 100.0,
+  "lat": 46.3837943,
+  "lon": 10.6154287,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/368503571",
+  "name": "Ghiacciaio della Fradusta superiore",
+  "name_osm": "Ghiacciaio della Fradusta superiore",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0251,
+  "area_inside_pct": 100.0,
+  "lat": 46.2518528,
+  "lon": 11.8728399,
+  "municipalities_istat": [
+   "022245"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/37111840",
+  "name": "Vedretta Val Piana",
+  "name_osm": "Vedretta Val Piana",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.1706,
+  "area_inside_pct": 100.0,
+  "lat": 46.3716091,
+  "lon": 10.5672878,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/37111841",
+  "name": "Vadretta Saline",
+  "name_osm": "Vadretta Saline",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.2402,
+  "area_inside_pct": 100.0,
+  "lat": 46.3884642,
+  "lon": 10.6251483,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/37214213",
+  "name": "Ultenmarktferner - Vedretta Ultima",
+  "name_osm": "Ultenmarktferner - Vedretta Ultima",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.2419,
+  "area_inside_pct": 0.1,
+  "lat": 46.4571579,
+  "lon": 10.6947383,
+  "municipalities_istat": [
+   "022150"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/69810531",
+  "name": "Vedretta di Brenta superiore",
+  "name_osm": "Vedretta di Brenta superiore",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0393,
+  "area_inside_pct": 100.0,
+  "lat": 46.1808754,
+  "lon": 10.8977661,
+  "municipalities_istat": [
+   "022247",
+   "022120"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/804460538",
+  "name": "Vedretta Sud-Occ. del Folletto",
+  "name_osm": "Vedretta Sud-Occ. del Folletto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0485,
+  "area_inside_pct": 100.0,
+  "lat": 46.1191498,
+  "lon": 10.5867853,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/804460541",
+  "name": "Vedretta Nord-Occ. del Folletto",
+  "name_osm": "Vedretta Nord-Occ. del Folletto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0738,
+  "area_inside_pct": 100.0,
+  "lat": 46.1254781,
+  "lon": 10.5850903,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/804606226",
+  "name": "Vedretta della Busazza",
+  "name_osm": "Vedretta della Busazza",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.1216,
+  "area_inside_pct": 100.0,
+  "lat": 46.2272001,
+  "lon": 10.6076033,
+  "municipalities_istat": [
+   "022213"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/813939550",
+  "name": "Ghiacciaio di Cornisello – part 2",
+  "name_osm": "Ghiacciaio di Cornisello",
+  "name_source": "osm_part",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0378,
+  "area_inside_pct": 100.0,
+  "lat": 46.2280266,
+  "lon": 10.684538,
+  "municipalities_istat": [
+   "022042",
+   "022093"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/813939560",
+  "name": "Ghiacciaio di Monte Nero",
+  "name_osm": "Ghiacciaio di Monte Nero",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0589,
+  "area_inside_pct": 100.0,
+  "lat": 46.2120575,
+  "lon": 10.6829648,
+  "municipalities_istat": [
+   "022093"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/822594155",
+  "name": "Vedretta Merid. del Carè Alto",
+  "name_osm": "Vedretta Merid. del Carè Alto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0272,
+  "area_inside_pct": 100.0,
+  "lat": 46.1019129,
+  "lon": 10.5976084,
+  "municipalities_istat": [
+   "022244"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/835786627",
+  "name": "Vedretta del Cop di Breguzzo - 2019",
+  "name_osm": "Vedretta del Cop di Breguzzo - 2019",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0225,
+  "area_inside_pct": 100.0,
+  "lat": 46.0634659,
+  "lon": 10.5724242,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/835786628",
+  "name": "Vedretta Sud-Occ. del Carè Alto",
+  "name_osm": "Vedretta Sud-Occ. del Carè Alto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0199,
+  "area_inside_pct": 100.0,
+  "lat": 46.1039056,
+  "lon": 10.5934312,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/835786629",
+  "name": "Vedr. Occ. del Carè Alto",
+  "name_osm": "Vedr. Occ. del Carè Alto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0264,
+  "area_inside_pct": 100.0,
+  "lat": 46.1070572,
+  "lon": 10.5902402,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/835845735",
+  "name": "Ex Ghiacciaio del Cop di Casa",
+  "name_osm": "Ex Ghiacciaio del Cop di Casa",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0079,
+  "area_inside_pct": 100.0,
+  "lat": 46.0679809,
+  "lon": 10.5821201,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/836227907",
+  "name": "Ghiacciaio di Cima Danerba",
+  "name_osm": "Ghiacciaio di Cima Danerba",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0247,
+  "area_inside_pct": 100.0,
+  "lat": 46.0489517,
+  "lon": 10.5643737,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/836227908",
+  "name": "Ghiacciaio di Cima Bissina",
+  "name_osm": "Ghiacciaio di Cima Bissina",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0113,
+  "area_inside_pct": 100.0,
+  "lat": 46.0485873,
+  "lon": 10.5580549,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/837079744",
+  "name": "Ghiacciaio Occidentale di Val di Fumo",
+  "name_osm": "Ghiacciaio Occidentale di Val di Fumo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0598,
+  "area_inside_pct": 100.0,
+  "lat": 46.1397001,
+  "lon": 10.5497621,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95877653",
+  "name": "Ghiacciaio di Cornisello – part 1",
+  "name_osm": "Ghiacciaio di Cornisello",
+  "name_source": "osm_part",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0619,
+  "area_inside_pct": 100.0,
+  "lat": 46.2286232,
+  "lon": 10.6891593,
+  "municipalities_istat": [
+   "022042"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95878058",
+  "name": "Vedretta Cercen",
+  "name_osm": "Vedretta Cercen",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.2157,
+  "area_inside_pct": 100.0,
+  "lat": 46.2270551,
+  "lon": 10.6239797,
+  "municipalities_istat": [
+   "022213"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95878276",
+  "name": "Vedretta orientale di Presena",
+  "name_osm": "Vedretta orientale di Presena",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.2903,
+  "area_inside_pct": 100.0,
+  "lat": 46.2237873,
+  "lon": 10.5932851,
+  "municipalities_istat": [
+   "022213",
+   "022179"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95878645",
+  "name": "Ghiacciaio di Passo Stavel",
+  "name_osm": "Ghiacciaio di Passo Stavel",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0603,
+  "area_inside_pct": 100.0,
+  "lat": 46.2333079,
+  "lon": 10.6767169,
+  "municipalities_istat": [
+   "022213"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/961681383",
+  "name": "Ghiacciaio orientale di Nardis",
+  "name_osm": "Ghiacciaio orientale di Nardis",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.1091,
+  "area_inside_pct": 100.0,
+  "lat": 46.2133551,
+  "lon": 10.6742824,
+  "municipalities_istat": [
+   "022093"
+  ],
+  "wikidata": null,
+  "duplicates": null
+ }
+]

@@ -1,0 +1,2414 @@
+[
+ {
+  "osm_id": "node/10935261253",
+  "name": "Area di sosta – Altavalle",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.2232706,
+  "lon": 11.2658693,
+  "municipality_istat": "022235"
+ },
+ {
+  "osm_id": "node/11054780986",
+  "name": "Area di sosta – Moena",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.3727723,
+  "lon": 11.6562963,
+  "municipality_istat": "022118"
+ },
+ {
+  "osm_id": "node/11869464357",
+  "name": "Area di sosta – Predazzo",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.3365411,
+  "lon": 11.7015691,
+  "municipality_istat": "022147"
+ },
+ {
+  "osm_id": "node/11869464358",
+  "name": "Area di sosta – Predazzo",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.3364133,
+  "lon": 11.7017009,
+  "municipality_istat": "022147"
+ },
+ {
+  "osm_id": "node/11869464359",
+  "name": "Area di sosta – Predazzo",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.3364587,
+  "lon": 11.7016937,
+  "municipality_istat": "022147"
+ },
+ {
+  "osm_id": "node/11869464360",
+  "name": "Area di sosta – Predazzo",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.3365116,
+  "lon": 11.7016564,
+  "municipality_istat": "022147"
+ },
+ {
+  "osm_id": "node/12113248957",
+  "name": "Area di sosta – Capriana",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.2830872,
+  "lon": 11.3153274,
+  "municipality_istat": "022040"
+ },
+ {
+  "osm_id": "node/12650626075",
+  "name": "Area di sosta – Calliano",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 45.9295769,
+  "lon": 11.1013336,
+  "municipality_istat": "022035"
+ },
+ {
+  "osm_id": "node/12823634357",
+  "name": "Area di sosta – Vallelaghi",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0957931,
+  "lon": 11.0464192,
+  "municipality_istat": "022248"
+ },
+ {
+  "osm_id": "node/12831813995",
+  "name": "Area di sosta – Castello-Molina di Fiemme",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.2666899,
+  "lon": 11.4172643,
+  "municipality_istat": "022047"
+ },
+ {
+  "osm_id": "node/13142253357",
+  "name": "Area di sosta – Lavis",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.1428635,
+  "lon": 11.1084649,
+  "municipality_istat": "022103"
+ },
+ {
+  "osm_id": "node/13159903124",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0634054,
+  "lon": 11.1537971,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "node/13159903665",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.058229,
+  "lon": 11.1174803,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "node/13159925687",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0582217,
+  "lon": 11.1174059,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "node/13159930511",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0582523,
+  "lon": 11.1174415,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "node/13159930613",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0581836,
+  "lon": 11.1174371,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "node/13603934961",
+  "name": "Area di sosta – Spiazzo",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1000613,
+  "lon": 10.6872713,
+  "municipality_istat": "022179"
+ },
+ {
+  "osm_id": "node/1368777511",
+  "name": "Sant' Antonio",
+  "name_source": "name",
+  "type": "picnic_shelter",
+  "lat": 45.9113489,
+  "lon": 11.0835163,
+  "municipality_istat": "022224"
+ },
+ {
+  "osm_id": "node/13746393211",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 45.8699507,
+  "lon": 10.9783995,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "node/13810504670",
+  "name": "Area di sosta – Predaia",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.3499218,
+  "lon": 11.1154751,
+  "municipality_istat": "022230"
+ },
+ {
+  "osm_id": "node/14159301783",
+  "name": "Area di sosta – Primiero San Martino di Castrozza",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1908028,
+  "lon": 11.82832,
+  "municipality_istat": "022245"
+ },
+ {
+  "osm_id": "node/14162027781",
+  "name": "Area di sosta – Primiero San Martino di Castrozza",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.1731741,
+  "lon": 11.8284085,
+  "municipality_istat": "022245"
+ },
+ {
+  "osm_id": "node/1421210767",
+  "name": "Kuhleger Hütt - Baita Kuhleger",
+  "name_source": "name",
+  "type": "picnic_shelter",
+  "lat": 46.3305795,
+  "lon": 11.1954194,
+  "municipality_istat": "022230"
+ },
+ {
+  "osm_id": "node/14251332548",
+  "name": "Area di sosta – Tenno",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 45.9187848,
+  "lon": 10.8314067,
+  "municipality_istat": "022191"
+ },
+ {
+  "osm_id": "node/14276385941",
+  "name": "Area di sosta – Tre Ville",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0459687,
+  "lon": 10.7510827,
+  "municipality_istat": "022247"
+ },
+ {
+  "osm_id": "node/1689075628",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1029628,
+  "lon": 11.0781544,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "node/4876019154",
+  "name": "Area di sosta – Grigno",
+  "name_source": "generated",
+  "type": "picnic_table",
+  "lat": 46.0096084,
+  "lon": 11.6254449,
+  "municipality_istat": "022095"
+ },
+ {
+  "osm_id": "node/6489537952",
+  "name": "Area di sosta – Novaledo",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.015499,
+  "lon": 11.3677157,
+  "municipality_istat": "022129"
+ },
+ {
+  "osm_id": "node/7091026450",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0741369,
+  "lon": 11.0912728,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "node/7707862086",
+  "name": "Area di sosta – Campitello di Fassa",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.4893287,
+  "lon": 11.7234659,
+  "municipality_istat": "022036"
+ },
+ {
+  "osm_id": "node/7728329078",
+  "name": "Casetta del Paluat",
+  "name_source": "name",
+  "type": "cabana",
+  "lat": 46.2931525,
+  "lon": 11.63926,
+  "municipality_istat": "022147"
+ },
+ {
+  "osm_id": "node/7823657462",
+  "name": "Area di sosta – Vallelaghi",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0784679,
+  "lon": 11.0016135,
+  "municipality_istat": "022248"
+ },
+ {
+  "osm_id": "node/8072030259",
+  "name": "Area di sosta – Levico Terme",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0131058,
+  "lon": 11.2872394,
+  "municipality_istat": "022104"
+ },
+ {
+  "osm_id": "node/8072030276",
+  "name": "Area di sosta – Levico Terme",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0139665,
+  "lon": 11.2873077,
+  "municipality_istat": "022104"
+ },
+ {
+  "osm_id": "node/8670945791",
+  "name": "Area di sosta – Fornace",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1214612,
+  "lon": 11.1948586,
+  "municipality_istat": "022089"
+ },
+ {
+  "osm_id": "node/8670945795",
+  "name": "Area di sosta – Fornace",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1213984,
+  "lon": 11.1940831,
+  "municipality_istat": "022089"
+ },
+ {
+  "osm_id": "node/8670945796",
+  "name": "Area di sosta – Fornace",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1211209,
+  "lon": 11.1940194,
+  "municipality_istat": "022089"
+ },
+ {
+  "osm_id": "node/8690511036",
+  "name": "Area di sosta – Fornace",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1181943,
+  "lon": 11.1914133,
+  "municipality_istat": "022089"
+ },
+ {
+  "osm_id": "node/8897750466",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 45.9232927,
+  "lon": 10.7218122,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "node/9081704753",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0548172,
+  "lon": 11.1385048,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "node/9082239607",
+  "name": "Area di sosta – Castello-Molina di Fiemme",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.2812414,
+  "lon": 11.4349575,
+  "municipality_istat": "022047"
+ },
+ {
+  "osm_id": "node/9213997378",
+  "name": "Area di sosta – Predazzo",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.302686,
+  "lon": 11.6003561,
+  "municipality_istat": "022147"
+ },
+ {
+  "osm_id": "node/9938169499",
+  "name": "Area di sosta – Folgaria",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.917121,
+  "lon": 11.1684667,
+  "municipality_istat": "022087"
+ },
+ {
+  "osm_id": "way/1018223502",
+  "name": "Area di sosta – Rovereto",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8876432,
+  "lon": 11.0396191,
+  "municipality_istat": "022161"
+ },
+ {
+  "osm_id": "way/103473781",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0914722,
+  "lon": 11.1635577,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1069285566",
+  "name": "Area di sosta – Primiero San Martino di Castrozza",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.1762011,
+  "lon": 11.8313646,
+  "municipality_istat": "022245"
+ },
+ {
+  "osm_id": "way/1070283702",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9058893,
+  "lon": 10.8669862,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1071592729",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9165496,
+  "lon": 10.8823391,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1071623313",
+  "name": "Area di sosta – Nago-Torbole",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.87475,
+  "lon": 10.8721707,
+  "municipality_istat": "022124"
+ },
+ {
+  "osm_id": "way/1071848557",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9201867,
+  "lon": 10.8787367,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1074771980",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9009424,
+  "lon": 10.8581038,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/1074781660",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9029307,
+  "lon": 10.8615002,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1074781661",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9029146,
+  "lon": 10.8615483,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1075033379",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8893417,
+  "lon": 10.8637925,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/1075699385",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8946694,
+  "lon": 10.8629343,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1077635064",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8788109,
+  "lon": 10.8566658,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/1077635065",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8787466,
+  "lon": 10.856619,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/1077925434",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8985435,
+  "lon": 10.8679075,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1080254300",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9051302,
+  "lon": 10.8609324,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/1084992496",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8816445,
+  "lon": 10.750092,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1086141885",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8743755,
+  "lon": 10.7663784,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1086154898",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8745036,
+  "lon": 10.7662803,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1095818248",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8884136,
+  "lon": 10.7339461,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1105813076",
+  "name": "Area di sosta – Comano Terme",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0232404,
+  "lon": 10.8649665,
+  "municipality_istat": "022228"
+ },
+ {
+  "osm_id": "way/1105813077",
+  "name": "Area di sosta – Comano Terme",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0230709,
+  "lon": 10.8647276,
+  "municipality_istat": "022228"
+ },
+ {
+  "osm_id": "way/1126059220",
+  "name": "Area di sosta – Mezzano",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.160598,
+  "lon": 11.8207108,
+  "municipality_istat": "022115"
+ },
+ {
+  "osm_id": "way/1166136161",
+  "name": "Area di sosta – Canazei",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.475696,
+  "lon": 11.768702,
+  "municipality_istat": "022039"
+ },
+ {
+  "osm_id": "way/1171227433",
+  "name": "Area di sosta – Pergine Valsugana",
+  "name_source": "generated",
+  "type": "sun_shelter",
+  "lat": 46.0914224,
+  "lon": 11.2345228,
+  "municipality_istat": "022139"
+ },
+ {
+  "osm_id": "way/1181493082",
+  "name": "Area di sosta – Ronzo-Chienis",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8980174,
+  "lon": 10.9748948,
+  "municipality_istat": "022135"
+ },
+ {
+  "osm_id": "way/1181493083",
+  "name": "Area di sosta – Ronzo-Chienis",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8981716,
+  "lon": 10.9748835,
+  "municipality_istat": "022135"
+ },
+ {
+  "osm_id": "way/1183466183",
+  "name": "Area di sosta – Vallelaghi",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0989429,
+  "lon": 11.0536835,
+  "municipality_istat": "022248"
+ },
+ {
+  "osm_id": "way/1185078875",
+  "name": "Area di sosta – Cavareno",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.4049308,
+  "lon": 11.1466971,
+  "municipality_istat": "022051"
+ },
+ {
+  "osm_id": "way/1205137534",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0888391,
+  "lon": 11.0647624,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1207091939",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0883224,
+  "lon": 11.0678069,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1209367752",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0838905,
+  "lon": 11.0985761,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1209367753",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0838558,
+  "lon": 11.0985888,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1209367776",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0836796,
+  "lon": 11.0987412,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1209367777",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0836617,
+  "lon": 11.0986727,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1213256354",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0570515,
+  "lon": 11.1102007,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1216304967",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0382579,
+  "lon": 11.1232251,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1216304968",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0382115,
+  "lon": 11.1232716,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1218050166",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.065325,
+  "lon": 11.1020201,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1218532101",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0631024,
+  "lon": 11.0957828,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1225039209",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8923658,
+  "lon": 10.67804,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1228626807",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.883339,
+  "lon": 10.6668644,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1228661404",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8817019,
+  "lon": 10.6662138,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1229029740",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8865344,
+  "lon": 10.6683435,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1234815227",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8772055,
+  "lon": 10.7672724,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1234926906",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8779993,
+  "lon": 10.7646898,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1235472273",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8718938,
+  "lon": 10.7634878,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1235472274",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8720565,
+  "lon": 10.7632925,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1237792825",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8942638,
+  "lon": 10.6860612,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1237840888",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.894329,
+  "lon": 10.6857125,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1237840901",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8937871,
+  "lon": 10.6856417,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1238540145",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8879211,
+  "lon": 10.6684891,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1240321514",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9014302,
+  "lon": 10.7266621,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1240334877",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8971791,
+  "lon": 10.7192022,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1240334878",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.897115,
+  "lon": 10.7191839,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1240334879",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8969996,
+  "lon": 10.7190236,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1241545182",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9130578,
+  "lon": 10.7290011,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1243971830",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9055837,
+  "lon": 10.8837989,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1247722043",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9119555,
+  "lon": 10.9024992,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1250095199",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9209126,
+  "lon": 10.8919388,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1250095200",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9208745,
+  "lon": 10.8919103,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1257907467",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9290564,
+  "lon": 10.8963709,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1257907468",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9289103,
+  "lon": 10.8963206,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1257907469",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9289312,
+  "lon": 10.8964343,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1258664823",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9252331,
+  "lon": 10.8946317,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1259451618",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9273026,
+  "lon": 10.8915821,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1273022474",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9222192,
+  "lon": 10.9028477,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1273022475",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9221919,
+  "lon": 10.9029914,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1274172803",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9295836,
+  "lon": 10.8970735,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1282466703",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.912393,
+  "lon": 10.9180546,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1282466722",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9122802,
+  "lon": 10.9183269,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1284816041",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9080793,
+  "lon": 10.9049042,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1284816044",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9080407,
+  "lon": 10.9048231,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1285860274",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9175383,
+  "lon": 10.8899839,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1295249158",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8699594,
+  "lon": 10.936446,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "way/1299190115",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8644285,
+  "lon": 10.9516102,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "way/1301940326",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8542832,
+  "lon": 10.9644838,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "way/1301940327",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8542674,
+  "lon": 10.9648401,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "way/1302239556",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8533969,
+  "lon": 10.9656271,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "way/1302239581",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8535718,
+  "lon": 10.9671731,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "way/1302855172",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8545962,
+  "lon": 10.946567,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "way/1303479857",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8544828,
+  "lon": 10.9671015,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "way/1307512904",
+  "name": "Area di sosta – Predaia",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.2957593,
+  "lon": 11.0813522,
+  "municipality_istat": "022230"
+ },
+ {
+  "osm_id": "way/1309212938",
+  "name": "Area di sosta – Brentonico",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8359554,
+  "lon": 10.9535392,
+  "municipality_istat": "022025"
+ },
+ {
+  "osm_id": "way/1315138350",
+  "name": "Area di sosta – Brentonico",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.817394,
+  "lon": 10.9695081,
+  "municipality_istat": "022025"
+ },
+ {
+  "osm_id": "way/1316361256",
+  "name": "Area di sosta – Brentonico",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8079437,
+  "lon": 10.9708863,
+  "municipality_istat": "022025"
+ },
+ {
+  "osm_id": "way/1319592491",
+  "name": "Area di sosta – Brentonico",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8172066,
+  "lon": 10.9547994,
+  "municipality_istat": "022025"
+ },
+ {
+  "osm_id": "way/1319592492",
+  "name": "Area di sosta – Brentonico",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8174729,
+  "lon": 10.9551408,
+  "municipality_istat": "022025"
+ },
+ {
+  "osm_id": "way/1324299614",
+  "name": "Area di sosta – Roncegno Terme",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0488711,
+  "lon": 11.4091303,
+  "municipality_istat": "022156"
+ },
+ {
+  "osm_id": "way/1334511529",
+  "name": "Area di sosta – Mezzolombardo",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.2037142,
+  "lon": 11.0854974,
+  "municipality_istat": "022117"
+ },
+ {
+  "osm_id": "way/1370112718",
+  "name": "Area di sosta – Brentonico",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.7828126,
+  "lon": 10.9127913,
+  "municipality_istat": "022025"
+ },
+ {
+  "osm_id": "way/1381669591",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0556095,
+  "lon": 11.129844,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1389848098",
+  "name": "Area di sosta – Storo",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8489625,
+  "lon": 10.5599726,
+  "municipality_istat": "022183"
+ },
+ {
+  "osm_id": "way/1392086705",
+  "name": "Area di sosta – Storo",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8481877,
+  "lon": 10.5750433,
+  "municipality_istat": "022183"
+ },
+ {
+  "osm_id": "way/1394565279",
+  "name": "Area di sosta – Storo",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8625874,
+  "lon": 10.5794875,
+  "municipality_istat": "022183"
+ },
+ {
+  "osm_id": "way/1409466008",
+  "name": "Area di sosta – Storo",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.849579,
+  "lon": 10.5795695,
+  "municipality_istat": "022183"
+ },
+ {
+  "osm_id": "way/1410075194",
+  "name": "Area di sosta – Borgo Chiese",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8941806,
+  "lon": 10.6034073,
+  "municipality_istat": "022238"
+ },
+ {
+  "osm_id": "way/1411099484",
+  "name": "Area di sosta – Pergine Valsugana",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0318187,
+  "lon": 11.2317236,
+  "municipality_istat": "022139"
+ },
+ {
+  "osm_id": "way/1411273341",
+  "name": "Area di sosta – Borgo Chiese",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9126131,
+  "lon": 10.6196843,
+  "municipality_istat": "022238"
+ },
+ {
+  "osm_id": "way/1412095171",
+  "name": "Area di sosta – Sella Giudicarie",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9694886,
+  "lon": 10.6607747,
+  "municipality_istat": "022246"
+ },
+ {
+  "osm_id": "way/1412095189",
+  "name": "Area di sosta – Sella Giudicarie",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9690504,
+  "lon": 10.6611536,
+  "municipality_istat": "022246"
+ },
+ {
+  "osm_id": "way/1412596388",
+  "name": "Area di sosta – Sella Giudicarie",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9666844,
+  "lon": 10.6642248,
+  "municipality_istat": "022246"
+ },
+ {
+  "osm_id": "way/1414495779",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0339259,
+  "lon": 11.1340086,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1414510012",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0391421,
+  "lon": 11.1338436,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1414518924",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.1210246,
+  "lon": 11.1208379,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1414601385",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0283462,
+  "lon": 11.1331478,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1414720265",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0797742,
+  "lon": 11.1582149,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1414720285",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9881154,
+  "lon": 11.1206379,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1415474440",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0822815,
+  "lon": 11.1583563,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1415474490",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0665926,
+  "lon": 11.1624732,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1415474492",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0677341,
+  "lon": 11.162121,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1415474493",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0674073,
+  "lon": 11.1616767,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1415659858",
+  "name": "Area di sosta – Borgo Chiese",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8873117,
+  "lon": 10.5991491,
+  "municipality_istat": "022238"
+ },
+ {
+  "osm_id": "way/1415671058",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0722667,
+  "lon": 11.1142943,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1415733509",
+  "name": "Area di sosta – Borgo Chiese",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8904515,
+  "lon": 10.5979695,
+  "municipality_istat": "022238"
+ },
+ {
+  "osm_id": "way/1415918976",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.1114566,
+  "lon": 11.0965599,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1419055572",
+  "name": "Area di sosta – Vallelaghi",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0755931,
+  "lon": 10.9967374,
+  "municipality_istat": "022248"
+ },
+ {
+  "osm_id": "way/1447564918",
+  "name": "Area di sosta – Sella Giudicarie",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0082834,
+  "lon": 10.6999951,
+  "municipality_istat": "022246"
+ },
+ {
+  "osm_id": "way/1478507604",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9121698,
+  "lon": 10.8840189,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/1479076766",
+  "name": "Area di sosta – Comano Terme",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0245226,
+  "lon": 10.8633959,
+  "municipality_istat": "022228"
+ },
+ {
+  "osm_id": "way/1506317378",
+  "name": "Area di sosta – Madruzzo",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0464901,
+  "lon": 10.9856371,
+  "municipality_istat": "022243"
+ },
+ {
+  "osm_id": "way/1514010641",
+  "name": "Area di sosta – Vallelaghi",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0589395,
+  "lon": 10.9789726,
+  "municipality_istat": "022248"
+ },
+ {
+  "osm_id": "way/1514010642",
+  "name": "Area di sosta – Vallelaghi",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0589301,
+  "lon": 10.9790428,
+  "municipality_istat": "022248"
+ },
+ {
+  "osm_id": "way/1523042827",
+  "name": "Area di sosta – Madruzzo",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0275238,
+  "lon": 10.9609341,
+  "municipality_istat": "022243"
+ },
+ {
+  "osm_id": "way/1523624530",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0279223,
+  "lon": 10.9467029,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/1524998742",
+  "name": "Area di sosta – Cavedine",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9979991,
+  "lon": 10.9542185,
+  "municipality_istat": "022053"
+ },
+ {
+  "osm_id": "way/1524998743",
+  "name": "Area di sosta – Cavedine",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9981502,
+  "lon": 10.9542798,
+  "municipality_istat": "022053"
+ },
+ {
+  "osm_id": "way/1525405607",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9827368,
+  "lon": 10.9254254,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/1535480863",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0656591,
+  "lon": 11.1555998,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1541060389",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0126063,
+  "lon": 11.1304547,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1544654075",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0678747,
+  "lon": 11.1843984,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/1550479330",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8885947,
+  "lon": 10.7325497,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/1561177916",
+  "name": "Area di sosta – Rovereto",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8643636,
+  "lon": 11.0286234,
+  "municipality_istat": "022161"
+ },
+ {
+  "osm_id": "way/1561887472",
+  "name": "Area di sosta – Rovereto",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8523955,
+  "lon": 11.0095091,
+  "municipality_istat": "022161"
+ },
+ {
+  "osm_id": "way/1570448482",
+  "name": "Area di sosta – Spiazzo",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.1021653,
+  "lon": 10.7386447,
+  "municipality_istat": "022179"
+ },
+ {
+  "osm_id": "way/205074304",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0640869,
+  "lon": 11.1365822,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/217881237",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9080354,
+  "lon": 10.9046881,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/217881243",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9079736,
+  "lon": 10.9046353,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/238975140",
+  "name": "Area di sosta – Castelnuovo",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0417689,
+  "lon": 11.4963517,
+  "municipality_istat": "022049"
+ },
+ {
+  "osm_id": "way/242541296",
+  "name": "Area di sosta – Caldes",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.3839802,
+  "lon": 10.982299,
+  "municipality_istat": "022033"
+ },
+ {
+  "osm_id": "way/301125599",
+  "name": "Gazebo",
+  "name_source": "name",
+  "type": "gazebo",
+  "lat": 46.0109271,
+  "lon": 11.3088849,
+  "municipality_istat": "022104"
+ },
+ {
+  "osm_id": "way/371343439",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1318463,
+  "lon": 11.1421291,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/388939771",
+  "name": "Area di sosta – Pieve Tesino",
+  "name_source": "generated",
+  "type": "sun_shelter",
+  "lat": 46.0776608,
+  "lon": 11.5819864,
+  "municipality_istat": "022142"
+ },
+ {
+  "osm_id": "way/393550907",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1053105,
+  "lon": 11.1474453,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/412790460",
+  "name": "Area di sosta – Sella Giudicarie",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0062369,
+  "lon": 10.7043622,
+  "municipality_istat": "022246"
+ },
+ {
+  "osm_id": "way/427855283",
+  "name": "Area di sosta – Soraga di Fassa",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.3955392,
+  "lon": 11.6687088,
+  "municipality_istat": "022176"
+ },
+ {
+  "osm_id": "way/436534395",
+  "name": "Area di sosta – Grigno",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.0157883,
+  "lon": 11.6262511,
+  "municipality_istat": "022095"
+ },
+ {
+  "osm_id": "way/437287247",
+  "name": "Area di sosta – Novella",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.453345,
+  "lon": 11.1086128,
+  "municipality_istat": "022253"
+ },
+ {
+  "osm_id": "way/548218042",
+  "name": "Area di sosta – Imer",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.1213826,
+  "lon": 11.7942328,
+  "municipality_istat": "022097"
+ },
+ {
+  "osm_id": "way/583557422",
+  "name": "Area di sosta – Grigno",
+  "name_source": "generated",
+  "type": "pavilion",
+  "lat": 45.9858859,
+  "lon": 11.6675342,
+  "municipality_istat": "022095"
+ },
+ {
+  "osm_id": "way/583557424",
+  "name": "Area di sosta – Grigno",
+  "name_source": "generated",
+  "type": "pavilion",
+  "lat": 45.9864313,
+  "lon": 11.6686854,
+  "municipality_istat": "022095"
+ },
+ {
+  "osm_id": "way/59600489",
+  "name": "Area di sosta – Imer",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.1489249,
+  "lon": 11.7984968,
+  "municipality_istat": "022097"
+ },
+ {
+  "osm_id": "way/638135172",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9221864,
+  "lon": 10.8835403,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/670469539",
+  "name": "Area di sosta – Soraga di Fassa",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.395669,
+  "lon": 11.6691995,
+  "municipality_istat": "022176"
+ },
+ {
+  "osm_id": "way/696177182",
+  "name": "Area di sosta – Baselga di Piné",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.1338975,
+  "lon": 11.2567909,
+  "municipality_istat": "022009"
+ },
+ {
+  "osm_id": "way/701125509",
+  "name": "Area di sosta – Nago-Torbole",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8705995,
+  "lon": 10.8756952,
+  "municipality_istat": "022124"
+ },
+ {
+  "osm_id": "way/701125560",
+  "name": "Area di sosta – Nago-Torbole",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8726657,
+  "lon": 10.8742753,
+  "municipality_istat": "022124"
+ },
+ {
+  "osm_id": "way/701125561",
+  "name": "Area di sosta – Nago-Torbole",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8724037,
+  "lon": 10.8744261,
+  "municipality_istat": "022124"
+ },
+ {
+  "osm_id": "way/702038235",
+  "name": "Area di sosta – Nago-Torbole",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8733103,
+  "lon": 10.8730918,
+  "municipality_istat": "022124"
+ },
+ {
+  "osm_id": "way/703435109",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.91719,
+  "lon": 10.8860282,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/703435110",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9171471,
+  "lon": 10.886369,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/703478848",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9182122,
+  "lon": 10.8831738,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/703799071",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8769065,
+  "lon": 10.8654438,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/703799076",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8771726,
+  "lon": 10.8652037,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/814909087",
+  "name": "Area di sosta – Nago-Torbole",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8709953,
+  "lon": 10.8760809,
+  "municipality_istat": "022124"
+ },
+ {
+  "osm_id": "way/815541962",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9056522,
+  "lon": 10.8668915,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/817816731",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9062679,
+  "lon": 10.9384034,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/846213724",
+  "name": "Area di sosta – Rovereto",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 45.8535952,
+  "lon": 11.034908,
+  "municipality_istat": "022161"
+ },
+ {
+  "osm_id": "way/847127486",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8842471,
+  "lon": 10.840046,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847127487",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8841838,
+  "lon": 10.8403361,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847127488",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8841977,
+  "lon": 10.8402443,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847127495",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8849454,
+  "lon": 10.8396541,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847127496",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8850777,
+  "lon": 10.8389926,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847192487",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.885761,
+  "lon": 10.8416439,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847194435",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8846895,
+  "lon": 10.8388482,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847194436",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8845484,
+  "lon": 10.8387283,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847194437",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8844478,
+  "lon": 10.8387389,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847194438",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8843209,
+  "lon": 10.8387807,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847194439",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8842506,
+  "lon": 10.8388731,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847194440",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8841623,
+  "lon": 10.8388695,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/847194441",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8838741,
+  "lon": 10.8388334,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/849474212",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8789001,
+  "lon": 10.8577627,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/849474213",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8787337,
+  "lon": 10.8576626,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/849474214",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8786123,
+  "lon": 10.8576653,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/849474215",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8785766,
+  "lon": 10.8577484,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/850091952",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8970785,
+  "lon": 10.8525739,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/850618738",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8861222,
+  "lon": 10.8421513,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/860652979",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9158461,
+  "lon": 10.8837365,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/860718881",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9221894,
+  "lon": 10.8838245,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/862775489",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9192434,
+  "lon": 10.8801742,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/865718345",
+  "name": "Area di sosta – Tenno",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9119386,
+  "lon": 10.8361206,
+  "municipality_istat": "022191"
+ },
+ {
+  "osm_id": "way/884129799",
+  "name": "Area di sosta – Drena",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9710348,
+  "lon": 10.9447514,
+  "municipality_istat": "022078"
+ },
+ {
+  "osm_id": "way/910889345",
+  "name": "Area di sosta – Rovereto",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8801264,
+  "lon": 11.0288339,
+  "municipality_istat": "022161"
+ },
+ {
+  "osm_id": "way/911002372",
+  "name": "Area di sosta – Rovereto",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8839972,
+  "lon": 11.034439,
+  "municipality_istat": "022161"
+ },
+ {
+  "osm_id": "way/911390061",
+  "name": "Area di sosta – Ala",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8243412,
+  "lon": 10.9991572,
+  "municipality_istat": "022001"
+ },
+ {
+  "osm_id": "way/911505796",
+  "name": "Area di sosta – Brentonico",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8183542,
+  "lon": 10.9931599,
+  "municipality_istat": "022025"
+ },
+ {
+  "osm_id": "way/912896342",
+  "name": "Area di sosta – Mori",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8523328,
+  "lon": 10.978398,
+  "municipality_istat": "022123"
+ },
+ {
+  "osm_id": "way/914501117",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.0710555,
+  "lon": 11.1122422,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/915203383",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.073059,
+  "lon": 11.1127959,
+  "municipality_istat": "022205"
+ },
+ {
+  "osm_id": "way/936216898",
+  "name": "Area di sosta – Civezzano",
+  "name_source": "generated",
+  "type": "picnic_shelter",
+  "lat": 46.1204642,
+  "lon": 11.1882634,
+  "municipality_istat": "022061"
+ },
+ {
+  "osm_id": "way/954323036",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8856089,
+  "lon": 10.7360748,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/954323037",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8855035,
+  "lon": 10.7360017,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/954323038",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8855368,
+  "lon": 10.7360292,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/954323039",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8855699,
+  "lon": 10.736056,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/954323040",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8854189,
+  "lon": 10.7359684,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/954868349",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.885048,
+  "lon": 10.7314326,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/954934896",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.891796,
+  "lon": 10.7253191,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/955969025",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8903708,
+  "lon": 10.7304192,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/956611993",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8954927,
+  "lon": 10.7205505,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/957537178",
+  "name": "Area di sosta – Riva del Garda",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.8970222,
+  "lon": 10.8448306,
+  "municipality_istat": "022153"
+ },
+ {
+  "osm_id": "way/961894060",
+  "name": "Area di sosta – Ledro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9231034,
+  "lon": 10.7225795,
+  "municipality_istat": "022229"
+ },
+ {
+  "osm_id": "way/975928237",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9353012,
+  "lon": 10.8993211,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/975928238",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.935276,
+  "lon": 10.8994718,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/976629793",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9387007,
+  "lon": 10.897068,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/977129128",
+  "name": "Area di sosta – Arco",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9321156,
+  "lon": 10.8916755,
+  "municipality_istat": "022006"
+ },
+ {
+  "osm_id": "way/977494277",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9424732,
+  "lon": 10.9015325,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/980564873",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9614547,
+  "lon": 10.9164191,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/980564874",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9615363,
+  "lon": 10.9165205,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/980564875",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9615204,
+  "lon": 10.9164144,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/981618177",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9498786,
+  "lon": 10.9007838,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/983620896",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9611661,
+  "lon": 10.9101928,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/989883638",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9684363,
+  "lon": 10.9153221,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/989883639",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9683409,
+  "lon": 10.915299,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/991447092",
+  "name": "Area di sosta – Dro",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 45.9509211,
+  "lon": 10.9044234,
+  "municipality_istat": "022079"
+ },
+ {
+  "osm_id": "way/993969416",
+  "name": "Area di sosta – Trento",
+  "name_source": "generated",
+  "type": "gazebo",
+  "lat": 46.084254,
+  "lon": 11.1659464,
+  "municipality_istat": "022205"
+ }
+]

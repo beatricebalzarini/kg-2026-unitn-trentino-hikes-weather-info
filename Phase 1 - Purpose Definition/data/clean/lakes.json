@@ -1,0 +1,3225 @@
+[
+ {
+  "osm_id": "relation/11116389",
+  "name": "Lago di Barco",
+  "name_osm": "Lago di Barco",
+  "name_source": "osm",
+  "ele_m": 1903,
+  "ele_source": "ele",
+  "area_km2": 0.0392,
+  "area_inside_pct": 100.0,
+  "lat": 46.2737214,
+  "lon": 10.7066743,
+  "municipalities_istat": [
+   "022213"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11124466",
+  "name": "Lago Piccolo",
+  "name_osm": "Lago Piccolo",
+  "name_source": "osm",
+  "ele_m": 2316,
+  "ele_source": "ele",
+  "area_km2": 0.0079,
+  "area_inside_pct": 100.0,
+  "lat": 46.2640048,
+  "lon": 10.709348,
+  "municipalities_istat": [
+   "022213"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11153772",
+  "name": "Lago Lambin",
+  "name_osm": "Lago Lambin",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0321,
+  "area_inside_pct": 100.0,
+  "lat": 46.2364181,
+  "lon": 10.779032,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q129643532",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11153796",
+  "name": "Lago di Cornisello Inferiore",
+  "name_osm": "Lago di Cornisello Inferiore",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.021,
+  "area_inside_pct": 100.0,
+  "lat": 46.2209426,
+  "lon": 10.7338038,
+  "municipalities_istat": [
+   "022042"
+  ],
+  "wikidata": "Q3825602",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11155752",
+  "name": "Lago Nero (Pinzolo)",
+  "name_osm": "Lago Nero",
+  "name_source": "osm_municipality",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0054,
+  "area_inside_pct": 100.0,
+  "lat": 46.244511,
+  "lon": 10.7824154,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q129641792",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11155756",
+  "name": "Lago Serodoli",
+  "name_osm": "Lago Serodoli",
+  "name_source": "osm",
+  "ele_m": 2368,
+  "ele_source": "ele",
+  "area_km2": 0.0668,
+  "area_inside_pct": 100.0,
+  "lat": 46.248234,
+  "lon": 10.7781154,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q129642093",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11155761",
+  "name": "Lago Gelato",
+  "name_osm": "Lago Gelato",
+  "name_source": "osm",
+  "ele_m": 2387,
+  "ele_source": "ele",
+  "area_km2": 0.0834,
+  "area_inside_pct": 100.0,
+  "lat": 46.2472575,
+  "lon": 10.7708885,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q129641964",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11183760",
+  "name": "Lago Ritort",
+  "name_osm": "Lago Ritort",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0938,
+  "area_inside_pct": 100.0,
+  "lat": 46.2276426,
+  "lon": 10.7872559,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11183943",
+  "name": "Lago Vedretta",
+  "name_osm": "Lago Vedretta",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.1081,
+  "area_inside_pct": 100.0,
+  "lat": 46.229707,
+  "lon": 10.7048703,
+  "municipalities_istat": [
+   "022042"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/11906689",
+  "name": "Lago di Bior",
+  "name_osm": "Lago di Bior",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0229,
+  "area_inside_pct": 100.0,
+  "lat": 46.1432054,
+  "lon": 10.9702257,
+  "municipalities_istat": [
+   "022120"
+  ],
+  "wikidata": "Q101111392",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/1429826",
+  "name": "Lago d'Idro",
+  "name_osm": "Lago d'Idro",
+  "name_source": "osm",
+  "ele_m": 368,
+  "ele_source": "ele",
+  "area_km2": 11.0471,
+  "area_inside_pct": 0.3,
+  "lat": 45.8050121,
+  "lon": 10.5270942,
+  "municipalities_istat": [
+   "022021"
+  ],
+  "wikidata": "Q63148",
+  "swimming": null,
+  "fishing": null,
+  "boat": true,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/14300177",
+  "name": "Lago di Lusia (superiore)",
+  "name_osm": "Lago di Lusia (superiore)",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0119,
+  "area_inside_pct": 100.0,
+  "lat": 46.3497456,
+  "lon": 11.7402385,
+  "municipalities_istat": [
+   "022118"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/1470036",
+  "name": "Lago di Cavedine",
+  "name_osm": "Lago di Cavedine",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.892,
+  "area_inside_pct": 100.0,
+  "lat": 46.0002412,
+  "lon": 10.9500805,
+  "municipalities_istat": [
+   "022053",
+   "022079"
+  ],
+  "wikidata": "Q35722561",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/1558709",
+  "name": "Lago di Toblino",
+  "name_osm": "Lago di Toblino",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.7056,
+  "area_inside_pct": 100.0,
+  "lat": 46.0523345,
+  "lon": 10.9657245,
+  "municipalities_istat": [
+   "022243"
+  ],
+  "wikidata": "Q781019",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/15692861",
+  "name": "Lago di Terlago – basin 2",
+  "name_osm": "Lago di Terlago",
+  "name_source": "osm_basin",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0546,
+  "area_inside_pct": 100.0,
+  "lat": 46.0926888,
+  "lon": 11.0529057,
+  "municipalities_istat": [
+   "022248"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/193134",
+  "name": "Lago di Tenno",
+  "name_osm": "Lago di Tenno",
+  "name_source": "osm",
+  "ele_m": 570,
+  "ele_source": "ele",
+  "area_km2": 0.209,
+  "area_inside_pct": 100.0,
+  "lat": 45.9384562,
+  "lon": 10.8158212,
+  "municipalities_istat": [
+   "022191"
+  ],
+  "wikidata": "Q1727103",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/1989834",
+  "name": "Lago di Santa Massenza",
+  "name_osm": "Lago di Santa Massenza",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.2956,
+  "area_inside_pct": 100.0,
+  "lat": 46.0631426,
+  "lon": 10.9812688,
+  "municipalities_istat": [
+   "022248"
+  ],
+  "wikidata": "Q16571001",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/21393756",
+  "name": "Laghetti delle Sute",
+  "name_osm": "Laghetti delle Sute",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0034,
+  "area_inside_pct": 100.0,
+  "lat": 46.2130185,
+  "lon": 11.5512117,
+  "municipalities_istat": [
+   "022142"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/2293192",
+  "name": "Lago di Cei",
+  "name_osm": "Lago di Cei",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0386,
+  "area_inside_pct": 100.0,
+  "lat": 45.9509626,
+  "lon": 11.0201302,
+  "municipalities_istat": [
+   "022222"
+  ],
+  "wikidata": "Q1052694",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/2435554",
+  "name": "Laghi di Colbricon",
+  "name_osm": "Laghi di Colbricon",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0234,
+  "area_inside_pct": 100.0,
+  "lat": 46.2816964,
+  "lon": 11.7653086,
+  "municipalities_istat": [
+   "022245"
+  ],
+  "wikidata": "Q55375160",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/2934208",
+  "name": "Lago della Serraia",
+  "name_osm": "Lago della Serraia",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.4442,
+  "area_inside_pct": 100.0,
+  "lat": 46.1375972,
+  "lon": 11.2562626,
+  "municipalities_istat": [
+   "022009"
+  ],
+  "wikidata": "Q3825886",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/5965884",
+  "name": "Lago di Santa Colomba",
+  "name_osm": "Lago di Santa Colomba",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0276,
+  "area_inside_pct": 100.0,
+  "lat": 46.124271,
+  "lon": 11.180901,
+  "municipalities_istat": [
+   "022061"
+  ],
+  "wikidata": "Q3826035",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/6422525",
+  "name": "Lago di Tovel",
+  "name_osm": "Lago di Tovel",
+  "name_source": "osm",
+  "ele_m": 1180,
+  "ele_source": "ele",
+  "area_km2": 0.3686,
+  "area_inside_pct": 100.0,
+  "lat": 46.2602055,
+  "lon": 10.9504432,
+  "municipalities_istat": [
+   "022249"
+  ],
+  "wikidata": "Q1432181",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/6444258",
+  "name": "Lago di Lases",
+  "name_osm": "Lago di Lases",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.1152,
+  "area_inside_pct": 100.0,
+  "lat": 46.1392251,
+  "lon": 11.2212163,
+  "municipalities_istat": [
+   "022108"
+  ],
+  "wikidata": "Q3825965",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/7376227",
+  "name": "Lago di Lamar",
+  "name_osm": "Lago di Lamar",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0421,
+  "area_inside_pct": 100.0,
+  "lat": 46.1304699,
+  "lon": 11.0633098,
+  "municipalities_istat": [
+   "022248"
+  ],
+  "wikidata": "Q3825958",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/7403080",
+  "name": "Lago di Garzoné",
+  "name_osm": "Lago di Garzoné",
+  "name_source": "osm",
+  "ele_m": 1942,
+  "ele_source": "ele",
+  "area_km2": 0.1101,
+  "area_inside_pct": 100.0,
+  "lat": 46.1416701,
+  "lon": 10.7045289,
+  "municipalities_istat": [
+   "022029"
+  ],
+  "wikidata": "Q108075620",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/8315676",
+  "name": "Lago di Cima d'Asta",
+  "name_osm": "Lago di Cima d'Asta",
+  "name_source": "osm",
+  "ele_m": 2451,
+  "ele_source": "ele",
+  "area_km2": 0.0607,
+  "area_inside_pct": 100.0,
+  "lat": 46.1723724,
+  "lon": 11.6050308,
+  "municipalities_istat": [
+   "022142"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/8569",
+  "name": "Lago di Garda",
+  "name_osm": "Lago di Garda",
+  "name_source": "osm",
+  "ele_m": 65,
+  "ele_source": "ele",
+  "area_km2": 367.1768,
+  "area_inside_pct": 3.9,
+  "lat": 45.8558165,
+  "lon": 10.8516954,
+  "municipalities_istat": [
+   "022153",
+   "022124",
+   "022006",
+   "022229"
+  ],
+  "wikidata": "Q6414",
+  "swimming": null,
+  "fishing": null,
+  "boat": true,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/9123036",
+  "name": "Lago di San Giuliano",
+  "name_osm": "Lago di San Giuliano",
+  "name_source": "osm",
+  "ele_m": 1938,
+  "ele_source": "ele",
+  "area_km2": 0.0416,
+  "area_inside_pct": 100.0,
+  "lat": 46.1468622,
+  "lon": 10.7017818,
+  "municipalities_istat": [
+   "022029"
+  ],
+  "wikidata": "Q108075379",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "relation/9185397",
+  "name": "Laghi di Valbona",
+  "name_osm": "Laghi di Valbona",
+  "name_source": "osm",
+  "ele_m": 2138,
+  "ele_source": "ele",
+  "area_km2": 0.0348,
+  "area_inside_pct": 100.0,
+  "lat": 46.0572113,
+  "lon": 10.644421,
+  "municipalities_istat": [
+   "022199"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/103589637",
+  "name": "Laghi dei Lasteati",
+  "name_osm": "Laghi dei Lasteati",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0025,
+  "area_inside_pct": 100.0,
+  "lat": 46.1683525,
+  "lon": 11.5609684,
+  "municipalities_istat": [
+   "022059"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/104198185",
+  "name": "Lago Reganel Alto",
+  "name_osm": "Lago Reganel Alto",
+  "name_source": "osm",
+  "ele_m": 2100,
+  "ele_source": "ele",
+  "area_km2": 0.0035,
+  "area_inside_pct": 100.0,
+  "lat": 46.1684044,
+  "lon": 11.6490457,
+  "municipalities_istat": [
+   "022048"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/104198239",
+  "name": "Lago Nassere (Busa del Lago)",
+  "name_osm": "Lago Nassere (Busa del Lago)",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0081,
+  "area_inside_pct": 100.0,
+  "lat": 46.1475716,
+  "lon": 11.5491054,
+  "municipalities_istat": [
+   "022171"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/104307240",
+  "name": "Porta Bozze",
+  "name_osm": "Porta Bozze",
+  "name_source": "osm",
+  "ele_m": 1985,
+  "ele_source": "ele",
+  "area_km2": 0.0008,
+  "area_inside_pct": 100.0,
+  "lat": 46.1384167,
+  "lon": 11.6381866,
+  "municipalities_istat": [
+   "022048"
+  ],
+  "wikidata": "Q130405360",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/106610842",
+  "name": "Lago Pisorno",
+  "name_osm": "Lago Pisorno",
+  "name_source": "osm",
+  "ele_m": 2227,
+  "ele_source": "ele",
+  "area_km2": 0.0029,
+  "area_inside_pct": 100.0,
+  "lat": 46.20744,
+  "lon": 11.7618639,
+  "municipalities_istat": [
+   "022038"
+  ],
+  "wikidata": "Q130408482",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1172471558",
+  "name": "Laghetto Catena Rossa inferiore",
+  "name_osm": "Laghetto Catena Rossa inferiore",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0008,
+  "area_inside_pct": 100.0,
+  "lat": 46.4244256,
+  "lon": 10.6510684,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": "Q130468712",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/118602363",
+  "name": "Lago di Molveno",
+  "name_osm": "Lago di Molveno",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 3.1802,
+  "area_inside_pct": 100.0,
+  "lat": 46.1252418,
+  "lon": 10.9600004,
+  "municipalities_istat": [
+   "022120",
+   "022231"
+  ],
+  "wikidata": "Q1112151",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1256233325",
+  "name": "Laghetto Cima Careser",
+  "name_osm": "Laghetto Cima Careser",
+  "name_source": "osm",
+  "ele_m": 3003,
+  "ele_source": "ele",
+  "area_km2": 0.0004,
+  "area_inside_pct": 100.0,
+  "lat": 46.4528154,
+  "lon": 10.7287208,
+  "municipalities_istat": [
+   "022150"
+  ],
+  "wikidata": "Q130479968",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/129475940",
+  "name": "Lago di San Pellegrino",
+  "name_osm": "Lago di San Pellegrino",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.014,
+  "area_inside_pct": 100.0,
+  "lat": 46.3765298,
+  "lon": 11.7846611,
+  "municipalities_istat": [
+   "022118"
+  ],
+  "wikidata": "Q87064260",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1331426475",
+  "name": "Laghetto Bigonda",
+  "name_osm": "Laghetto Bigonda",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0,
+  "area_inside_pct": 100.0,
+  "lat": 46.0193299,
+  "lon": 11.5809938,
+  "municipalities_istat": [
+   "022130"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/140389937",
+  "name": "Lago degli Zingari",
+  "name_osm": "Lago degli Zingari",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.007,
+  "area_inside_pct": 96.2,
+  "lat": 46.3765732,
+  "lon": 11.8212014,
+  "municipalities_istat": [
+   "022176"
+  ],
+  "wikidata": "Q114034333",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1471611801",
+  "name": "Lago Poinella",
+  "name_osm": "Lago Poinella",
+  "name_source": "osm",
+  "ele_m": 2180,
+  "ele_source": "ele",
+  "area_km2": 0.0042,
+  "area_inside_pct": 100.0,
+  "lat": 46.4571208,
+  "lon": 10.9416287,
+  "municipalities_istat": [
+   "022163"
+  ],
+  "wikidata": "Q130485301",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/1560897369",
+  "name": "Laghet picol",
+  "name_osm": "Laghet picol",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0001,
+  "area_inside_pct": 100.0,
+  "lat": 45.8556161,
+  "lon": 11.0183521,
+  "municipalities_istat": [
+   "022161"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/170790546",
+  "name": "Laghetto del Cengello",
+  "name_osm": "Laghetto del Cengello",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0032,
+  "area_inside_pct": 100.0,
+  "lat": 46.1583495,
+  "lon": 11.5576523,
+  "municipalities_istat": [
+   "022171"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/17667218",
+  "name": "Lago di Caldonazzo",
+  "name_osm": "Lago di Caldonazzo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 5.2733,
+  "area_inside_pct": 100.0,
+  "lat": 46.019874,
+  "lon": 11.2418255,
+  "municipalities_istat": [
+   "022139",
+   "022034",
+   "022032",
+   "022236",
+   "022190"
+  ],
+  "wikidata": "Q1026494",
+  "swimming": null,
+  "fishing": null,
+  "boat": true,
+  "duplicates": [
+   {
+    "osm_id": "way/17667218",
+    "file": "cultural_landmarks.json"
+   }
+  ]
+ },
+ {
+  "osm_id": "way/17669165",
+  "name": "Lago di Levico",
+  "name_osm": "Lago di Levico",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 1.0798,
+  "area_inside_pct": 100.0,
+  "lat": 46.0180684,
+  "lon": 11.273375,
+  "municipalities_istat": [
+   "022104",
+   "022190",
+   "022139"
+  ],
+  "wikidata": "Q1475787",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": [
+   {
+    "osm_id": "way/17669165",
+    "file": "cultural_landmarks.json"
+   }
+  ]
+ },
+ {
+  "osm_id": "way/179155457",
+  "name": "Laghetto Caladora",
+  "name_osm": "Laghetto Caladora",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0017,
+  "area_inside_pct": 100.0,
+  "lat": 46.3311556,
+  "lon": 11.8131852,
+  "municipalities_istat": [
+   "022245"
+  ],
+  "wikidata": "Q130484222",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/179367533",
+  "name": "Lago Juribrutto",
+  "name_osm": "Lago Juribrutto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0226,
+  "area_inside_pct": 100.0,
+  "lat": 46.3432018,
+  "lon": 11.7688451,
+  "municipalities_istat": [
+   "022245"
+  ],
+  "wikidata": "Q55372955",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/179368868",
+  "name": "Laghetto Caserina",
+  "name_osm": "Laghetto Caserina",
+  "name_source": "osm",
+  "ele_m": 2087,
+  "ele_source": "ele",
+  "area_km2": 0.0015,
+  "area_inside_pct": 100.0,
+  "lat": 46.2737932,
+  "lon": 11.6799169,
+  "municipalities_istat": [
+   "022147"
+  ],
+  "wikidata": "Q55368579",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/179373303",
+  "name": "Lago Bocche",
+  "name_osm": "Lago Bocche",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0199,
+  "area_inside_pct": 100.0,
+  "lat": 46.3415592,
+  "lon": 11.7514114,
+  "municipalities_istat": [
+   "022245",
+   "022118"
+  ],
+  "wikidata": "Q55376972",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/182933776",
+  "name": "Lago di Cavallazza",
+  "name_osm": "Lago di Cavallazza",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.011,
+  "area_inside_pct": 100.0,
+  "lat": 46.2818171,
+  "lon": 11.7787933,
+  "municipalities_istat": [
+   "022245"
+  ],
+  "wikidata": "Q55375206",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/195437457",
+  "name": "Lago Carera",
+  "name_osm": "Lago Carera",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0101,
+  "area_inside_pct": 100.0,
+  "lat": 45.998498,
+  "lon": 10.8288039,
+  "municipalities_istat": [
+   "022083"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/225908936",
+  "name": "Laghetto Altar",
+  "name_osm": "Laghetto Altar",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0025,
+  "area_inside_pct": 100.0,
+  "lat": 46.1229031,
+  "lon": 10.6526194,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/22990975",
+  "name": "Lago di Canzolino",
+  "name_osm": "Lago di Canzolino",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0677,
+  "area_inside_pct": 100.0,
+  "lat": 46.0831666,
+  "lon": 11.2264928,
+  "municipalities_istat": [
+   "022139"
+  ],
+  "wikidata": "Q60039515",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/23052852",
+  "name": "Lago Santo (Vallelaghi)",
+  "name_osm": "Lago Santo",
+  "name_source": "osm_municipality",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0687,
+  "area_inside_pct": 100.0,
+  "lat": 46.1242884,
+  "lon": 11.0585522,
+  "municipalities_istat": [
+   "022248"
+  ],
+  "wikidata": "Q38095198",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/23411064",
+  "name": "Lago delle Stellune",
+  "name_osm": "Lago delle Stellune",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0289,
+  "area_inside_pct": 100.0,
+  "lat": 46.1961844,
+  "lon": 11.4986061,
+  "municipalities_istat": [
+   "022047"
+  ],
+  "wikidata": "Q55367726",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/240800274",
+  "name": "Lech de la Campagnola",
+  "name_osm": "Lech de la Campagnola",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0046,
+  "area_inside_pct": 100.0,
+  "lat": 46.3852688,
+  "lon": 11.7752921,
+  "municipalities_istat": [
+   "022118"
+  ],
+  "wikidata": "Q114048126",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/248114075",
+  "name": "Lago Turchino",
+  "name_osm": "Lago Turchino",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0011,
+  "area_inside_pct": 100.0,
+  "lat": 46.0247353,
+  "lon": 11.1377251,
+  "municipalities_istat": [
+   "022205"
+  ],
+  "wikidata": "Q130088732",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/24869892",
+  "name": "Lago di Lagolo",
+  "name_osm": "Lago di Lagolo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0251,
+  "area_inside_pct": 100.0,
+  "lat": 46.0406128,
+  "lon": 11.005929,
+  "municipalities_istat": [
+   "022243"
+  ],
+  "wikidata": "Q3825959",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/24914735",
+  "name": "Lago di Madrano",
+  "name_osm": "Lago di Madrano",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0094,
+  "area_inside_pct": 100.0,
+  "lat": 46.0855933,
+  "lon": 11.2188767,
+  "municipalities_istat": [
+   "022139"
+  ],
+  "wikidata": "Q60039246",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/25343865",
+  "name": "Laghestel",
+  "name_osm": "Laghestel",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0061,
+  "area_inside_pct": 100.0,
+  "lat": 46.1147479,
+  "lon": 11.2254926,
+  "municipalities_istat": [
+   "022009"
+  ],
+  "wikidata": "Q130080533",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/25777338",
+  "name": "Laghetto di Lagorai maggiore",
+  "name_osm": "Laghetto di Lagorai maggiore",
+  "name_source": "osm",
+  "ele_m": 2268,
+  "ele_source": "ele",
+  "area_km2": 0.0287,
+  "area_inside_pct": 100.0,
+  "lat": 46.2094732,
+  "lon": 11.5255343,
+  "municipalities_istat": [
+   "022196"
+  ],
+  "wikidata": "Q130273351",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/25777422",
+  "name": "Laghi di Bombasel",
+  "name_osm": "Laghi di Bombasel",
+  "name_source": "osm",
+  "ele_m": 2268,
+  "ele_source": "ele",
+  "area_km2": 0.029,
+  "area_inside_pct": 100.0,
+  "lat": 46.2267411,
+  "lon": 11.5096475,
+  "municipalities_istat": [
+   "022050"
+  ],
+  "wikidata": "Q55370321",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/25827380",
+  "name": "Lago Lagorai",
+  "name_osm": "Lago Lagorai",
+  "name_source": "osm",
+  "ele_m": 1870,
+  "ele_source": "ele",
+  "area_km2": 0.0943,
+  "area_inside_pct": 100.0,
+  "lat": 46.2338364,
+  "lon": 11.5290817,
+  "municipalities_istat": [
+   "022196"
+  ],
+  "wikidata": "Q55368344",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/26204436",
+  "name": "Lago Primo",
+  "name_osm": "Lago Primo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0146,
+  "area_inside_pct": 100.0,
+  "lat": 46.1105071,
+  "lon": 11.5622101,
+  "municipalities_istat": [
+   "022015"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/26204440",
+  "name": "Laghetto di forcella Magna",
+  "name_osm": "Laghetto di forcella Magna",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0051,
+  "area_inside_pct": 100.0,
+  "lat": 46.1646152,
+  "lon": 11.5782822,
+  "municipalities_istat": [
+   "022059"
+  ],
+  "wikidata": "Q130356900",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/26264590",
+  "name": "Lago delle Trote",
+  "name_osm": "Lago delle Trote",
+  "name_source": "osm",
+  "ele_m": 2103,
+  "ele_source": "ele",
+  "area_km2": 0.0101,
+  "area_inside_pct": 100.0,
+  "lat": 46.2622099,
+  "lon": 11.6259308,
+  "municipalities_istat": [
+   "022147"
+  ],
+  "wikidata": "Q130273297",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/26278380",
+  "name": "Lago di Lavarone",
+  "name_osm": "Lago di Lavarone",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0515,
+  "area_inside_pct": 100.0,
+  "lat": 45.9366179,
+  "lon": 11.2529115,
+  "municipalities_istat": [
+   "022102",
+   "022087"
+  ],
+  "wikidata": "Q3825962",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/26451249",
+  "name": "Lago Grande (Ronchi Valsugana)",
+  "name_osm": "Lago Grande",
+  "name_source": "osm_municipality",
+  "ele_m": 1800,
+  "ele_source": "ele",
+  "area_km2": 0.0039,
+  "area_inside_pct": 100.0,
+  "lat": 46.0843981,
+  "lon": 11.4106251,
+  "municipalities_istat": [
+   "022157"
+  ],
+  "wikidata": "Q107564590",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/27109382",
+  "name": "Lago delle Malghette",
+  "name_osm": "Lago delle Malghette",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0987,
+  "area_inside_pct": 100.0,
+  "lat": 46.2668057,
+  "lon": 10.819446,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q16570987",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/27109383",
+  "name": "Lago di Cornisello Superiore",
+  "name_osm": "Lago di Cornisello Superiore",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0813,
+  "area_inside_pct": 100.0,
+  "lat": 46.2216541,
+  "lon": 10.7260334,
+  "municipalities_istat": [
+   "022042"
+  ],
+  "wikidata": "Q3825602",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/27109385",
+  "name": "Lago Nero (Carisolo)",
+  "name_osm": "Lago Nero",
+  "name_source": "osm_municipality",
+  "ele_m": 2233,
+  "ele_source": "ele",
+  "area_km2": 0.0283,
+  "area_inside_pct": 100.0,
+  "lat": 46.2164789,
+  "lon": 10.7304461,
+  "municipalities_istat": [
+   "022042"
+  ],
+  "wikidata": "Q121437338",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/300805545",
+  "name": "Lago Nero (Ziano di Fiemme)",
+  "name_osm": "Lago Nero",
+  "name_source": "osm_municipality",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0027,
+  "area_inside_pct": 100.0,
+  "lat": 46.2244357,
+  "lon": 11.5805455,
+  "municipalities_istat": [
+   "022226"
+  ],
+  "wikidata": "Q130407424",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/306452376",
+  "name": "Lago di Bela Venezia di Sotto",
+  "name_osm": "Lago di Bela Venezia di Sotto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0014,
+  "area_inside_pct": 100.0,
+  "lat": 46.1104136,
+  "lon": 11.5790126,
+  "municipalities_istat": [
+   "022015"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/306452377",
+  "name": "Lago di Bela Venezia di Sopra",
+  "name_osm": "Lago di Bela Venezia di Sopra",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0007,
+  "area_inside_pct": 100.0,
+  "lat": 46.1105618,
+  "lon": 11.5801126,
+  "municipalities_istat": [
+   "022015"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/308668539",
+  "name": "Laghetto del Vedes – basin 2",
+  "name_osm": "Laghetto del Vedes",
+  "name_source": "osm_basin",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0003,
+  "area_inside_pct": 100.0,
+  "lat": 46.2372854,
+  "lon": 11.266754,
+  "municipalities_istat": [
+   "022235"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/308668540",
+  "name": "Laghetto del Vedes – basin 1",
+  "name_osm": "Laghetto del Vedes",
+  "name_source": "osm_basin",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0009,
+  "area_inside_pct": 100.0,
+  "lat": 46.2374245,
+  "lon": 11.2672814,
+  "municipalities_istat": [
+   "022235"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/310911819",
+  "name": "Laghetto dei Masi (superiore)",
+  "name_osm": "Laghetto dei Masi (superiore)",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0024,
+  "area_inside_pct": 100.0,
+  "lat": 46.4130452,
+  "lon": 11.1735031,
+  "municipalities_istat": [
+   "022162"
+  ],
+  "wikidata": null,
+  "swimming": false,
+  "fishing": "license",
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/310911820",
+  "name": "Laghetto dei Masi (inferiore)",
+  "name_osm": "Laghetto dei Masi (inferiore)",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0125,
+  "area_inside_pct": 100.0,
+  "lat": 46.4120948,
+  "lon": 11.1737502,
+  "municipalities_istat": [
+   "022162"
+  ],
+  "wikidata": null,
+  "swimming": false,
+  "fishing": "license",
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/320282374",
+  "name": "laghetto della Cascatella",
+  "name_osm": "laghetto della Cascatella",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0007,
+  "area_inside_pct": 100.0,
+  "lat": 46.0661938,
+  "lon": 11.6575417,
+  "municipalities_istat": [
+   "022048"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": false,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/340618798",
+  "name": "Pozza Bonomo",
+  "name_osm": "Pozza Bonomo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0003,
+  "area_inside_pct": 100.0,
+  "lat": 46.1367784,
+  "lon": 11.5246226,
+  "municipalities_istat": [
+   "022171"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": false,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/34245441",
+  "name": "Lago di Coredo",
+  "name_osm": "Lago di Coredo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0853,
+  "area_inside_pct": 100.0,
+  "lat": 46.3554646,
+  "lon": 11.106887,
+  "municipalities_istat": [
+   "022230"
+  ],
+  "wikidata": "Q106094918",
+  "swimming": false,
+  "fishing": "no",
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/34245442",
+  "name": "Lago di Tavon",
+  "name_osm": "Lago di Tavon",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0628,
+  "area_inside_pct": 100.0,
+  "lat": 46.3601874,
+  "lon": 11.1074162,
+  "municipalities_istat": [
+   "022230"
+  ],
+  "wikidata": "Q100558024",
+  "swimming": false,
+  "fishing": "no",
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/35327510",
+  "name": "Lago Sternai",
+  "name_osm": "Lago Sternai",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0394,
+  "area_inside_pct": 100.0,
+  "lat": 46.4665885,
+  "lon": 10.7544425,
+  "municipalities_istat": [
+   "022150"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/35921955",
+  "name": "Lago di Lusia (inferiore)",
+  "name_osm": "Lago di Lusia (inferiore)",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0073,
+  "area_inside_pct": 100.0,
+  "lat": 46.3466409,
+  "lon": 11.73442,
+  "municipalities_istat": [
+   "022118"
+  ],
+  "wikidata": "Q130273224",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/368504275",
+  "name": "Laghetto della Fradusta",
+  "name_osm": "Laghetto della Fradusta",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0011,
+  "area_inside_pct": 100.0,
+  "lat": 46.2562974,
+  "lon": 11.8754494,
+  "municipalities_istat": [
+   "022245"
+  ],
+  "wikidata": "Q130315987",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/37583022",
+  "name": "Lago Santo (Cembra Lisignago)",
+  "name_osm": "Lago Santo",
+  "name_source": "osm_municipality",
+  "ele_m": 1210,
+  "ele_source": "ele",
+  "area_km2": 0.0315,
+  "area_inside_pct": 100.0,
+  "lat": 46.1957736,
+  "lon": 11.2082375,
+  "municipalities_istat": [
+   "022241"
+  ],
+  "wikidata": "Q23451942",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/37631422",
+  "name": "Lago di Terlago – basin 1",
+  "name_osm": "Lago di Terlago",
+  "name_source": "osm_basin",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.123,
+  "area_inside_pct": 100.0,
+  "lat": 46.0988313,
+  "lon": 11.055814,
+  "municipalities_istat": [
+   "022248"
+  ],
+  "wikidata": "Q3826054",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/38211722",
+  "name": "Lago d'Ampola",
+  "name_osm": "Lago d'Ampola",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0672,
+  "area_inside_pct": 100.0,
+  "lat": 45.8704082,
+  "lon": 10.6514418,
+  "municipalities_istat": [
+   "022229"
+  ],
+  "wikidata": "Q3825824",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/38322027",
+  "name": "Lago delle Buse",
+  "name_osm": "Lago delle Buse",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.024,
+  "area_inside_pct": 100.0,
+  "lat": 46.1784348,
+  "lon": 11.4552521,
+  "municipalities_istat": [
+   "022047"
+  ],
+  "wikidata": "Q55373429",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/38383893",
+  "name": "Laghetto Agnelezza",
+  "name_osm": "Laghetto Agnelezza",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0008,
+  "area_inside_pct": 100.0,
+  "lat": 46.1374784,
+  "lon": 11.4300697,
+  "municipalities_istat": [
+   "022188"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/39232748",
+  "name": "Laghetto Canezza",
+  "name_osm": "Laghetto Canezza",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0035,
+  "area_inside_pct": 100.0,
+  "lat": 46.0770969,
+  "lon": 11.2782867,
+  "municipalities_istat": [
+   "022139"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/402612141",
+  "name": "Laghetto Lastei del Col del Vento",
+  "name_osm": "Laghetto Lastei del Col del Vento",
+  "name_source": "osm",
+  "ele_m": 2315,
+  "ele_source": "ele",
+  "area_km2": 0.0006,
+  "area_inside_pct": 100.0,
+  "lat": 46.1892485,
+  "lon": 11.6127103,
+  "municipalities_istat": [
+   "022048"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/402612248",
+  "name": "Lago Negro",
+  "name_osm": "Lago Negro",
+  "name_source": "osm",
+  "ele_m": 2275,
+  "ele_source": "ele",
+  "area_km2": 0.0021,
+  "area_inside_pct": 100.0,
+  "lat": 46.1868452,
+  "lon": 11.6199219,
+  "municipalities_istat": [
+   "022048"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/40607307",
+  "name": "Lago Valle",
+  "name_osm": "Lago Valle",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0178,
+  "area_inside_pct": 100.0,
+  "lat": 46.1235363,
+  "lon": 11.216258,
+  "municipalities_istat": [
+   "022089"
+  ],
+  "wikidata": "Q59820849",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/425431478",
+  "name": "Lago Stablo",
+  "name_osm": "Lago Stablo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0015,
+  "area_inside_pct": 100.0,
+  "lat": 46.2860869,
+  "lon": 10.778838,
+  "municipalities_istat": [
+   "022137"
+  ],
+  "wikidata": "Q130426439",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/425798928",
+  "name": "Lago del Forame",
+  "name_osm": "Lago del Forame",
+  "name_source": "osm",
+  "ele_m": 2269,
+  "ele_source": "ele",
+  "area_km2": 0.0077,
+  "area_inside_pct": 100.0,
+  "lat": 46.2098977,
+  "lon": 11.4776448,
+  "municipalities_istat": [
+   "022050"
+  ],
+  "wikidata": "Q55378146",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/425907804",
+  "name": "Laghi di Alpe Laghetti",
+  "name_osm": "Laghi di Alpe Laghetti",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0023,
+  "area_inside_pct": 100.0,
+  "lat": 46.2098419,
+  "lon": 11.5404482,
+  "municipalities_istat": [
+   "022142"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/431768013",
+  "name": "laghetto",
+  "name_osm": "laghetto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0007,
+  "area_inside_pct": 100.0,
+  "lat": 46.1335813,
+  "lon": 11.6664276,
+  "municipalities_istat": [
+   "022048"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/432380669",
+  "name": "Laghetto di Lagorai superiore",
+  "name_osm": "Laghetto di Lagorai superiore",
+  "name_source": "osm",
+  "ele_m": 2282,
+  "ele_source": "ele",
+  "area_km2": 0.0013,
+  "area_inside_pct": 100.0,
+  "lat": 46.2161806,
+  "lon": 11.5239356,
+  "municipalities_istat": [
+   "022196"
+  ],
+  "wikidata": "Q130273363",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/432761112",
+  "name": "Laghetti Ziolera",
+  "name_osm": "Laghetti Ziolera",
+  "name_source": "osm",
+  "ele_m": 1994,
+  "ele_source": "ele",
+  "area_km2": 0.0006,
+  "area_inside_pct": 100.0,
+  "lat": 46.1663555,
+  "lon": 11.4643584,
+  "municipalities_istat": [
+   "022188"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/436634215",
+  "name": "Laghetto di Val Baselga Inferiore",
+  "name_osm": "Laghetto di Val Baselga Inferiore",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0013,
+  "area_inside_pct": 100.0,
+  "lat": 46.2575354,
+  "lon": 10.7595979,
+  "municipalities_istat": [
+   "022137"
+  ],
+  "wikidata": "Q130426460",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/443090970",
+  "name": "Lago Montaletto",
+  "name_osm": "Lago Montaletto",
+  "name_source": "osm",
+  "ele_m": 1965,
+  "ele_source": "ele",
+  "area_km2": 0.0011,
+  "area_inside_pct": 100.0,
+  "lat": 46.1592974,
+  "lon": 11.4925569,
+  "municipalities_istat": [
+   "022188"
+  ],
+  "wikidata": "Q130475173",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/450601656",
+  "name": "Lago di Celentino",
+  "name_osm": "Lago di Celentino",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0026,
+  "area_inside_pct": 100.0,
+  "lat": 46.3275759,
+  "lon": 10.7426248,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": "Q130474891",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/454770279",
+  "name": "Laghetto Rifugio Cevedale",
+  "name_osm": "Laghetto Rifugio Cevedale",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.001,
+  "area_inside_pct": 100.0,
+  "lat": 46.4418107,
+  "lon": 10.6594765,
+  "municipalities_istat": [
+   "022136"
+  ],
+  "wikidata": "Q130468738",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/459122472",
+  "name": "Laghetto di Pinello",
+  "name_osm": "Laghetto di Pinello",
+  "name_source": "osm",
+  "ele_m": 2009,
+  "ele_source": "elevation",
+  "area_km2": 0.0004,
+  "area_inside_pct": 100.0,
+  "lat": 46.1524919,
+  "lon": 11.3856979,
+  "municipalities_istat": [
+   "022188"
+  ],
+  "wikidata": "Q130331411",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/460322018",
+  "name": "Laghetto delle Tavarade",
+  "name_osm": "Laghetto delle Tavarade",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0002,
+  "area_inside_pct": 100.0,
+  "lat": 46.1287845,
+  "lon": 11.5369939,
+  "municipalities_istat": [
+   "022171"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/462638075",
+  "name": "laghetto effimero",
+  "name_osm": "laghetto effimero",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0009,
+  "area_inside_pct": 100.0,
+  "lat": 46.1933325,
+  "lon": 11.5273918,
+  "municipalities_istat": [
+   "022142"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/463252366",
+  "name": "Laghetto di Brozin",
+  "name_osm": "Laghetto di Brozin",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0024,
+  "area_inside_pct": 100.0,
+  "lat": 46.2885494,
+  "lon": 11.4178824,
+  "municipalities_istat": [
+   "022047"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/478219167",
+  "name": "Lago delle Carezze",
+  "name_osm": "Lago delle Carezze",
+  "name_source": "osm",
+  "ele_m": 1764,
+  "ele_source": "ele",
+  "area_km2": 0.0021,
+  "area_inside_pct": 100.0,
+  "lat": 46.08518,
+  "lon": 11.4019153,
+  "municipalities_istat": [
+   "022157"
+  ],
+  "wikidata": "Q129642923",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/48162900",
+  "name": "Lago di Pozze",
+  "name_osm": "Lago di Pozze",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.008,
+  "area_inside_pct": 100.0,
+  "lat": 46.3810492,
+  "lon": 11.8036419,
+  "municipalities_istat": [
+   "022176"
+  ],
+  "wikidata": "Q114048078",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/48413952",
+  "name": "Laghet grant",
+  "name_osm": "Laghet grant",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0006,
+  "area_inside_pct": 100.0,
+  "lat": 45.8547567,
+  "lon": 11.0145364,
+  "municipalities_istat": [
+   "022161"
+  ],
+  "wikidata": "Q130152927",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/542934076",
+  "name": "Pozza nella roccia",
+  "name_osm": "Pozza nella roccia",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0,
+  "area_inside_pct": 100.0,
+  "lat": 46.1110958,
+  "lon": 11.2429274,
+  "municipalities_istat": [
+   "022009"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/58519470",
+  "name": "Lago Nero (Valdaone)",
+  "name_osm": "Lago Nero",
+  "name_source": "osm_municipality",
+  "ele_m": 2150,
+  "ele_source": "ele",
+  "area_km2": 0.0761,
+  "area_inside_pct": 100.0,
+  "lat": 45.9546435,
+  "lon": 10.4921828,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/58883098",
+  "name": "Laghisol",
+  "name_osm": "Laghisol",
+  "name_source": "osm",
+  "ele_m": 2143,
+  "ele_source": "ele",
+  "area_km2": 0.0072,
+  "area_inside_pct": 100.0,
+  "lat": 46.0573847,
+  "lon": 10.6320368,
+  "municipalities_istat": [
+   "022246"
+  ],
+  "wikidata": "Q130308768",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/59100291",
+  "name": "lago di Roncone",
+  "name_osm": "lago di Roncone",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.061,
+  "area_inside_pct": 100.0,
+  "lat": 45.9862046,
+  "lon": 10.6785113,
+  "municipalities_istat": [
+   "022246"
+  ],
+  "wikidata": "Q38110899",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/60748449",
+  "name": "Lago Montalon",
+  "name_osm": "Lago Montalon",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0055,
+  "area_inside_pct": 100.0,
+  "lat": 46.1800228,
+  "lon": 11.4866471,
+  "municipalities_istat": [
+   "022188"
+  ],
+  "wikidata": "Q55377007",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/61852742",
+  "name": "Lago di Nambino",
+  "name_osm": "Lago di Nambino",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0306,
+  "area_inside_pct": 100.0,
+  "lat": 46.2421867,
+  "lon": 10.8001738,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q11789423",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/61853724",
+  "name": "Lago Nambrone",
+  "name_osm": "Lago Nambrone",
+  "name_source": "osm",
+  "ele_m": 2440,
+  "ele_source": "ele",
+  "area_km2": 0.042,
+  "area_inside_pct": 100.0,
+  "lat": 46.2472622,
+  "lon": 10.7555306,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q130315055",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/62023750",
+  "name": "Lago di Valagola",
+  "name_osm": "Lago di Valagola",
+  "name_source": "osm",
+  "ele_m": 1600,
+  "ele_source": "ele",
+  "area_km2": 0.0302,
+  "area_inside_pct": 100.0,
+  "lat": 46.1657789,
+  "lon": 10.8204829,
+  "municipalities_istat": [
+   "022182"
+  ],
+  "wikidata": "Q35722636",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/62029124",
+  "name": "Lago Scuro (Pinzolo)",
+  "name_osm": "Lago Scuro",
+  "name_source": "osm_municipality",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0117,
+  "area_inside_pct": 100.0,
+  "lat": 46.2554766,
+  "lon": 10.8024196,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q130426336",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/62029125",
+  "name": "Tre Laghi – basin 3",
+  "name_osm": "Tre Laghi",
+  "name_source": "osm_basin",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0173,
+  "area_inside_pct": 100.0,
+  "lat": 46.2589359,
+  "lon": 10.7975243,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q130426356",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/62029126",
+  "name": "Tre Laghi – basin 2",
+  "name_osm": "Tre Laghi",
+  "name_source": "osm_basin",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0148,
+  "area_inside_pct": 100.0,
+  "lat": 46.260369,
+  "lon": 10.7952017,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q130426359",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/62029456",
+  "name": "Lago di Lares",
+  "name_osm": "Lago di Lares",
+  "name_source": "osm",
+  "ele_m": 2651,
+  "ele_source": "ele",
+  "area_km2": 0.2225,
+  "area_inside_pct": 100.0,
+  "lat": 46.1428842,
+  "lon": 10.6135999,
+  "municipalities_istat": [
+   "022112"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/62029624",
+  "name": "Lago della Busa del Morto",
+  "name_osm": "Lago della Busa del Morto",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0502,
+  "area_inside_pct": 100.0,
+  "lat": 46.1298347,
+  "lon": 10.617951,
+  "municipalities_istat": [
+   "022112"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/64974354",
+  "name": "Laghetto di Primalunetta",
+  "name_osm": "Laghetto di Primalunetta",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0013,
+  "area_inside_pct": 100.0,
+  "lat": 46.1219107,
+  "lon": 11.5391209,
+  "municipalities_istat": [
+   "022240"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/64975153",
+  "name": "Lago Grande (Bieno)",
+  "name_osm": "Lago Grande",
+  "name_source": "osm_municipality",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0169,
+  "area_inside_pct": 100.0,
+  "lat": 46.1221132,
+  "lon": 11.5611426,
+  "municipalities_istat": [
+   "022015"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/64975811",
+  "name": "Lago di mezzo",
+  "name_osm": "Lago di mezzo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0062,
+  "area_inside_pct": 100.0,
+  "lat": 46.1140477,
+  "lon": 11.5632777,
+  "municipalities_istat": [
+   "022015"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/66296761",
+  "name": "Lago Mandrone",
+  "name_osm": "Lago Mandrone",
+  "name_source": "osm",
+  "ele_m": 2403,
+  "ele_source": "ele",
+  "area_km2": 0.0265,
+  "area_inside_pct": 100.0,
+  "lat": 46.2007158,
+  "lon": 10.5648332,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/66297926",
+  "name": "Lago Scuro (Spiazzo)",
+  "name_osm": "Lago Scuro",
+  "name_source": "osm_municipality",
+  "ele_m": 2668,
+  "ele_source": "ele",
+  "area_km2": 0.0816,
+  "area_inside_pct": 100.0,
+  "lat": 46.2122839,
+  "lon": 10.5714885,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": "Q93445244",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/66307412",
+  "name": "Lago Ghiacciato",
+  "name_osm": "Lago Ghiacciato",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0059,
+  "area_inside_pct": 100.0,
+  "lat": 46.2017386,
+  "lon": 10.5566213,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/66307416",
+  "name": "Lago Rotondo",
+  "name_osm": "Lago Rotondo",
+  "name_source": "osm",
+  "ele_m": 2527,
+  "ele_source": "ele",
+  "area_km2": 0.0126,
+  "area_inside_pct": 100.0,
+  "lat": 46.2030164,
+  "lon": 10.5614111,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/66315765",
+  "name": "Lago delle Buse Basse sup.",
+  "name_osm": "Lago delle Buse Basse sup.",
+  "name_source": "osm",
+  "ele_m": 2193,
+  "ele_source": "ele",
+  "area_km2": 0.0066,
+  "area_inside_pct": 100.0,
+  "lat": 46.1923773,
+  "lon": 11.5157533,
+  "municipalities_istat": [
+   "022142"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/66315771",
+  "name": "Lago delle Buse Basse inf.",
+  "name_osm": "Lago delle Buse Basse inf.",
+  "name_source": "osm",
+  "ele_m": 2135,
+  "ele_source": "ele",
+  "area_km2": 0.0126,
+  "area_inside_pct": 100.0,
+  "lat": 46.1919372,
+  "lon": 11.5197685,
+  "municipalities_istat": [
+   "022142"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/66324638",
+  "name": "Laghetto di Lagorai minore",
+  "name_osm": "Laghetto di Lagorai minore",
+  "name_source": "osm",
+  "ele_m": 2268,
+  "ele_source": "ele",
+  "area_km2": 0.0015,
+  "area_inside_pct": 100.0,
+  "lat": 46.2109003,
+  "lon": 11.5245739,
+  "municipalities_istat": [
+   "022196"
+  ],
+  "wikidata": "Q130273352",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/66474021",
+  "name": "Lago Roversella",
+  "name_osm": "Lago Roversella",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0136,
+  "area_inside_pct": 100.0,
+  "lat": 45.8274515,
+  "lon": 10.5541019,
+  "municipalities_istat": [
+   "022183"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/66942004",
+  "name": "Lago Fontana",
+  "name_osm": "Lago Fontana",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0013,
+  "area_inside_pct": 100.0,
+  "lat": 46.2912309,
+  "lon": 11.0258871,
+  "municipalities_istat": [
+   "022242"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/67299983",
+  "name": "Lago del Bus",
+  "name_osm": "Lago del Bus",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0309,
+  "area_inside_pct": 100.0,
+  "lat": 46.184196,
+  "lon": 11.6033355,
+  "municipalities_istat": [
+   "022048"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/681808229",
+  "name": "Laghetto Piaie",
+  "name_osm": "Laghetto Piaie",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0002,
+  "area_inside_pct": 100.0,
+  "lat": 46.3036683,
+  "lon": 11.6118794,
+  "municipalities_istat": [
+   "022147"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/681892042",
+  "name": "Laghetto del Piron",
+  "name_osm": "Laghetto del Piron",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0012,
+  "area_inside_pct": 100.0,
+  "lat": 46.4423114,
+  "lon": 10.959065,
+  "municipalities_istat": [
+   "022163"
+  ],
+  "wikidata": "Q130484515",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/71335882",
+  "name": "Laghetto di Nembia",
+  "name_osm": "Laghetto di Nembia",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0227,
+  "area_inside_pct": 100.0,
+  "lat": 46.0983563,
+  "lon": 10.9337313,
+  "municipalities_istat": [
+   "022231"
+  ],
+  "wikidata": "Q101111346",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/74198159",
+  "name": "Lago Sette Laghi II",
+  "name_osm": "Lago Sette Laghi II",
+  "name_source": "osm",
+  "ele_m": 2069,
+  "ele_source": "elevation",
+  "area_km2": 0.0043,
+  "area_inside_pct": 100.0,
+  "lat": 46.0999616,
+  "lon": 11.3767898,
+  "municipalities_istat": [
+   "022202"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/769759911",
+  "name": "Biolago Pinzolo",
+  "name_osm": "Biolago Pinzolo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0013,
+  "area_inside_pct": 100.0,
+  "lat": 46.1560758,
+  "lon": 10.7584422,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": "no",
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/801839749",
+  "name": "Laghetto Cima Ponte Vecchio",
+  "name_osm": "Laghetto Cima Ponte Vecchio",
+  "name_source": "osm",
+  "ele_m": 2955,
+  "ele_source": "ele",
+  "area_km2": 0.0025,
+  "area_inside_pct": 100.0,
+  "lat": 46.4235836,
+  "lon": 10.732794,
+  "municipalities_istat": [
+   "022150"
+  ],
+  "wikidata": "Q130474657",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/80307300",
+  "name": "Lago Dorigat",
+  "name_osm": "Lago Dorigat",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0017,
+  "area_inside_pct": 100.0,
+  "lat": 46.3192705,
+  "lon": 10.9608164,
+  "municipalities_istat": [
+   "022249"
+  ],
+  "wikidata": "Q130420035",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/828198224",
+  "name": "Laghetto Lavazzè",
+  "name_osm": "Laghetto Lavazzè",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0026,
+  "area_inside_pct": 100.0,
+  "lat": 46.4446236,
+  "lon": 10.9599114,
+  "municipalities_istat": [
+   "022163"
+  ],
+  "wikidata": "Q130484507",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/82970398",
+  "name": "lago di Nudole",
+  "name_osm": "lago di Nudole",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0104,
+  "area_inside_pct": 100.0,
+  "lat": 46.0341418,
+  "lon": 10.5134512,
+  "municipalities_istat": [
+   "022232"
+  ],
+  "wikidata": "Q109007147",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/85404901",
+  "name": "Laghet dele Buse dei Zenti",
+  "name_osm": "Laghet dele Buse dei Zenti",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0003,
+  "area_inside_pct": 100.0,
+  "lat": 46.1750768,
+  "lon": 11.1505657,
+  "municipalities_istat": [
+   "022092"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/88523870",
+  "name": "Lago della Busa",
+  "name_osm": "Lago della Busa",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0184,
+  "area_inside_pct": 100.0,
+  "lat": 45.7783471,
+  "lon": 11.1137187,
+  "municipalities_istat": [
+   "022210"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/94755263",
+  "name": "Lago dei Caprioli",
+  "name_osm": "Lago dei Caprioli",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0227,
+  "area_inside_pct": 100.0,
+  "lat": 46.2911293,
+  "lon": 10.7672672,
+  "municipalities_istat": [
+   "022137"
+  ],
+  "wikidata": "Q28815113",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/94816241",
+  "name": "Lago di Passo Maroccaro",
+  "name_osm": "Lago di Passo Maroccaro",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0033,
+  "area_inside_pct": 100.0,
+  "lat": 46.2161614,
+  "lon": 10.5723813,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/94816286",
+  "name": "Lago di Cima Zigolon",
+  "name_osm": "Lago di Cima Zigolon",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.003,
+  "area_inside_pct": 100.0,
+  "lat": 46.2150589,
+  "lon": 10.5831765,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/94830208",
+  "name": "Lago Nuovo",
+  "name_osm": "Lago Nuovo",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0717,
+  "area_inside_pct": 100.0,
+  "lat": 46.1935687,
+  "lon": 10.5688547,
+  "municipalities_istat": [
+   "022179"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95032419",
+  "name": "Laghetto Valle di Campisol",
+  "name_osm": "Laghetto Valle di Campisol",
+  "name_source": "osm",
+  "ele_m": 2432,
+  "ele_source": "elevation",
+  "area_km2": 0.0017,
+  "area_inside_pct": 100.0,
+  "lat": 46.435843,
+  "lon": 10.7484259,
+  "municipalities_istat": [
+   "022150"
+  ],
+  "wikidata": "Q130474647",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95122520",
+  "name": "Lago di Saleci",
+  "name_osm": "Lago di Saleci",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0153,
+  "area_inside_pct": 100.0,
+  "lat": 46.3592946,
+  "lon": 10.8247606,
+  "municipalities_istat": [
+   "022150"
+  ],
+  "wikidata": "Q130472265",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95212856",
+  "name": "Lago Cemiglio",
+  "name_osm": "Lago Cemiglio",
+  "name_source": "osm",
+  "ele_m": 2168,
+  "ele_source": "ele",
+  "area_km2": 0.003,
+  "area_inside_pct": 100.0,
+  "lat": 46.4723556,
+  "lon": 10.9636974,
+  "municipalities_istat": [
+   "022163"
+  ],
+  "wikidata": "Q130485329",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95877650",
+  "name": "Laghetto di Bon",
+  "name_osm": "Laghetto di Bon",
+  "name_source": "osm",
+  "ele_m": 2584,
+  "ele_source": "ele",
+  "area_km2": 0.0023,
+  "area_inside_pct": 100.0,
+  "lat": 46.2365846,
+  "lon": 10.7141249,
+  "municipalities_istat": [
+   "022042"
+  ],
+  "wikidata": "Q130315046",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95877680",
+  "name": "Tre Laghi – basin 1",
+  "name_osm": "Tre Laghi",
+  "name_source": "osm_basin",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0018,
+  "area_inside_pct": 100.0,
+  "lat": 46.260626,
+  "lon": 10.797907,
+  "municipalities_istat": [
+   "022143"
+  ],
+  "wikidata": "Q130426358",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/95877855",
+  "name": "Lago Denza (o Lago Presanella)",
+  "name_osm": "Lago Denza (o Lago Presanella)",
+  "name_source": "osm",
+  "ele_m": 2314,
+  "ele_source": "ele",
+  "area_km2": 0.0075,
+  "area_inside_pct": 100.0,
+  "lat": 46.2424697,
+  "lon": 10.6528725,
+  "municipalities_istat": [
+   "022213"
+  ],
+  "wikidata": null,
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ },
+ {
+  "osm_id": "way/98290166",
+  "name": "Lago di Cadinel",
+  "name_osm": "Lago di Cadinel",
+  "name_source": "osm",
+  "ele_m": null,
+  "ele_source": null,
+  "area_km2": 0.0008,
+  "area_inside_pct": 100.0,
+  "lat": 46.1743391,
+  "lon": 11.4398557,
+  "municipalities_istat": [
+   "022047"
+  ],
+  "wikidata": "Q87073647",
+  "swimming": null,
+  "fishing": null,
+  "boat": null,
+  "duplicates": null
+ }
+]

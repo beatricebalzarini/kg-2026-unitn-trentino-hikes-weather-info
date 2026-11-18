@@ -1,0 +1,338 @@
+[
+ {
+  "osm_id": "node/10264928701",
+  "lat": 46.3175128,
+  "lon": 10.8264383,
+  "municipality_istat": "022064",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "node/10734724226",
+  "lat": 46.1185878,
+  "lon": 11.1051741,
+  "municipality_istat": "022205",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "node/11031875488",
+  "lat": 46.0102259,
+  "lon": 11.2989436,
+  "municipality_istat": "022104",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "node/12297260730",
+  "lat": 46.4416654,
+  "lon": 11.695189,
+  "municipality_istat": "022250",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "node/6579531132",
+  "lat": 45.9654095,
+  "lon": 10.9642183,
+  "municipality_istat": "022078",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "node/7644628735",
+  "lat": 45.8669587,
+  "lon": 11.0741715,
+  "municipality_istat": "022203",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "node/7681382955",
+  "lat": 46.0760368,
+  "lon": 10.7175701,
+  "municipality_istat": "022244",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "node/7681382956",
+  "lat": 46.0758988,
+  "lon": 10.7176563,
+  "municipality_istat": "022244",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/100856677",
+  "lat": 46.0901238,
+  "lon": 11.1128837,
+  "municipality_istat": "022205",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1074589693",
+  "lat": 45.9000082,
+  "lon": 10.8666881,
+  "municipality_istat": "022006",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1090428507",
+  "lat": 45.865126,
+  "lon": 10.8054005,
+  "municipality_istat": "022229",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1119917944",
+  "lat": 46.3437771,
+  "lon": 10.9071989,
+  "municipality_istat": "022068",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1225007337",
+  "lat": 45.8913881,
+  "lon": 10.6752591,
+  "municipality_istat": "022229",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1289084515",
+  "lat": 45.8643651,
+  "lon": 10.9502264,
+  "municipality_istat": "022123",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1312969422",
+  "lat": 45.8446553,
+  "lon": 10.9866616,
+  "municipality_istat": "022123",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1418360776",
+  "lat": 46.0587913,
+  "lon": 10.9788114,
+  "municipality_istat": "022248",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1419051682",
+  "lat": 46.0755153,
+  "lon": 10.9964221,
+  "municipality_istat": "022248",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1421071953",
+  "lat": 46.0966655,
+  "lon": 11.0179818,
+  "municipality_istat": "022248",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1434132903",
+  "lat": 45.7592688,
+  "lon": 10.9960592,
+  "municipality_istat": "022001",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1434132905",
+  "lat": 45.7591844,
+  "lon": 10.9962703,
+  "municipality_istat": "022001",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1450966503",
+  "lat": 46.0464286,
+  "lon": 10.952305,
+  "municipality_istat": "022243",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1478513045",
+  "lat": 46.0132714,
+  "lon": 10.8690477,
+  "municipality_istat": "022228",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1481254965",
+  "lat": 46.0044185,
+  "lon": 10.8409962,
+  "municipality_istat": "022083",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1507433610",
+  "lat": 46.0357495,
+  "lon": 10.986563,
+  "municipality_istat": "022243",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1507714615",
+  "lat": 46.026659,
+  "lon": 10.9592592,
+  "municipality_istat": "022243",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1513826513",
+  "lat": 46.0686776,
+  "lon": 10.9824188,
+  "municipality_istat": "022248",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1523559969",
+  "lat": 46.0258085,
+  "lon": 10.9448108,
+  "municipality_istat": "022079",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1556669501",
+  "lat": 45.810101,
+  "lon": 10.5434012,
+  "municipality_istat": "022021",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/1562795431",
+  "lat": 45.7589049,
+  "lon": 11.0070924,
+  "municipality_istat": "022001",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/175131206",
+  "lat": 46.1810481,
+  "lon": 11.1218748,
+  "municipality_istat": "022167",
+  "name": "ex Stazione FTM Sorni-Sornello",
+  "type": null
+ },
+ {
+  "osm_id": "way/233443278",
+  "lat": 46.3326514,
+  "lon": 10.8895304,
+  "municipality_istat": "022233",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/390245276",
+  "lat": 46.0522842,
+  "lon": 11.4639744,
+  "municipality_istat": "022022",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/431054387",
+  "lat": 46.3712175,
+  "lon": 10.9520186,
+  "municipality_istat": "022033",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/611570694",
+  "lat": 46.3753207,
+  "lon": 10.9626805,
+  "municipality_istat": "022033",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/683387774",
+  "lat": 46.3222661,
+  "lon": 10.8475215,
+  "municipality_istat": "022064",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/835721733",
+  "lat": 46.1821432,
+  "lon": 11.2524833,
+  "municipality_istat": "022172",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/911201925",
+  "lat": 46.0824422,
+  "lon": 10.7221716,
+  "municipality_istat": "022244",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/911201926",
+  "lat": 46.0818564,
+  "lon": 10.7222442,
+  "municipality_istat": "022244",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/911201927",
+  "lat": 46.0787024,
+  "lon": 10.7188358,
+  "municipality_istat": "022244",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/911201928",
+  "lat": 46.0785592,
+  "lon": 10.718908,
+  "municipality_istat": "022244",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/953806510",
+  "lat": 46.031452,
+  "lon": 10.8467574,
+  "municipality_istat": "022228",
+  "name": null,
+  "type": null
+ },
+ {
+  "osm_id": "way/99871025",
+  "lat": 46.1680813,
+  "lon": 11.1139194,
+  "municipality_istat": "022103",
+  "name": null,
+  "type": null
+ }
+]
