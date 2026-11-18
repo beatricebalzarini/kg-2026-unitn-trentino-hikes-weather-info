@@ -9,6 +9,7 @@ from pathlib import Path
 
 from shapely.geometry import LineString, Point, shape
 from shapely.ops import linemerge
+from normalize import haversine_m, line_length_m, norm_operator  # noqa: F401  (re-exported)
 
 BASE = Path(__file__).resolve().parent.parent
 PROV = BASE / "data" / "clean" / "province_boundary.geojson"
@@ -37,15 +38,8 @@ def load_province():
     return shape(json.load(open(PROV, encoding="utf-8"))["features"][0]["geometry"])
 
 
-def haversine_m(a, b):
-    lon1, lat1, lon2, lat2 = map(math.radians, (*a, *b))
-    h = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
-    return 2 * 6371008.8 * math.asin(math.sqrt(h))
 
 
-def line_length_m(line):
-    c = list(line.coords)
-    return sum(haversine_m(c[i], c[i + 1]) for i in range(len(c) - 1))
 
 
 def way_id(ref):
@@ -103,29 +97,6 @@ def to_int_m(v):
     return int(v.replace(".", "")) if v is not None else None
 
 
-def norm_operator(op):
-    if op is None:
-        return None
-    # ';' always separates operators; ',' only when every part is a "Comune di ..."
-    # (e.g. "Comune di Cinte, Comune di Grigno"), not in names like "APT Trento, Monte Bondone, Valle dei Laghi"
-    parts = [p for chunk in op.split(";") for p in
-             (chunk.split(",") if all(x.strip().lower().startswith("comune di") for x in chunk.split(","))
-              else [chunk])]
-    out = []
-    for part in parts:
-        p = part.strip()
-        low = p.lower()
-        if not p:
-            continue
-        if "alpinisti tridentini" in low or low == "sat":
-            p = "SAT"
-        elif low.startswith(("club alpino italiano", "cai", "c.a.i.")):
-            p = "CAI"
-        elif "alpenverein" in low or low.startswith("avs"):
-            p = "AVS"
-        if p not in out:
-            out.append(p)
-    return out
 
 
 def endpoints(geo):

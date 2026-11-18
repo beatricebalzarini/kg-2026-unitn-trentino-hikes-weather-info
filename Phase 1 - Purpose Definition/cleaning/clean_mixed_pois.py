@@ -1,7 +1,7 @@
 """Clean mixed_pois.json -> water points, cultural landmarks, guideposts, tourist info, rest areas.
 
 Input:  data/mixed_pois.json (Overpass export, 17958 nodes/ways/relations)
-        data/clean/{huts,landmarks,food_drink,accommodations,_pending_rest_areas,_pending_bus_shelters}.json
+        data/clean/{huts,landmarks,lakes,glaciers,food_drink,accommodations,_pending_rest_areas,_pending_bus_shelters}.json
             (objects already cleaned elsewhere are excluded)
         data/clean/{trails,mtb,foot_routes}.json (guidepost_node_ids of the kept routes)
         data/clean/_pending_rest_areas.json (rest areas parked by clean_huts_landmarks.py)
@@ -81,7 +81,8 @@ def drinking(t, cat):
 
 # objects already cleaned in another file (same osm_id): excluded here
 already = {}
-for f in ["huts", "landmarks", "food_drink", "accommodations", "_pending_rest_areas", "_pending_bus_shelters"]:
+for f in ["huts", "landmarks", "lakes", "glaciers", "food_drink", "accommodations", "_pending_rest_areas",
+          "_pending_bus_shelters"]:
     for r in json.load(open(CLEAN / f"{f}.json", encoding="utf-8")):
         for i in r.get("merged_osm_ids") or [r["osm_id"]]:
             already[i] = f
@@ -166,6 +167,9 @@ print("guideposts on kept route:", sum(r["on_kept_route"] for r in out["guidepos
       "of", len(route_posts), "referenced")
 
 for k, f in files.items():
+    if f.startswith("_pending") and not out[k]:
+        (CLEAN / f).unlink(missing_ok=True)          # nothing pending: no empty file
+        continue
     json.dump(sorted(out[k], key=lambda r: r["osm_id"]), open(CLEAN / f, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
 json.dump(sorted(rest, key=lambda r: r["osm_id"]), open(CLEAN / "rest_areas.json", "w", encoding="utf-8"),

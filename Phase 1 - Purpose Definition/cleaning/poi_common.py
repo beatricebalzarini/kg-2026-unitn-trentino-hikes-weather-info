@@ -6,6 +6,7 @@ from shapely.geometry import Point, shape
 from shapely.strtree import STRtree
 
 from route_common import BASE, load_province
+from normalize import norm_operator  # noqa: F401  (re-exported)
 
 CLEAN = BASE / "data" / "clean"
 
@@ -101,24 +102,3 @@ def first_of(t, *keys):
             return t[k].strip()
     return None
 
-
-def norm_operator(op):
-    """SAT / CAI / AVS spellings and sections merged; 'privato' -> 'private'; coordinates dropped."""
-    if not op:
-        return None
-    out = []
-    for p in (x.strip() for x in op.split(";")):
-        low = p.lower()
-        if not p or re.fullmatch(r"[\d\s.,]+", p):          # e.g. "46,2538547, 10,8922097"
-            continue
-        if "alpinisti tridentini" in low or re.search(r"(^|\W)s\.?a\.?t\.?(\W|$)", low):
-            p = "SAT"
-        elif low.startswith(("club alpino italiano", "cai", "c.a.i.")):
-            p = "CAI"
-        elif "alpenverein" in low or low.startswith("avs"):
-            p = "AVS"
-        elif low in ("private", "privato", "privat"):
-            p = "private"
-        if p not in out:
-            out.append(p)
-    return out or None

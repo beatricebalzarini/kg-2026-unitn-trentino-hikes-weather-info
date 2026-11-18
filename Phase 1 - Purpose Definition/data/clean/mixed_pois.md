@@ -12,7 +12,7 @@
 | `data/clean/guideposts.json` | 1352 | trail signposts on a kept route or with a name |
 | `data/clean/tourist_info.json` | 105 | tourist information offices and visitor centres |
 | `data/clean/rest_areas.json` | 268 | gazebos, picnic shelters, ... (the ones parked by `clean_huts_landmarks.py`; none from this file) |
-| `data/clean/_pending_accommodations.json` | 0 | was 4 hotels before `hotels.json` was cleaned; now they are in `accommodations.json` and excluded here, so the file is empty |
+| `data/clean/_pending_accommodations.json` | – | no longer written: the 4 hotels it held are now in `accommodations.json` (from `hotels.json`) and excluded here |
 
 ## Input
 17,958 elements: 16,525 `node`, 1389 `way`, 44 `relation` (position from `center`). 17,940 inside the province. Tags often co-occur (`tourism`, `historic`, `amenity`). Only 3895 have a name.
@@ -20,7 +20,7 @@
 ## Excluded / dropped
 | Rule | Count | Why |
 |---|---|---|
-| Same `osm_id` already cleaned in another file | 167 (landmarks 141, accommodations 9, huts 8, food_drink 7, rest areas 2) | the same object must not be two entities |
+| Same `osm_id` already cleaned in another file | 169 (landmarks 141, accommodations 9, huts 8, food_drink 7, lakes 2, rest areas 2) | the same object must not be two entities |
 | Outside the province polygon | 18 | outside Trentino |
 | Guidepost without `name` and not referenced by a kept route | 5037 | no information (user decision 1b) |
 | Information boards, maps, route markers, signs, terminals and other `information=*` (board 1471, map 388, route_marker 216, none 95, sign/yes/loc_name ~30, ...) | ~2235 | panels: not used by any CQ (user decision) |

@@ -14,6 +14,7 @@ from shapely.strtree import STRtree
 
 from route_common import BASE, haversine_m
 from poi_common import CLEAN, Municipalities, ele_m, osm_key, position
+from normalize import norm_operator
 
 SRC = BASE / "data" / "public_transportation.json"
 SHELTER_MATCH_M = 30          # a pending bus shelter belongs to the nearest bus stop within this distance
@@ -23,25 +24,6 @@ LABELS = {("bus", "stop"): "Fermata bus", ("bus", "station"): "Autostazione", ("
           ("funicular", "station"): "Funicolare", ("aerialway", "station"): "Stazione impianto"}
 
 
-def norm_operator(op):
-    if not op:
-        return None
-    out = []
-    for p in (x.strip() for x in re.split(r"[;,]", op)):
-        low = p.lower()
-        if not p:
-            continue
-        if "trentino trasporti" in low or "ttesercizio" in low:
-            p = "Trentino Trasporti"
-        elif "dolomitibus" in low:
-            p = "DolomitiBus"
-        elif "rete ferroviaria italiana" in low or low == "rfi":
-            p = "RFI"
-        elif low.startswith("linea "):          # a bus line, not an operator
-            continue
-        if p not in out:
-            out.append(p)
-    return out or None
 
 
 def duration_min(v):

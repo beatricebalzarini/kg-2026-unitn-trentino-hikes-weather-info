@@ -1,5 +1,7 @@
 # data/clean — cleaned OSM datasets (Phase 1)
 
+> These files are the intermediate step of the pipeline. The final data, **one file per entity type of the ER model**, is in `../entities/` (see `../entities/README.md` and `../entities/SCHEMA.md`).
+
 Cleaned versions of the OpenStreetMap exports in `../` (OSM data © OpenStreetMap contributors, ODbL). The originals are never modified. Every output has a `.md` that documents what was kept, removed and transformed, and why. Open questions are in `OPEN_ISSUES.md`. The weather data is handled separately (not in this folder).
 
 ## How to rebuild
@@ -7,7 +9,9 @@ From the repository root:
 ```
 .venv/bin/python "Phase 1 - Purpose Definition/cleaning/run_all.py"
 ```
-It runs the 14 steps in order (several scripts read the outputs of the previous ones), checks the result and writes the hash of every output in `cleaning/last_run_hashes.json`. **Two consecutive runs give identical outputs** (checked). Requirements: `shapely`, `pyproj` (installed in `.venv`).
+It runs the 16 steps in order (the last two build `../entities/` and its `SCHEMA.md`) (several scripts read the outputs of the previous ones), checks the result and writes the hash of every output in `cleaning/last_run_hashes.json`. **Two consecutive runs give identical outputs** (checked). Requirements: `shapely`, `pyproj` (installed in `.venv`). Shared rules (distances, operator normalization) are in `cleaning/normalize.py`; route and POI helpers in `cleaning/route_common.py` and `cleaning/poi_common.py`.
+
+**Always rebuild with `run_all.py`**: running a single script alone can leave the files inconsistent (e.g. `clean_mixed_pois.py` rewrites files that `dedup_cross_files.py` then corrects).
 
 ## Conventions (all files)
 - **Ids**: `"{type}/{id}"` with the OSM element type: `relation/129319` (routes, municipalities, province), `way/4699598` (segments, polygons), `node/123` (points). OSM ids are unique only together with the type, and the id will become the entity URI in the KG. The only non-OSM ids are the via ferrata rebuilt from several ways: `via_ferrata/<slug>`. References use the same format (`main_way_ids`, `guidepost_node_ids`, `municipality_osm_ids`, `merged_osm_ids`, `duplicates`).
@@ -45,4 +49,4 @@ It runs the 14 steps in order (several scripts read the outputs of the previous 
 
 Not used: `singular_paths.json` (`singular_paths.md`), `trailheads.json` (`trailheads.md`), `lakes.json` (replaced by `lakes_geom.json`), `parking.json` (on hold, `../parking.md`).
 
-Technical files: `_pending_bus_shelters.json`, `_pending_rest_areas.json`, `_pending_accommodations.json` (empty) are intermediate files between steps; `_unmatched_bus_shelters.json` (42 shelters with no stop); `_shared_objects.json` (13 objects with two roles).
+Technical files: `_pending_bus_shelters.json`, `_pending_rest_areas.json` are intermediate files between steps (`_pending_accommodations.json` is no longer written: nothing is pending since the hotels were added); `_unmatched_bus_shelters.json` (42 shelters with no stop); `_shared_objects.json` (13 objects with two roles).

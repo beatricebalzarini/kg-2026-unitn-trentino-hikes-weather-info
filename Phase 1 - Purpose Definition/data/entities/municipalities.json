@@ -1,0 +1,3322 @@
+[
+ {
+  "id": "022001",
+  "name": "Ala",
+  "name_source": "name",
+  "name_osm": "Ala",
+  "osm_id": "relation/45795",
+  "province_id": "022",
+  "postal_code": "38061",
+  "lat": 45.7579008,
+  "lon": 11.0018179,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.679911,
+   "minlon": 10.9620693,
+   "maxlat": 45.8278178,
+   "maxlon": 11.1461443
+  },
+  "wikidata": "Q243644",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022002",
+  "name": "Albiano",
+  "name_source": "name",
+  "name_osm": "Albiano",
+  "osm_id": "relation/46902",
+  "province_id": "022",
+  "postal_code": "38041",
+  "lat": 46.144906,
+  "lon": 11.193479,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1259436,
+   "minlon": 11.1620048,
+   "maxlat": 46.1584144,
+   "maxlon": 11.2123192
+  },
+  "wikidata": "Q243678",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022003",
+  "name": "Aldeno",
+  "name_source": "name",
+  "name_osm": "Aldeno",
+  "osm_id": "relation/46620",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.9767795,
+  "lon": 11.0908573,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9526181,
+   "minlon": 11.069289,
+   "maxlat": 45.9931929,
+   "maxlon": 11.1165204
+  },
+  "wikidata": "Q243711",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022005",
+  "name": "Andalo",
+  "name_source": "name",
+  "name_osm": "Andalo",
+  "osm_id": "relation/46918",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.1661363,
+  "lon": 11.003402,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.142326,
+   "minlon": 10.9754111,
+   "maxlat": 46.1807021,
+   "maxlon": 11.0276674
+  },
+  "wikidata": "Q243857",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022006",
+  "name": "Arco",
+  "name_source": "name",
+  "name_osm": "Arco",
+  "osm_id": "relation/46423",
+  "province_id": "022",
+  "postal_code": "38062",
+  "lat": 45.9181327,
+  "lon": 10.8860953,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8735902,
+   "minlon": 10.8485957,
+   "maxlat": 45.9910891,
+   "maxlon": 10.9857092
+  },
+  "wikidata": "Q138473",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022007",
+  "name": "Avio",
+  "name_source": "name",
+  "name_osm": "Avio",
+  "osm_id": "relation/45755",
+  "province_id": "022",
+  "postal_code": "38063",
+  "lat": 45.733793,
+  "lon": 10.937181,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.6728669,
+   "minlon": 10.8431825,
+   "maxlat": 45.7796703,
+   "maxlon": 10.9859815
+  },
+  "wikidata": "Q243944",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022009",
+  "name": "Baselga di Piné",
+  "name_source": "name",
+  "name_osm": "Baselga di Piné",
+  "osm_id": "relation/46869",
+  "province_id": "022",
+  "postal_code": "38042",
+  "lat": 46.133108,
+  "lon": 11.2460028,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.08976,
+   "minlon": 11.2171719,
+   "maxlat": 46.1861111,
+   "maxlon": 11.3924673
+  },
+  "wikidata": "Q244005",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022011",
+  "name": "Bedollo",
+  "name_source": "name",
+  "name_osm": "Bedollo",
+  "osm_id": "relation/46917",
+  "province_id": "022",
+  "postal_code": "38043",
+  "lat": 46.1676984,
+  "lon": 11.3015887,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1330966,
+   "minlon": 11.2689102,
+   "maxlat": 46.2028727,
+   "maxlon": 11.3634797
+  },
+  "wikidata": "Q244037",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022013",
+  "name": "Besenello",
+  "name_source": "name",
+  "name_osm": "Besenello",
+  "osm_id": "relation/46570",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.9419216,
+  "lon": 11.1095435,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9226212,
+   "minlon": 11.0950666,
+   "maxlat": 45.9857654,
+   "maxlon": 11.1943102
+  },
+  "wikidata": "Q244085",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022015",
+  "name": "Bieno",
+  "name_source": "name",
+  "name_osm": "Bieno",
+  "osm_id": "relation/46900",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0806791,
+  "lon": 11.5540415,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0714897,
+   "minlon": 11.5383498,
+   "maxlat": 46.1276445,
+   "maxlon": 11.5893818
+  },
+  "wikidata": "Q244141",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022017",
+  "name": "Bleggio Superiore",
+  "name_source": "name",
+  "name_osm": "Bleggio Superiore",
+  "osm_id": "relation/46628",
+  "province_id": "022",
+  "postal_code": "38071",
+  "lat": 46.0252962,
+  "lon": 10.8388732,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9659462,
+   "minlon": 10.7480186,
+   "maxlat": 46.0460654,
+   "maxlon": 10.8448838
+  },
+  "wikidata": "Q244220",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022018",
+  "name": "Bocenago",
+  "name_source": "name",
+  "name_osm": "Bocenago",
+  "osm_id": "relation/46873",
+  "province_id": "022",
+  "postal_code": "38080",
+  "lat": 46.1191034,
+  "lon": 10.7588619,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0996177,
+   "minlon": 10.7498279,
+   "maxlat": 46.1355238,
+   "maxlon": 10.7922526
+  },
+  "wikidata": "Q244235",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022021",
+  "name": "Bondone",
+  "name_source": "name",
+  "name_osm": "Bondone",
+  "osm_id": "relation/46166",
+  "province_id": "022",
+  "postal_code": "38080",
+  "lat": 45.8062305,
+  "lon": 10.5515367,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.783621,
+   "minlon": 10.525956,
+   "maxlat": 45.825412,
+   "maxlon": 10.634868
+  },
+  "wikidata": "Q246478",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022022",
+  "name": "Borgo Valsugana",
+  "name_source": "name",
+  "name_osm": "Borgo Valsugana",
+  "osm_id": "relation/46701",
+  "province_id": "022",
+  "postal_code": "38051",
+  "lat": 46.0533463,
+  "lon": 11.4566004,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9799188,
+   "minlon": 11.3606463,
+   "maxlat": 46.0658394,
+   "maxlon": 11.4911336
+  },
+  "wikidata": "Q246524",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022025",
+  "name": "Brentonico",
+  "name_source": "name",
+  "name_osm": "Brentonico",
+  "osm_id": "relation/46105",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.8187739,
+  "lon": 10.9560131,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.7655646,
+   "minlon": 10.8727655,
+   "maxlat": 45.8531519,
+   "maxlon": 11.0024853
+  },
+  "wikidata": "Q246705",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022026",
+  "name": "Bresimo",
+  "name_source": "name",
+  "name_osm": "Bresimo",
+  "osm_id": "relation/47179",
+  "province_id": "022",
+  "postal_code": "38020",
+  "lat": 46.4118147,
+  "lon": 10.9708987,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.390153,
+   "minlon": 10.8613391,
+   "maxlat": 46.4546212,
+   "maxlon": 10.9913652
+  },
+  "wikidata": "Q246777",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022029",
+  "name": "Caderzone Terme",
+  "name_source": "name",
+  "name_osm": "Caderzone Terme",
+  "osm_id": "relation/46909",
+  "province_id": "022",
+  "postal_code": "38080",
+  "lat": 46.130202,
+  "lon": 10.75747,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1241985,
+   "minlon": 10.692654,
+   "maxlat": 46.1712205,
+   "maxlon": 10.7658976
+  },
+  "wikidata": "Q256818",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022032",
+  "name": "Calceranica al Lago",
+  "name_source": "name",
+  "name_osm": "Calceranica al Lago",
+  "osm_id": "relation/46667",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.004241,
+  "lon": 11.242883,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9851739,
+   "minlon": 11.2325981,
+   "maxlat": 46.0103243,
+   "maxlon": 11.2616891
+  },
+  "wikidata": "Q257081",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022033",
+  "name": "Caldes",
+  "name_source": "name",
+  "name_osm": "Caldes",
+  "osm_id": "relation/47144",
+  "province_id": "022",
+  "postal_code": "38022",
+  "lat": 46.365389,
+  "lon": 10.9425799,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.331934,
+   "minlon": 10.9162427,
+   "maxlat": 46.3999089,
+   "maxlon": 11.0024654
+  },
+  "wikidata": "Q257221",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022034",
+  "name": "Caldonazzo",
+  "name_source": "name",
+  "name_osm": "Caldonazzo",
+  "osm_id": "relation/46598",
+  "province_id": "022",
+  "postal_code": "38052",
+  "lat": 45.9915227,
+  "lon": 11.2621326,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9545981,
+   "minlon": 11.2336759,
+   "maxlat": 46.0137492,
+   "maxlon": 11.3151544
+  },
+  "wikidata": "Q257357",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022035",
+  "name": "Calliano",
+  "name_source": "name",
+  "name_osm": "Calliano",
+  "osm_id": "relation/303945",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.9342109,
+  "lon": 11.0943149,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9019172,
+   "minlon": 11.0838367,
+   "maxlat": 45.9762876,
+   "maxlon": 11.1469719
+  },
+  "wikidata": "Q257694",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022036",
+  "name": "Campitello di Fassa",
+  "name_source": "name",
+  "name_osm": "Campitello di Fassa",
+  "osm_id": "relation/47229",
+  "province_id": "022",
+  "postal_code": "38031",
+  "lat": 46.4761678,
+  "lon": 11.7415253,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.4616471,
+   "minlon": 11.6317353,
+   "maxlat": 46.5141348,
+   "maxlon": 11.7693526
+  },
+  "wikidata": "Q257783",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022037",
+  "name": "Campodenno",
+  "name_source": "name",
+  "name_osm": "Campodenno",
+  "osm_id": "relation/47036",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.2578266,
+  "lon": 11.0331998,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2136635,
+   "minlon": 10.9469955,
+   "maxlat": 46.2752053,
+   "maxlon": 11.0616986
+  },
+  "wikidata": "Q257880",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022038",
+  "name": "Canal San Bovo",
+  "name_source": "name",
+  "name_osm": "Canal San Bovo",
+  "osm_id": "relation/46871",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.154846,
+  "lon": 11.7329554,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.094491,
+   "minlon": 11.5961749,
+   "maxlat": 46.2650954,
+   "maxlon": 11.7894268
+  },
+  "wikidata": "Q257947",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022039",
+  "name": "Canazei",
+  "name_source": "name",
+  "name_osm": "Canazei",
+  "osm_id": "relation/47202",
+  "province_id": "022",
+  "postal_code": "38032",
+  "lat": 46.4768809,
+  "lon": 11.7710748,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.42498,
+   "minlon": 11.7437744,
+   "maxlat": 46.5330375,
+   "maxlon": 11.890635
+  },
+  "wikidata": "Q258031",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022040",
+  "name": "Capriana",
+  "name_source": "name",
+  "name_osm": "Capriana",
+  "osm_id": "relation/47064",
+  "province_id": "022",
+  "postal_code": "38030",
+  "lat": 46.2624689,
+  "lon": 11.3379292,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2446986,
+   "minlon": 11.3056165,
+   "maxlat": 46.2991806,
+   "maxlon": 11.3584224
+  },
+  "wikidata": "Q258135",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022042",
+  "name": "Carisolo",
+  "name_source": "name",
+  "name_osm": "Carisolo",
+  "osm_id": "relation/46972",
+  "province_id": "022",
+  "postal_code": "38080",
+  "lat": 46.1687756,
+  "lon": 10.7591591,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1585462,
+   "minlon": 10.6782764,
+   "maxlat": 46.2412545,
+   "maxlon": 10.773922
+  },
+  "wikidata": "Q260905",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022043",
+  "name": "Carzano",
+  "name_source": "name",
+  "name_osm": "Carzano",
+  "osm_id": "relation/46805",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0703249,
+  "lon": 11.4933434,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0569966,
+   "minlon": 11.4813775,
+   "maxlat": 46.0910004,
+   "maxlon": 11.5035014
+  },
+  "wikidata": "Q264716",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022045",
+  "name": "Castel Condino",
+  "name_source": "name",
+  "name_osm": "Castel Condino",
+  "osm_id": "relation/46496",
+  "province_id": "022",
+  "postal_code": "38082",
+  "lat": 45.914395,
+  "lon": 10.60277,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9009273,
+   "minlon": 10.5429249,
+   "maxlat": 45.9410955,
+   "maxlon": 10.619651
+  },
+  "wikidata": "Q264747",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022047",
+  "name": "Castello-Molina di Fiemme",
+  "name_source": "name",
+  "name_osm": "Castello-Molina di Fiemme",
+  "osm_id": "relation/46995",
+  "province_id": "022",
+  "postal_code": "38030",
+  "lat": 46.2811245,
+  "lon": 11.4351252,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1624839,
+   "minlon": 11.3664911,
+   "maxlat": 46.2928679,
+   "maxlon": 11.5111498
+  },
+  "wikidata": "Q177170",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022048",
+  "name": "Castello Tesino",
+  "name_source": "name",
+  "name_osm": "Castello Tesino",
+  "osm_id": "relation/46727",
+  "province_id": "022",
+  "postal_code": "38053",
+  "lat": 46.0641754,
+  "lon": 11.6321708,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.013329,
+   "minlon": 11.5503804,
+   "maxlat": 46.2170012,
+   "maxlon": 11.7143779
+  },
+  "wikidata": "Q264885",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022049",
+  "name": "Castelnuovo",
+  "name_source": "name",
+  "name_osm": "Castelnuovo",
+  "osm_id": "relation/46713",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0528587,
+  "lon": 11.4932817,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0077936,
+   "minlon": 11.4678662,
+   "maxlat": 46.0610397,
+   "maxlon": 11.5242399
+  },
+  "wikidata": "Q265003",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022050",
+  "name": "Cavalese",
+  "name_source": "name",
+  "name_osm": "Cavalese",
+  "osm_id": "relation/47014",
+  "province_id": "022",
+  "postal_code": "38033",
+  "lat": 46.291187,
+  "lon": 11.4604681,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1992121,
+   "minlon": 11.4326886,
+   "maxlat": 46.2966994,
+   "maxlon": 11.5224767
+  },
+  "wikidata": "Q265227",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022051",
+  "name": "Cavareno",
+  "name_source": "name",
+  "name_osm": "Cavareno",
+  "osm_id": "relation/47183",
+  "province_id": "022",
+  "postal_code": "38011",
+  "lat": 46.408412,
+  "lon": 11.138073,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3875521,
+   "minlon": 11.1238006,
+   "maxlat": 46.4166317,
+   "maxlon": 11.215547
+  },
+  "wikidata": "Q265097",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022052",
+  "name": "Cavedago",
+  "name_source": "name",
+  "name_osm": "Cavedago",
+  "osm_id": "relation/46983",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.1846982,
+  "lon": 11.0314163,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1687562,
+   "minlon": 10.9624745,
+   "maxlat": 46.2028012,
+   "maxlon": 11.0483768
+  },
+  "wikidata": "Q265159",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022053",
+  "name": "Cavedine",
+  "name_source": "name",
+  "name_osm": "Cavedine",
+  "osm_id": "relation/46646",
+  "province_id": "022",
+  "postal_code": "38073",
+  "lat": 45.9952,
+  "lon": 10.973577,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9424269,
+   "minlon": 10.9423995,
+   "maxlat": 46.0207758,
+   "maxlon": 11.0354467
+  },
+  "wikidata": "Q265651",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022054",
+  "name": "Cavizzana",
+  "name_source": "name",
+  "name_osm": "Cavizzana",
+  "osm_id": "relation/47156",
+  "province_id": "022",
+  "postal_code": "38022",
+  "lat": 46.3675013,
+  "lon": 10.957923,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3517657,
+   "minlon": 10.948144,
+   "maxlat": 46.3761568,
+   "maxlon": 10.9791632
+  },
+  "wikidata": "Q266420",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022058",
+  "name": "Cimone",
+  "name_source": "name",
+  "name_osm": "Cimone",
+  "osm_id": "relation/46619",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.9785328,
+  "lon": 11.0698033,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9575507,
+   "minlon": 11.0354467,
+   "maxlat": 45.9978552,
+   "maxlon": 11.0888597
+  },
+  "wikidata": "Q267843",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022059",
+  "name": "Cinte Tesino",
+  "name_source": "name",
+  "name_osm": "Cinte Tesino",
+  "osm_id": "relation/46753",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.056768,
+  "lon": 11.6148685,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0216693,
+   "minlon": 11.5503804,
+   "maxlat": 46.1751803,
+   "maxlon": 11.7518469
+  },
+  "wikidata": "Q268071",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022060",
+  "name": "Cis",
+  "name_source": "name",
+  "name_osm": "Cis",
+  "osm_id": "relation/47177",
+  "province_id": "022",
+  "postal_code": "38020",
+  "lat": 46.399187,
+  "lon": 11.0029605,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3907099,
+   "minlon": 10.9689765,
+   "maxlat": 46.4133713,
+   "maxlon": 11.0170676
+  },
+  "wikidata": "Q268240",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022061",
+  "name": "Civezzano",
+  "name_source": "name",
+  "name_osm": "Civezzano",
+  "osm_id": "relation/46877",
+  "province_id": "022",
+  "postal_code": "38045",
+  "lat": 46.089367,
+  "lon": 11.180026,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0717384,
+   "minlon": 11.1532274,
+   "maxlat": 46.1277148,
+   "maxlon": 11.2097456
+  },
+  "wikidata": "Q268345",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022062",
+  "name": "Cles",
+  "name_source": "name",
+  "name_osm": "Cles",
+  "osm_id": "relation/47105",
+  "province_id": "022",
+  "postal_code": "38023",
+  "lat": 46.3652616,
+  "lon": 11.0332447,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2778015,
+   "minlon": 10.9024209,
+   "maxlat": 46.3939483,
+   "maxlon": 11.0562935
+  },
+  "wikidata": "Q268459",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022064",
+  "name": "Commezzadura",
+  "name_source": "name",
+  "name_osm": "Commezzadura",
+  "osm_id": "relation/47088",
+  "province_id": "022",
+  "postal_code": "38020",
+  "lat": 46.3220056,
+  "lon": 10.8395473,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2734485,
+   "minlon": 10.8126139,
+   "maxlat": 46.3506348,
+   "maxlon": 10.8690872
+  },
+  "wikidata": "Q269023",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022068",
+  "name": "Croviana",
+  "name_source": "name",
+  "name_osm": "Croviana",
+  "osm_id": "relation/47123",
+  "province_id": "022",
+  "postal_code": "38027",
+  "lat": 46.3447786,
+  "lon": 10.9034227,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3114066,
+   "minlon": 10.892375,
+   "maxlat": 46.3506892,
+   "maxlon": 10.9358178
+  },
+  "wikidata": "Q269923",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022071",
+  "name": "Dambel",
+  "name_source": "name",
+  "name_osm": "Dambel",
+  "osm_id": "relation/47176",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.404712,
+  "lon": 11.093072,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3907313,
+   "minlon": 11.0767091,
+   "maxlat": 46.4155295,
+   "maxlon": 11.1215482
+  },
+  "wikidata": "Q124417",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022074",
+  "name": "Denno",
+  "name_source": "name",
+  "name_osm": "Denno",
+  "osm_id": "relation/47081",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.275008,
+  "lon": 11.049074,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2569535,
+   "minlon": 10.967143,
+   "maxlat": 46.2993303,
+   "maxlon": 11.064909
+  },
+  "wikidata": "Q270602",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022078",
+  "name": "Drena",
+  "name_source": "name",
+  "name_osm": "Drena",
+  "osm_id": "relation/46565",
+  "province_id": "022",
+  "postal_code": "38074",
+  "lat": 45.969299,
+  "lon": 10.944477,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9371557,
+   "minlon": 10.9331718,
+   "maxlat": 45.9754213,
+   "maxlon": 10.9892556
+  },
+  "wikidata": "Q271150",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022079",
+  "name": "Dro",
+  "name_source": "name",
+  "name_osm": "Dro",
+  "osm_id": "relation/46645",
+  "province_id": "022",
+  "postal_code": "38074",
+  "lat": 45.961471,
+  "lon": 10.9111105,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9352699,
+   "minlon": 10.887999,
+   "maxlat": 46.0373602,
+   "maxlon": 10.9560145
+  },
+  "wikidata": "Q286424",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022081",
+  "name": "Fai della Paganella",
+  "name_source": "name",
+  "name_osm": "Fai della Paganella",
+  "osm_id": "relation/46925",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.1793313,
+  "lon": 11.0689304,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1410443,
+   "minlon": 11.0275845,
+   "maxlat": 46.2050551,
+   "maxlon": 11.0922097
+  },
+  "wikidata": "Q286597",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022083",
+  "name": "Fiavé",
+  "name_source": "name",
+  "name_osm": "Fiavé",
+  "osm_id": "relation/46611",
+  "province_id": "022",
+  "postal_code": "38075",
+  "lat": 46.0045798,
+  "lon": 10.8420518,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9578043,
+   "minlon": 10.7637132,
+   "maxlat": 46.0224328,
+   "maxlon": 10.8613063
+  },
+  "wikidata": "Q286808",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022085",
+  "name": "Fierozzo - Vlarotz",
+  "name_source": "name",
+  "name_osm": "Fierozzo - Vlarotz",
+  "osm_id": "relation/46861",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.1122415,
+  "lon": 11.3189022,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.076745,
+   "minlon": 11.3001847,
+   "maxlat": 46.1283911,
+   "maxlon": 11.3767233
+  },
+  "wikidata": "Q286931",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022087",
+  "name": "Folgaria",
+  "name_source": "name",
+  "name_osm": "Folgaria",
+  "osm_id": "relation/46399",
+  "province_id": "022",
+  "postal_code": "38064",
+  "lat": 45.9149727,
+  "lon": 11.173015,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8488852,
+   "minlon": 11.1193535,
+   "maxlat": 45.9561656,
+   "maxlon": 11.2655066
+  },
+  "wikidata": "Q287093",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022089",
+  "name": "Fornace",
+  "name_source": "name",
+  "name_osm": "Fornace",
+  "osm_id": "relation/46879",
+  "province_id": "022",
+  "postal_code": "38040",
+  "lat": 46.1181956,
+  "lon": 11.2065014,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1074229,
+   "minlon": 11.1883477,
+   "maxlat": 46.1443401,
+   "maxlon": 11.2230354
+  },
+  "wikidata": "Q288151",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022090",
+  "name": "Frassilongo - Garait",
+  "name_source": "name",
+  "name_osm": "Frassilongo - Garait",
+  "osm_id": "relation/46800",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0840576,
+  "lon": 11.291395,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0499915,
+   "minlon": 11.2845192,
+   "maxlat": 46.0985967,
+   "maxlon": 11.3523631
+  },
+  "wikidata": "Q288314",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022091",
+  "name": "Garniga Terme",
+  "name_source": "name",
+  "name_osm": "Garniga Terme",
+  "osm_id": "relation/46681",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 46.0026491,
+  "lon": 11.0870545,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9778722,
+   "minlon": 11.0449244,
+   "maxlat": 46.0263956,
+   "maxlon": 11.1012023
+  },
+  "wikidata": "Q288262",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022092",
+  "name": "Giovo",
+  "name_source": "name",
+  "name_osm": "Giovo",
+  "osm_id": "relation/46939",
+  "province_id": "022",
+  "postal_code": "38030",
+  "lat": 46.1563433,
+  "lon": 11.1525627,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1416595,
+   "minlon": 11.1177816,
+   "maxlat": 46.2315609,
+   "maxlon": 11.2016596
+  },
+  "wikidata": "Q288775",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022093",
+  "name": "Giustino",
+  "name_source": "name",
+  "name_osm": "Giustino",
+  "osm_id": "relation/46924",
+  "province_id": "022",
+  "postal_code": "38086",
+  "lat": 46.1484401,
+  "lon": 10.7694794,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1363167,
+   "minlon": 10.6491954,
+   "maxlat": 46.2310885,
+   "maxlon": 10.8161138
+  },
+  "wikidata": "Q289675",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022095",
+  "name": "Grigno",
+  "name_source": "name",
+  "name_osm": "Grigno",
+  "osm_id": "relation/46625",
+  "province_id": "022",
+  "postal_code": "38055",
+  "lat": 46.0170354,
+  "lon": 11.6359415,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.960581,
+   "minlon": 11.5773686,
+   "maxlat": 46.0317675,
+   "maxlon": 11.6898685
+  },
+  "wikidata": "Q290077",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022097",
+  "name": "Imer",
+  "name_source": "name",
+  "name_osm": "Imer",
+  "osm_id": "relation/46876",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.1510601,
+  "lon": 11.7963031,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1024388,
+   "minlon": 11.7437068,
+   "maxlat": 46.2337421,
+   "maxlon": 11.8279379
+  },
+  "wikidata": "Q290510",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022098",
+  "name": "Isera",
+  "name_source": "name",
+  "name_osm": "Isera",
+  "osm_id": "relation/46447",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.8852695,
+  "lon": 11.0093106,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8669573,
+   "minlon": 10.9779435,
+   "maxlat": 45.9227918,
+   "maxlon": 11.0246504
+  },
+  "wikidata": "Q290754",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022102",
+  "name": "Lavarone",
+  "name_source": "name",
+  "name_osm": "Lavarone",
+  "osm_id": "relation/46505",
+  "province_id": "022",
+  "postal_code": "38046",
+  "lat": 45.9397228,
+  "lon": 11.2691526,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9165829,
+   "minlon": 11.2379055,
+   "maxlat": 45.9654707,
+   "maxlon": 11.3529465
+  },
+  "wikidata": "Q247734",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022103",
+  "name": "Lavis",
+  "name_source": "name",
+  "name_osm": "Lavis",
+  "osm_id": "relation/46912",
+  "province_id": "022",
+  "postal_code": "38015",
+  "lat": 46.1397416,
+  "lon": 11.1102267,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.125281,
+   "minlon": 11.0727257,
+   "maxlat": 46.1834437,
+   "maxlon": 11.1371213
+  },
+  "wikidata": "Q291902",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022104",
+  "name": "Levico Terme",
+  "name_source": "name",
+  "name_osm": "Levico Terme",
+  "osm_id": "relation/46583",
+  "province_id": "022",
+  "postal_code": "38056",
+  "lat": 46.0091259,
+  "lon": 11.3017774,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9421573,
+   "minlon": 11.2648807,
+   "maxlat": 46.0499915,
+   "maxlon": 11.3835036
+  },
+  "wikidata": "Q294678",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022106",
+  "name": "Livo",
+  "name_source": "name",
+  "name_osm": "Livo",
+  "osm_id": "relation/300905",
+  "province_id": "022",
+  "postal_code": "38020",
+  "lat": 46.404711,
+  "lon": 11.019271,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3904896,
+   "minlon": 10.9680389,
+   "maxlat": 46.4449874,
+   "maxlon": 11.0355037
+  },
+  "wikidata": "Q294810",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022108",
+  "name": "Lona-Lases",
+  "name_source": "name",
+  "name_osm": "Lona-Lases",
+  "osm_id": "relation/46922",
+  "province_id": "022",
+  "postal_code": "38040",
+  "lat": 46.144206,
+  "lon": 11.21958,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1302166,
+   "minlon": 11.2084958,
+   "maxlat": 46.2037194,
+   "maxlon": 11.3847316
+  },
+  "wikidata": "Q200925",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022109",
+  "name": "Lusérn - Luserna",
+  "name_source": "name",
+  "name_osm": "Lusérn - Luserna",
+  "osm_id": "relation/46530",
+  "province_id": "022",
+  "postal_code": "38040",
+  "lat": 45.921417,
+  "lon": 11.3245207,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9086244,
+   "minlon": 11.3113202,
+   "maxlat": 45.9609885,
+   "maxlon": 11.3610725
+  },
+  "wikidata": "Q120272",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022110",
+  "name": "Malé",
+  "name_source": "name",
+  "name_osm": "Malé",
+  "osm_id": "relation/47133",
+  "province_id": "022",
+  "postal_code": "38027",
+  "lat": 46.3516068,
+  "lon": 10.9128757,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3250315,
+   "minlon": 10.8442047,
+   "maxlat": 46.4049551,
+   "maxlon": 10.9432627
+  },
+  "wikidata": "Q295126",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022112",
+  "name": "Massimeno",
+  "name_source": "name",
+  "name_osm": "Massimeno",
+  "osm_id": "relation/46903",
+  "province_id": "022",
+  "postal_code": "38086",
+  "lat": 46.1417556,
+  "lon": 10.773134,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1212105,
+   "minlon": 10.5859424,
+   "maxlat": 46.1669264,
+   "maxlon": 10.8024547
+  },
+  "wikidata": "Q3498",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022113",
+  "name": "Mazzin",
+  "name_source": "name",
+  "name_osm": "Mazzin",
+  "osm_id": "relation/47217",
+  "province_id": "022",
+  "postal_code": "38030",
+  "lat": 46.4698782,
+  "lon": 11.7273247,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.4401249,
+   "minlon": 11.6435892,
+   "maxlat": 46.4876081,
+   "maxlon": 11.7641845
+  },
+  "wikidata": "Q295297",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022114",
+  "name": "Mezzana",
+  "name_source": "name",
+  "name_osm": "Mezzana",
+  "osm_id": "relation/47086",
+  "province_id": "022",
+  "postal_code": "38020",
+  "lat": 46.3173162,
+  "lon": 10.8010074,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2661491,
+   "minlon": 10.7727271,
+   "maxlat": 46.3706407,
+   "maxlon": 10.8257137
+  },
+  "wikidata": "Q295374",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022115",
+  "name": "Mezzano",
+  "name_source": "name",
+  "name_osm": "Mezzano",
+  "osm_id": "relation/46881",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.154712,
+  "lon": 11.807993,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1079905,
+   "minlon": 11.71933,
+   "maxlat": 46.2255859,
+   "maxlon": 11.9058659
+  },
+  "wikidata": "Q295486",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022116",
+  "name": "Mezzocorona",
+  "name_source": "name",
+  "name_osm": "Mezzocorona",
+  "osm_id": "relation/47018",
+  "province_id": "022",
+  "postal_code": "38016",
+  "lat": 46.2154357,
+  "lon": 11.1207858,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1974237,
+   "minlon": 11.0714474,
+   "maxlat": 46.258831,
+   "maxlon": 11.1802922
+  },
+  "wikidata": "Q295562",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022117",
+  "name": "Mezzolombardo",
+  "name_source": "name",
+  "name_osm": "Mezzolombardo",
+  "osm_id": "relation/46989",
+  "province_id": "022",
+  "postal_code": "38017",
+  "lat": 46.2120936,
+  "lon": 11.0935086,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1778303,
+   "minlon": 11.0636143,
+   "maxlat": 46.2312507,
+   "maxlon": 11.1186969
+  },
+  "wikidata": "Q295602",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022118",
+  "name": "Moena",
+  "name_source": "name",
+  "name_osm": "Moena",
+  "osm_id": "relation/47136",
+  "province_id": "022",
+  "postal_code": "38035",
+  "lat": 46.3769434,
+  "lon": 11.6592663,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3089124,
+   "minlon": 11.5925134,
+   "maxlat": 46.4055857,
+   "maxlon": 11.8203402
+  },
+  "wikidata": "Q60050",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022120",
+  "name": "Molveno",
+  "name_source": "name",
+  "name_osm": "Molveno",
+  "osm_id": "relation/46911",
+  "province_id": "022",
+  "postal_code": "38018",
+  "lat": 46.1423294,
+  "lon": 10.9637861,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1087509,
+   "minlon": 10.8934737,
+   "maxlat": 46.1904872,
+   "maxlon": 10.9998814
+  },
+  "wikidata": "Q295782",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022123",
+  "name": "Mori",
+  "name_source": "name",
+  "name_osm": "Mori",
+  "osm_id": "relation/46259",
+  "province_id": "022",
+  "postal_code": "38065",
+  "lat": 45.856413,
+  "lon": 10.951497,
+  "centre_source": "polygon_centroid",
+  "bounds": {
+   "minlat": 45.8217692,
+   "minlon": 10.8956791,
+   "maxlat": 45.8988151,
+   "maxlon": 11.0093765
+  },
+  "wikidata": "Q296217",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022124",
+  "name": "Nago-Torbole",
+  "name_source": "name",
+  "name_osm": "Nago-Torbole",
+  "osm_id": "relation/46250",
+  "province_id": "022",
+  "postal_code": "38069",
+  "lat": 45.8693034,
+  "lon": 10.876398,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.805855,
+   "minlon": 10.842675,
+   "maxlat": 45.8886187,
+   "maxlon": 10.9193314
+  },
+  "wikidata": "Q296262",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022127",
+  "name": "Nogaredo",
+  "name_source": "name",
+  "name_osm": "Nogaredo",
+  "osm_id": "relation/46473",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.9120887,
+  "lon": 11.0230464,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8982199,
+   "minlon": 11.0053261,
+   "maxlat": 45.9191429,
+   "maxlon": 11.0337829
+  },
+  "wikidata": "Q175406",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022128",
+  "name": "Nomi",
+  "name_source": "name",
+  "name_osm": "Nomi",
+  "osm_id": "relation/46529",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.928599,
+  "lon": 11.071881,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9213342,
+   "minlon": 11.0618045,
+   "maxlat": 45.968193,
+   "maxlon": 11.1099279
+  },
+  "wikidata": "Q296869",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022129",
+  "name": "Novaledo",
+  "name_source": "name",
+  "name_osm": "Novaledo",
+  "osm_id": "relation/46720",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0228177,
+  "lon": 11.3664341,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0080186,
+   "minlon": 11.3343968,
+   "maxlat": 46.0614539,
+   "maxlon": 11.3924177
+  },
+  "wikidata": "Q296977",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022130",
+  "name": "Ospedaletto",
+  "name_source": "name",
+  "name_osm": "Ospedaletto",
+  "osm_id": "relation/46709",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0435692,
+  "lon": 11.5529585,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0058541,
+   "minlon": 11.5436489,
+   "maxlat": 46.0632137,
+   "maxlon": 11.599853
+  },
+  "wikidata": "Q296995",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022131",
+  "name": "Ossana",
+  "name_source": "name",
+  "name_osm": "Ossana",
+  "osm_id": "relation/47056",
+  "province_id": "022",
+  "postal_code": "38026",
+  "lat": 46.3064533,
+  "lon": 10.7377007,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2372644,
+   "minlon": 10.6846171,
+   "maxlat": 46.3252284,
+   "maxlon": 10.7560561
+  },
+  "wikidata": "Q297133",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022133",
+  "name": "Palù del Fersina - Palai en Bersntol",
+  "name_source": "name",
+  "name_osm": "Palù del Fersina - Palai en Bersntol",
+  "osm_id": "relation/46899",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.1296038,
+  "lon": 11.3524912,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1060499,
+   "minlon": 11.3230599,
+   "maxlat": 46.1578606,
+   "maxlon": 11.4037997
+  },
+  "wikidata": "Q297290",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022134",
+  "name": "Panchià",
+  "name_source": "name",
+  "name_osm": "Panchià",
+  "osm_id": "relation/47044",
+  "province_id": "022",
+  "postal_code": "38030",
+  "lat": 46.2856525,
+  "lon": 11.5425874,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2168875,
+   "minlon": 11.5248652,
+   "maxlat": 46.3322297,
+   "maxlon": 11.5732262
+  },
+  "wikidata": "Q297577",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022135",
+  "name": "Ronzo-Chienis",
+  "name_source": "name",
+  "name_osm": "Ronzo-Chienis",
+  "osm_id": "relation/46449",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.8897478,
+  "lon": 10.9502051,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8765798,
+   "minlon": 10.9244151,
+   "maxlat": 45.9240903,
+   "maxlon": 10.9839092
+  },
+  "wikidata": "Q301043",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022136",
+  "name": "Peio",
+  "name_source": "name",
+  "name_osm": "Peio",
+  "osm_id": "relation/47104",
+  "province_id": "022",
+  "postal_code": "38020",
+  "lat": 46.3532179,
+  "lon": 10.6920678,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2988182,
+   "minlon": 10.5156578,
+   "maxlat": 46.4540822,
+   "maxlon": 10.7558264
+  },
+  "wikidata": "Q297851",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022137",
+  "name": "Pellizzano",
+  "name_source": "name",
+  "name_osm": "Pellizzano",
+  "osm_id": "relation/47076",
+  "province_id": "022",
+  "postal_code": "38020",
+  "lat": 46.309824,
+  "lon": 10.7604512,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2500061,
+   "minlon": 10.5843279,
+   "maxlat": 46.3696524,
+   "maxlon": 10.7951361
+  },
+  "wikidata": "Q144801",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022138",
+  "name": "Pelugo",
+  "name_source": "name",
+  "name_osm": "Pelugo",
+  "osm_id": "relation/46837",
+  "province_id": "022",
+  "postal_code": "38079",
+  "lat": 46.0885,
+  "lon": 10.72387,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0766914,
+   "minlon": 10.589747,
+   "maxlat": 46.1284153,
+   "maxlon": 10.7434661
+  },
+  "wikidata": "Q298248",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022139",
+  "name": "Pergine Valsugana",
+  "name_source": "name",
+  "name_osm": "Pergine Valsugana",
+  "osm_id": "relation/46718",
+  "province_id": "022",
+  "postal_code": "38057",
+  "lat": 46.0605291,
+  "lon": 11.2406747,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0103243,
+   "minlon": 11.1863366,
+   "maxlat": 46.1103363,
+   "maxlon": 11.3343968
+  },
+  "wikidata": "Q298424",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022142",
+  "name": "Pieve Tesino",
+  "name_source": "name",
+  "name_osm": "Pieve Tesino",
+  "osm_id": "relation/46811",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0693085,
+  "lon": 11.608091,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0571715,
+   "minlon": 11.4981707,
+   "maxlat": 46.2352205,
+   "maxlon": 11.6537974
+  },
+  "wikidata": "Q298712",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022143",
+  "name": "Pinzolo",
+  "name_source": "name",
+  "name_osm": "Pinzolo",
+  "osm_id": "relation/46962",
+  "province_id": "022",
+  "postal_code": "38086",
+  "lat": 46.1617322,
+  "lon": 10.7650043,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1525515,
+   "minlon": 10.7332226,
+   "maxlat": 46.2759974,
+   "maxlon": 10.8672526
+  },
+  "wikidata": "Q299141",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022144",
+  "name": "Pomarolo",
+  "name_source": "name",
+  "name_osm": "Pomarolo",
+  "osm_id": "relation/46499",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.928099,
+  "lon": 11.04308,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9170207,
+   "minlon": 11.0342426,
+   "maxlat": 45.967095,
+   "maxlon": 11.082568
+  },
+  "wikidata": "Q299972",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022147",
+  "name": "Predazzo",
+  "name_source": "name",
+  "name_osm": "Predazzo",
+  "osm_id": "relation/47073",
+  "province_id": "022",
+  "postal_code": "38037",
+  "lat": 46.3123614,
+  "lon": 11.6026938,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2550556,
+   "minlon": 11.5557111,
+   "maxlat": 46.3837027,
+   "maxlon": 11.7500711
+  },
+  "wikidata": "Q300010",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022150",
+  "name": "Rabbi",
+  "name_source": "name",
+  "name_osm": "Rabbi",
+  "osm_id": "relation/47143",
+  "province_id": "022",
+  "postal_code": "38020",
+  "lat": 46.3998778,
+  "lon": 10.846975,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3489204,
+   "minlon": 10.6893659,
+   "maxlat": 46.4868573,
+   "maxlon": 10.9013512
+  },
+  "wikidata": "Q300313",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022153",
+  "name": "Riva del Garda",
+  "name_source": "name",
+  "name_osm": "Riva del Garda",
+  "osm_id": "relation/46276",
+  "province_id": "022",
+  "postal_code": "38066",
+  "lat": 45.8847708,
+  "lon": 10.8396942,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8318248,
+   "minlon": 10.764616,
+   "maxlat": 45.9418153,
+   "maxlon": 10.875314
+  },
+  "wikidata": "Q194136",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022155",
+  "name": "Romeno",
+  "name_source": "name",
+  "name_osm": "Romeno",
+  "osm_id": "relation/47161",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.3939973,
+  "lon": 11.1202732,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3692301,
+   "minlon": 11.0841812,
+   "maxlat": 46.4072162,
+   "maxlon": 11.1309579
+  },
+  "wikidata": "Q300957",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022156",
+  "name": "Roncegno Terme",
+  "name_source": "name",
+  "name_osm": "Roncegno Terme",
+  "osm_id": "relation/46792",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0516232,
+  "lon": 11.4103025,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0137563,
+   "minlon": 11.341673,
+   "maxlat": 46.095358,
+   "maxlon": 11.4305295
+  },
+  "wikidata": "Q300962",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022157",
+  "name": "Ronchi Valsugana",
+  "name_source": "name",
+  "name_osm": "Ronchi Valsugana",
+  "osm_id": "relation/46817",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.068406,
+  "lon": 11.435186,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0573476,
+   "minlon": 11.3864517,
+   "maxlat": 46.1026948,
+   "maxlon": 11.4462473
+  },
+  "wikidata": "Q300979",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022159",
+  "name": "Ronzone",
+  "name_source": "name",
+  "name_osm": "Ronzone",
+  "osm_id": "relation/47196",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.423073,
+  "lon": 11.1488994,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.418206,
+   "minlon": 11.1425901,
+   "maxlat": 46.4782825,
+   "maxlon": 11.2204213
+  },
+  "wikidata": "Q301067",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022160",
+  "name": "Roveré della Luna",
+  "name_source": "name",
+  "name_osm": "Roveré della Luna",
+  "osm_id": "relation/47070",
+  "province_id": "022",
+  "postal_code": "38030",
+  "lat": 46.2499881,
+  "lon": 11.1693479,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2327483,
+   "minlon": 11.1330727,
+   "maxlat": 46.2833158,
+   "maxlon": 11.20251
+  },
+  "wikidata": "Q301246",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022161",
+  "name": "Rovereto",
+  "name_source": "name",
+  "name_osm": "Rovereto",
+  "osm_id": "relation/46260",
+  "province_id": "022",
+  "postal_code": "38068",
+  "lat": 45.886548,
+  "lon": 11.0452369,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.800196,
+   "minlon": 10.9974817,
+   "maxlat": 45.9188884,
+   "maxlon": 11.1241047
+  },
+  "wikidata": "Q279373",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022162",
+  "name": "Ruffré-Mendola",
+  "name_source": "name",
+  "name_osm": "Ruffré-Mendola",
+  "osm_id": "relation/47190",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.414813,
+  "lon": 11.177774,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.4091214,
+   "minlon": 11.1659915,
+   "maxlat": 46.43825,
+   "maxlon": 11.2164925
+  },
+  "wikidata": "Q301386",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022163",
+  "name": "Rumo",
+  "name_source": "name",
+  "name_osm": "Rumo",
+  "osm_id": "relation/47201",
+  "province_id": "022",
+  "postal_code": "38020",
+  "lat": 46.4426498,
+  "lon": 11.0165571,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.4218546,
+   "minlon": 10.9308997,
+   "maxlat": 46.4840451,
+   "maxlon": 11.0480558
+  },
+  "wikidata": "Q301492",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022164",
+  "name": "Sagron Mis",
+  "name_source": "name",
+  "name_osm": "Sagron Mis",
+  "osm_id": "relation/46981",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.1946455,
+  "lon": 11.9430584,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1695236,
+   "minlon": 11.9030643,
+   "maxlat": 46.2231359,
+   "maxlon": 11.9628023
+  },
+  "wikidata": "Q3505",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022165",
+  "name": "Samone",
+  "name_source": "name",
+  "name_osm": "Samone",
+  "osm_id": "relation/45020",
+  "province_id": "022",
+  "postal_code": "38059",
+  "lat": 46.081607,
+  "lon": 11.522588,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.07299,
+   "minlon": 11.5132287,
+   "maxlat": 46.1063047,
+   "maxlon": 11.5365224
+  },
+  "wikidata": "Q301724",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022167",
+  "name": "San Michele all'Adige",
+  "name_source": "name",
+  "name_osm": "San Michele all'Adige",
+  "osm_id": "relation/46990",
+  "province_id": "022",
+  "postal_code": "38098",
+  "lat": 46.192907,
+  "lon": 11.133577,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1746184,
+   "minlon": 11.102622,
+   "maxlat": 46.2297891,
+   "maxlon": 11.1846733
+  },
+  "wikidata": "Q301866",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022168",
+  "name": "Sant'Orsola Terme",
+  "name_source": "name",
+  "name_osm": "Sant'Orsola Terme",
+  "osm_id": "relation/46858",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.1081377,
+  "lon": 11.3027058,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0855621,
+   "minlon": 11.2671308,
+   "maxlat": 46.1379183,
+   "maxlon": 11.3372567
+  },
+  "wikidata": "Q301950",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022169",
+  "name": "Sanzeno",
+  "name_source": "name",
+  "name_osm": "Sanzeno",
+  "osm_id": "relation/47147",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.3743057,
+  "lon": 11.0686564,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3538999,
+   "minlon": 11.0530387,
+   "maxlat": 46.3931096,
+   "maxlon": 11.1021612
+  },
+  "wikidata": "Q303226",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022170",
+  "name": "Sarnonico",
+  "name_source": "name",
+  "name_osm": "Sarnonico",
+  "osm_id": "relation/47184",
+  "province_id": "022",
+  "postal_code": "38011",
+  "lat": 46.4187281,
+  "lon": 11.1407924,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.406925,
+   "minlon": 11.0995833,
+   "maxlat": 46.458966,
+   "maxlon": 11.2179231
+  },
+  "wikidata": "Q303743",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022171",
+  "name": "Scurelle",
+  "name_source": "name",
+  "name_osm": "Scurelle",
+  "osm_id": "relation/46802",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0644655,
+  "lon": 11.5059309,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0502308,
+   "minlon": 11.4935768,
+   "maxlat": 46.1819144,
+   "maxlon": 11.5741237
+  },
+  "wikidata": "Q303941",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022172",
+  "name": "Segonzano",
+  "name_source": "name",
+  "name_osm": "Segonzano",
+  "osm_id": "relation/46973",
+  "province_id": "022",
+  "postal_code": "38047",
+  "lat": 46.1882985,
+  "lon": 11.2590021,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1656774,
+   "minlon": 11.2389245,
+   "maxlat": 46.2215385,
+   "maxlon": 11.3227878
+  },
+  "wikidata": "Q304120",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022173",
+  "name": "Sfruz",
+  "name_source": "name",
+  "name_osm": "Sfruz",
+  "osm_id": "relation/47130",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.3371552,
+  "lon": 11.1157568,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3223507,
+   "minlon": 11.1079204,
+   "maxlat": 46.3594504,
+   "maxlon": 11.1989668
+  },
+  "wikidata": "Q304382",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022176",
+  "name": "Soraga di Fassa",
+  "name_source": "name",
+  "name_osm": "Soraga di Fassa",
+  "osm_id": "relation/47178",
+  "province_id": "022",
+  "postal_code": "38030",
+  "lat": 46.3946069,
+  "lon": 11.6661676,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3653645,
+   "minlon": 11.6323614,
+   "maxlat": 46.4128983,
+   "maxlon": 11.8435226
+  },
+  "wikidata": "Q305698",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022177",
+  "name": "Sover",
+  "name_source": "name",
+  "name_osm": "Sover",
+  "osm_id": "relation/47013",
+  "province_id": "022",
+  "postal_code": "38048",
+  "lat": 46.221709,
+  "lon": 11.315681,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1962876,
+   "minlon": 11.3034444,
+   "maxlat": 46.2511357,
+   "maxlon": 11.3629388
+  },
+  "wikidata": "Q305780",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022179",
+  "name": "Spiazzo",
+  "name_source": "name",
+  "name_osm": "Spiazzo",
+  "osm_id": "relation/46857",
+  "province_id": "022",
+  "postal_code": "38088",
+  "lat": 46.103601,
+  "lon": 10.73937,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0781402,
+   "minlon": 10.5411509,
+   "maxlat": 46.2245105,
+   "maxlon": 10.7737461
+  },
+  "wikidata": "Q306109",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022180",
+  "name": "Spormaggiore",
+  "name_source": "name",
+  "name_osm": "Spormaggiore",
+  "osm_id": "relation/46998",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.2177519,
+  "lon": 11.0482682,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.176324,
+   "minlon": 10.9314173,
+   "maxlat": 46.2378952,
+   "maxlon": 11.0746202
+  },
+  "wikidata": "Q306731",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022181",
+  "name": "Sporminore",
+  "name_source": "name",
+  "name_osm": "Sporminore",
+  "osm_id": "relation/47052",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.236807,
+  "lon": 11.030274,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2032101,
+   "minlon": 10.9663756,
+   "maxlat": 46.2475716,
+   "maxlon": 11.0620096
+  },
+  "wikidata": "Q323857",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022182",
+  "name": "Stenico",
+  "name_source": "name",
+  "name_osm": "Stenico",
+  "osm_id": "relation/46785",
+  "province_id": "022",
+  "postal_code": "38070",
+  "lat": 46.052168,
+  "lon": 10.8540886,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0371479,
+   "minlon": 10.7845438,
+   "maxlat": 46.1896005,
+   "maxlon": 10.9050696
+  },
+  "wikidata": "Q323892",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022183",
+  "name": "Storo",
+  "name_source": "name",
+  "name_osm": "Storo",
+  "osm_id": "relation/46252",
+  "province_id": "022",
+  "postal_code": "38089",
+  "lat": 45.8490749,
+  "lon": 10.5799139,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8093869,
+   "minlon": 10.490449,
+   "maxlat": 45.9031414,
+   "maxlon": 10.6437269
+  },
+  "wikidata": "Q241855",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022184",
+  "name": "Strembo",
+  "name_source": "name",
+  "name_osm": "Strembo",
+  "osm_id": "relation/46896",
+  "province_id": "022",
+  "postal_code": "38080",
+  "lat": 46.119912,
+  "lon": 10.7514518,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1108261,
+   "minlon": 10.5905915,
+   "maxlat": 46.2238517,
+   "maxlon": 10.7556319
+  },
+  "wikidata": "Q326753",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022188",
+  "name": "Telve",
+  "name_source": "name",
+  "name_osm": "Telve",
+  "osm_id": "relation/46791",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.0713276,
+  "lon": 11.4795917,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0562327,
+   "minlon": 11.3733135,
+   "maxlat": 46.185823,
+   "maxlon": 11.5276006
+  },
+  "wikidata": "Q326883",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022189",
+  "name": "Telve di Sopra",
+  "name_source": "name",
+  "name_osm": "Telve di Sopra",
+  "osm_id": "relation/46808",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.071352,
+  "lon": 11.4716722,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0594829,
+   "minlon": 11.3993097,
+   "maxlat": 46.1383967,
+   "maxlon": 11.4766373
+  },
+  "wikidata": "Q326913",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022190",
+  "name": "Tenna",
+  "name_source": "name",
+  "name_osm": "Tenna",
+  "osm_id": "relation/46719",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.015703,
+  "lon": 11.264283,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0089954,
+   "minlon": 11.2459242,
+   "maxlat": 46.0337447,
+   "maxlon": 11.2765214
+  },
+  "wikidata": "Q326941",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022191",
+  "name": "Tenno",
+  "name_source": "name",
+  "name_osm": "Tenno",
+  "osm_id": "relation/46484",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.918797,
+  "lon": 10.832775,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9078983,
+   "minlon": 10.7658562,
+   "maxlat": 45.9647719,
+   "maxlon": 10.8608735
+  },
+  "wikidata": "Q326968",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022193",
+  "name": "Terragnolo",
+  "name_source": "name",
+  "name_osm": "Terragnolo",
+  "osm_id": "relation/46277",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.8790891,
+  "lon": 11.1520583,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8171051,
+   "minlon": 11.0913235,
+   "maxlat": 45.8950178,
+   "maxlon": 11.2218698
+  },
+  "wikidata": "Q327034",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022195",
+  "name": "Terzolas",
+  "name_source": "name",
+  "name_osm": "Terzolas",
+  "osm_id": "relation/47134",
+  "province_id": "022",
+  "postal_code": "38027",
+  "lat": 46.3616048,
+  "lon": 10.9260882,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3373293,
+   "minlon": 10.9131192,
+   "maxlat": 46.3887187,
+   "maxlon": 10.9497845
+  },
+  "wikidata": "Q327111",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022196",
+  "name": "Tesero",
+  "name_source": "name",
+  "name_osm": "Tesero",
+  "osm_id": "relation/47037",
+  "province_id": "022",
+  "postal_code": "38038",
+  "lat": 46.290416,
+  "lon": 11.511977,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2019406,
+   "minlon": 11.4857888,
+   "maxlat": 46.3541571,
+   "maxlon": 11.5596807
+  },
+  "wikidata": "Q327161",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022199",
+  "name": "Tione di Trento",
+  "name_source": "name",
+  "name_osm": "Tione di Trento",
+  "osm_id": "relation/46601",
+  "province_id": "022",
+  "postal_code": "38079",
+  "lat": 46.0363045,
+  "lon": 10.7269092,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.954133,
+   "minlon": 10.6366222,
+   "maxlat": 46.0628214,
+   "maxlon": 10.8075668
+  },
+  "wikidata": "Q327207",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022200",
+  "name": "Ton",
+  "name_source": "name",
+  "name_osm": "Ton",
+  "osm_id": "relation/47050",
+  "province_id": "022",
+  "postal_code": "38010",
+  "lat": 46.2654118,
+  "lon": 11.0868217,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2311336,
+   "minlon": 11.058721,
+   "maxlat": 46.2909785,
+   "maxlon": 11.1388653
+  },
+  "wikidata": "Q327236",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022202",
+  "name": "Torcegno",
+  "name_source": "name",
+  "name_osm": "Torcegno",
+  "osm_id": "relation/46818",
+  "province_id": "022",
+  "postal_code": "38050",
+  "lat": 46.074307,
+  "lon": 11.449787,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0622601,
+   "minlon": 11.3695497,
+   "maxlat": 46.1255908,
+   "maxlon": 11.4651641
+  },
+  "wikidata": "Q327341",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022203",
+  "name": "Trambileno",
+  "name_source": "name",
+  "name_osm": "Trambileno",
+  "osm_id": "relation/46135",
+  "province_id": "022",
+  "postal_code": "38068",
+  "lat": 45.869925,
+  "lon": 11.0735338,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.781293,
+   "minlon": 11.0469792,
+   "maxlat": 45.8866365,
+   "maxlon": 11.2042929
+  },
+  "wikidata": "Q327371",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022205",
+  "name": "Trento",
+  "name_source": "name",
+  "name_osm": "Trento",
+  "osm_id": "relation/46663",
+  "province_id": "022",
+  "postal_code": "38121-38123",
+  "lat": 46.0664228,
+  "lon": 11.1257601,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9757038,
+   "minlon": 11.0214591,
+   "maxlat": 46.1521927,
+   "maxlon": 11.1938775
+  },
+  "wikidata": "Q3376",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022209",
+  "name": "Valfloriana",
+  "name_source": "name",
+  "name_osm": "Valfloriana",
+  "osm_id": "relation/46970",
+  "province_id": "022",
+  "postal_code": "38040",
+  "lat": 46.2498461,
+  "lon": 11.3431769,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1650837,
+   "minlon": 11.3305629,
+   "maxlat": 46.2654909,
+   "maxlon": 11.4240503
+  },
+  "wikidata": "Q327609",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022210",
+  "name": "Vallarsa",
+  "name_source": "name",
+  "name_osm": "Vallarsa",
+  "osm_id": "relation/45924",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.782675,
+  "lon": 11.1186786,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.7165647,
+   "minlon": 11.0514833,
+   "maxlat": 45.8801153,
+   "maxlon": 11.1808738
+  },
+  "wikidata": "Q327644",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022213",
+  "name": "Vermiglio",
+  "name_source": "name",
+  "name_osm": "Vermiglio",
+  "osm_id": "relation/47048",
+  "province_id": "022",
+  "postal_code": "38029",
+  "lat": 46.296905,
+  "lon": 10.691365,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2159421,
+   "minlon": 10.5596987,
+   "maxlat": 46.3246077,
+   "maxlon": 10.7248699
+  },
+  "wikidata": "Q327731",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022216",
+  "name": "Vignola Falesina",
+  "name_source": "name",
+  "name_osm": "Vignola Falesina",
+  "osm_id": "relation/46773",
+  "province_id": "022",
+  "postal_code": "38057",
+  "lat": 46.0444545,
+  "lon": 11.2776917,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0275049,
+   "minlon": 11.2573611,
+   "maxlat": 46.0767571,
+   "maxlon": 11.307657
+  },
+  "wikidata": "Q3501",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022222",
+  "name": "Villa Lagarina",
+  "name_source": "name",
+  "name_osm": "Villa Lagarina",
+  "osm_id": "relation/46493",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.9149896,
+  "lon": 11.0330024,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9093511,
+   "minlon": 10.9752955,
+   "maxlat": 45.9815131,
+   "maxlon": 11.0577896
+  },
+  "wikidata": "Q328037",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022224",
+  "name": "Volano",
+  "name_source": "name",
+  "name_osm": "Volano",
+  "osm_id": "relation/46500",
+  "province_id": "022",
+  "postal_code": "38060",
+  "lat": 45.9171787,
+  "lon": 11.0608033,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8983738,
+   "minlon": 11.0464422,
+   "maxlat": 45.9286877,
+   "maxlon": 11.1163064
+  },
+  "wikidata": "Q328098",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022226",
+  "name": "Ziano di Fiemme",
+  "name_source": "name",
+  "name_osm": "Ziano di Fiemme",
+  "osm_id": "relation/47051",
+  "province_id": "022",
+  "postal_code": "38030",
+  "lat": 46.2865173,
+  "lon": 11.5659762,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2191693,
+   "minlon": 11.5485883,
+   "maxlat": 46.3269403,
+   "maxlon": 11.6253653
+  },
+  "wikidata": "Q198320",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022228",
+  "name": "Comano Terme",
+  "name_source": "name",
+  "name_osm": "Comano Terme",
+  "osm_id": "relation/570334",
+  "province_id": "022",
+  "postal_code": "38077",
+  "lat": 46.0366992,
+  "lon": 10.8713344,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9540789,
+   "minlon": 10.7876237,
+   "maxlat": 46.1577079,
+   "maxlon": 10.9407949
+  },
+  "wikidata": "Q268913",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022229",
+  "name": "Ledro",
+  "name_source": "name",
+  "name_osm": "Ledro",
+  "osm_id": "relation/46477",
+  "province_id": "022",
+  "postal_code": "38067",
+  "lat": 45.8901489,
+  "lon": 10.7319906,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.8020649,
+   "minlon": 10.6113201,
+   "maxlat": 45.9698499,
+   "maxlon": 10.8364753
+  },
+  "wikidata": "Q292045",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022230",
+  "name": "Predaia",
+  "name_source": "name",
+  "name_osm": "Predaia",
+  "osm_id": "relation/47091",
+  "province_id": "022",
+  "postal_code": "38012",
+  "lat": 46.3205899,
+  "lon": 11.0668144,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2706375,
+   "minlon": 11.0563359,
+   "maxlat": 46.3852486,
+   "maxlon": 11.2033416
+  },
+  "wikidata": "Q18483407",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022231",
+  "name": "San Lorenzo Dorsino",
+  "name_source": "name",
+  "name_osm": "San Lorenzo Dorsino",
+  "osm_id": "relation/46816",
+  "province_id": "022",
+  "postal_code": "38078",
+  "lat": 46.076602,
+  "lon": 10.908474,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.055416,
+   "minlon": 10.8405285,
+   "maxlat": 46.157206,
+   "maxlon": 10.9692575
+  },
+  "wikidata": "Q18601851",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022232",
+  "name": "Valdaone",
+  "name_source": "name",
+  "name_osm": "Valdaone",
+  "osm_id": "relation/46526",
+  "province_id": "022",
+  "postal_code": "38080",
+  "lat": 45.9471215,
+  "lon": 10.6210857,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9251188,
+   "minlon": 10.4522048,
+   "maxlat": 46.1486721,
+   "maxlon": 10.6578497
+  },
+  "wikidata": "Q18602863",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022233",
+  "name": "Dimaro Folgarida",
+  "name_source": "name",
+  "name_osm": "Dimaro Folgarida",
+  "osm_id": "relation/47069",
+  "province_id": "022",
+  "postal_code": "38025",
+  "lat": 46.3263191,
+  "lon": 10.8746528,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2509762,
+   "minlon": 10.8359525,
+   "maxlat": 46.3450276,
+   "maxlon": 10.9206748
+  },
+  "wikidata": "Q21965022",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022234",
+  "name": "Pieve di Bono-Prezzo",
+  "name_source": "name",
+  "name_osm": "Pieve di Bono-Prezzo",
+  "osm_id": "relation/46478",
+  "province_id": "022",
+  "postal_code": "38085",
+  "lat": 45.9397779,
+  "lon": 10.6391894,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9121563,
+   "minlon": 10.5673936,
+   "maxlat": 45.9652268,
+   "maxlon": 10.7105105
+  },
+  "wikidata": "Q21994001",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022235",
+  "name": "Altavalle",
+  "name_source": "name",
+  "name_osm": "Altavalle",
+  "osm_id": "relation/47012",
+  "province_id": "022",
+  "postal_code": "38092",
+  "lat": 46.181307,
+  "lon": 11.23728,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.175874,
+   "minlon": 11.2064385,
+   "maxlat": 46.2615626,
+   "maxlon": 11.3213596
+  },
+  "wikidata": "Q21993934",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022236",
+  "name": "Altopiano della Vigolana",
+  "name_source": "name",
+  "name_osm": "Altopiano della Vigolana",
+  "osm_id": "relation/46656",
+  "province_id": "022",
+  "postal_code": "38049",
+  "lat": 46.0048443,
+  "lon": 11.1983809,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9388734,
+   "minlon": 11.1570627,
+   "maxlat": 46.0332483,
+   "maxlon": 11.2456822
+  },
+  "wikidata": "Q21970558",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022237",
+  "name": "Amblar-Don",
+  "name_source": "name",
+  "name_osm": "Amblar-Don",
+  "osm_id": "relation/47157",
+  "province_id": "022",
+  "postal_code": "38011",
+  "lat": 46.3896623,
+  "lon": 11.136607,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3590015,
+   "minlon": 11.1253066,
+   "maxlat": 46.4065323,
+   "maxlon": 11.20756
+  },
+  "wikidata": "Q21970561",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022238",
+  "name": "Borgo Chiese",
+  "name_source": "name",
+  "name_osm": "Borgo Chiese",
+  "osm_id": "relation/46439",
+  "province_id": "022",
+  "postal_code": "38083",
+  "lat": 45.8892835,
+  "lon": 10.6008367,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.860533,
+   "minlon": 10.491334,
+   "maxlat": 45.9454322,
+   "maxlon": 10.6506806
+  },
+  "wikidata": "Q21970567",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022239",
+  "name": "Borgo Lares",
+  "name_source": "name",
+  "name_osm": "Borgo Lares",
+  "osm_id": "relation/46687",
+  "province_id": "022",
+  "postal_code": "38079",
+  "lat": 46.0346974,
+  "lon": 10.7511452,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9636685,
+   "minlon": 10.6991848,
+   "maxlat": 46.0451555,
+   "maxlon": 10.7639191
+  },
+  "wikidata": "Q21994004",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022240",
+  "name": "Castel Ivano",
+  "name_source": "name",
+  "name_osm": "Castel Ivano",
+  "osm_id": "relation/46803",
+  "province_id": "022",
+  "postal_code": "38059",
+  "lat": 46.066304,
+  "lon": 11.5230655,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.009434,
+   "minlon": 11.5027282,
+   "maxlat": 46.125792,
+   "maxlon": 11.5807562
+  },
+  "wikidata": "Q21970572",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022241",
+  "name": "Cembra Lisignago",
+  "name_source": "name",
+  "name_osm": "Cembra Lisignago",
+  "osm_id": "relation/46947",
+  "province_id": "022",
+  "postal_code": "38034",
+  "lat": 46.174424,
+  "lon": 11.2205744,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1544146,
+   "minlon": 11.1722807,
+   "maxlat": 46.2228861,
+   "maxlon": 11.2422943
+  },
+  "wikidata": "Q21994006",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022242",
+  "name": "Contà",
+  "name_source": "name",
+  "name_osm": "Contà",
+  "osm_id": "relation/47092",
+  "province_id": "022",
+  "postal_code": "38093",
+  "lat": 46.3093118,
+  "lon": 11.0223784,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2744321,
+   "minlon": 10.9802184,
+   "maxlat": 46.3232154,
+   "maxlon": 11.0545396
+  },
+  "wikidata": "Q21994003",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022243",
+  "name": "Madruzzo",
+  "name_source": "name",
+  "name_osm": "Madruzzo",
+  "osm_id": "relation/46755",
+  "province_id": "022",
+  "postal_code": "38076",
+  "lat": 46.025101,
+  "lon": 10.983077,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0123606,
+   "minlon": 10.9208911,
+   "maxlat": 46.0645119,
+   "maxlon": 11.0292463
+  },
+  "wikidata": "Q21970583",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022244",
+  "name": "Porte di Rendena",
+  "name_source": "name",
+  "name_osm": "Porte di Rendena",
+  "osm_id": "relation/46781",
+  "province_id": "022",
+  "postal_code": "38080",
+  "lat": 46.0617,
+  "lon": 10.71107,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0489618,
+   "minlon": 10.5830772,
+   "maxlat": 46.1055202,
+   "maxlon": 10.7408605
+  },
+  "wikidata": "Q21970588",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022245",
+  "name": "Primiero San Martino di Castrozza",
+  "name_source": "name",
+  "name_osm": "Primiero San Martino di Castrozza",
+  "osm_id": "relation/5703955",
+  "province_id": "022",
+  "postal_code": "38054",
+  "lat": 46.1770769,
+  "lon": 11.829606,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1358227,
+   "minlon": 11.7091184,
+   "maxlat": 46.3599645,
+   "maxlon": 11.9295695
+  },
+  "wikidata": "Q21913138",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022246",
+  "name": "Sella Giudicarie",
+  "name_source": "name",
+  "name_osm": "Sella Giudicarie",
+  "osm_id": "relation/46642",
+  "province_id": "022",
+  "postal_code": "38087",
+  "lat": 45.9836589,
+  "lon": 10.6708823,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 45.9584741,
+   "minlon": 10.5648033,
+   "maxlat": 46.0686326,
+   "maxlon": 10.7229532
+  },
+  "wikidata": "Q21922238",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022247",
+  "name": "Tre Ville",
+  "name_source": "name",
+  "name_osm": "Tre Ville",
+  "osm_id": "relation/46784",
+  "province_id": "022",
+  "postal_code": "38095",
+  "lat": 46.0536,
+  "lon": 10.777272,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0373697,
+   "minlon": 10.717695,
+   "maxlat": 46.2656473,
+   "maxlon": 10.9039254
+  },
+  "wikidata": "Q21970597",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022248",
+  "name": "Vallelaghi",
+  "name_source": "name",
+  "name_osm": "Vallelaghi",
+  "osm_id": "relation/46813",
+  "province_id": "022",
+  "postal_code": "38096",
+  "lat": 46.0787914,
+  "lon": 10.9994069,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.0475001,
+   "minlon": 10.9307361,
+   "maxlat": 46.1523726,
+   "maxlon": 11.0834964
+  },
+  "wikidata": "Q21970602",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022249",
+  "name": "Ville d'Anaunia",
+  "name_source": "name",
+  "name_osm": "Ville d'Anaunia",
+  "osm_id": "relation/46999",
+  "province_id": "022",
+  "postal_code": "38019",
+  "lat": 46.328909,
+  "lon": 11.022972,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1887008,
+   "minlon": 10.8861846,
+   "maxlat": 46.3581799,
+   "maxlon": 11.0654104
+  },
+  "wikidata": "Q21970604",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022250",
+  "name": "San Giovanni di Fassa - Sèn Jan",
+  "name_source": "name",
+  "name_osm": "San Giovanni di Fassa - Sèn Jan",
+  "osm_id": "relation/47181",
+  "province_id": "022",
+  "postal_code": "38036",
+  "lat": 46.4302623,
+  "lon": 11.6867947,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3784359,
+   "minlon": 11.5930231,
+   "maxlat": 46.4759402,
+   "maxlon": 11.8512924
+  },
+  "wikidata": "Q44834809",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022251",
+  "name": "Terre d'Adige",
+  "name_source": "name",
+  "name_osm": "Terre d'Adige",
+  "osm_id": "relation/9171190",
+  "province_id": "022",
+  "postal_code": "38097",
+  "lat": 46.1514234,
+  "lon": 11.0969815,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.1322425,
+   "minlon": 11.0194604,
+   "maxlat": 46.1828782,
+   "maxlon": 11.1140856
+  },
+  "wikidata": "Q59417360",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022252",
+  "name": "Borgo d'Anaunia",
+  "name_source": "name",
+  "name_osm": "Borgo d'Anaunia",
+  "osm_id": "relation/10521315",
+  "province_id": "022",
+  "postal_code": "38013",
+  "lat": 46.4400592,
+  "lon": 11.1364982,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.4230163,
+   "minlon": 11.0343177,
+   "maxlat": 46.5314462,
+   "maxlon": 11.216971
+  },
+  "wikidata": "Q80522716",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022253",
+  "name": "Novella",
+  "name_source": "name",
+  "name_osm": "Novella",
+  "osm_id": "relation/10521314",
+  "province_id": "022",
+  "postal_code": "38028",
+  "lat": 46.391811,
+  "lon": 11.059672,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.3668321,
+   "minlon": 11.0264181,
+   "maxlat": 46.507174,
+   "maxlon": 11.1165351
+  },
+  "wikidata": "Q80522975",
+  "source_dataset": "municipalities.json"
+ },
+ {
+  "id": "022254",
+  "name": "Ville di Fiemme",
+  "name_source": "name",
+  "name_osm": "Ville di Fiemme",
+  "osm_id": "relation/10521316",
+  "province_id": "022",
+  "postal_code": "38099",
+  "lat": 46.3009636,
+  "lon": 11.4474653,
+  "centre_source": "admin_centre",
+  "bounds": {
+   "minlat": 46.2801029,
+   "minlon": 11.358818,
+   "maxlat": 46.3641601,
+   "maxlon": 11.5260454
+  },
+  "wikidata": "Q80523200",
+  "source_dataset": "municipalities.json"
+ }
+]

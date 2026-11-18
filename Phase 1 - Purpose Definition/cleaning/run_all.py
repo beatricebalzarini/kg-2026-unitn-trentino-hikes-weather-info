@@ -32,9 +32,11 @@ STEPS = [  # (script, what it needs)
     ("clean_accommodations.py", "municipalities"),
     ("clean_amenities.py", "huts, accommodations"),
     ("clean_lakes.py", "municipalities"),
-    ("clean_mixed_pois.py", "huts, landmarks, food_drink, accommodations, pending files, routes"),
+    ("clean_mixed_pois.py", "huts, landmarks, lakes, glaciers, food_drink, accommodations, pending files, routes"),
     ("clean_public_transport.py", "_pending_bus_shelters, ways"),
     ("dedup_cross_files.py", "all the point files (rewrites them)"),
+    ("build_entities.py", "all data/clean files -> data/entities (one file per ER entity type)"),
+    ("schema_report.py", "data/entities -> data/entities/SCHEMA.md"),
 ]
 
 # entity files: their ids must be unique across files (pending/unmatched files are excluded)
@@ -127,8 +129,9 @@ def check():
 
 def hashes():
     out = {}
-    for p in sorted(CLEAN.glob("*.json")) + sorted(CLEAN.glob("*.geojson")):
-        out[p.name] = hashlib.sha256(p.read_bytes()).hexdigest()[:12]
+    for folder in (CLEAN, CLEAN.parent / "entities"):
+        for p in sorted(folder.glob("*.json")) + sorted(folder.glob("*.geojson")) + sorted(folder.glob("SCHEMA.md")):
+            out[f"{folder.name}/{p.name}"] = hashlib.sha256(p.read_bytes()).hexdigest()[:12]
     return out
 
 

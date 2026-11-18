@@ -14,6 +14,8 @@ from pathlib import Path
 from shapely.geometry import LineString, Point, mapping, shape
 from shapely.ops import linemerge
 
+from normalize import haversine_m, line_length_m, norm_operator
+
 BASE = Path(__file__).resolve().parent.parent
 SRC = BASE / "data" / "trails.json"
 PROV = BASE / "data" / "clean" / "province_boundary.geojson"
@@ -26,15 +28,8 @@ MIN_INSIDE_RATIO = 0.5                        # share of the trail length inside
 
 
 # ---------------- helpers ----------------
-def haversine_m(a, b):
-    lon1, lat1, lon2, lat2 = map(math.radians, (*a, *b))
-    h = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
-    return 2 * 6371008.8 * math.asin(math.sqrt(h))
 
 
-def line_length_m(line):
-    c = list(line.coords)
-    return sum(haversine_m(c[i], c[i + 1]) for i in range(len(c) - 1))
 
 
 def to_float(v):
@@ -58,33 +53,6 @@ def to_minutes(v):
     return int(v) * 60
 
 
-def norm_operator(op):
-    """Normalise the many spellings; multi-valued (';' or ',') operators become a list."""
-    if op is None:
-        return None
-    out = []
-    for part in re.split(r"[;,]", op):
-        p = part.strip()
-        low = p.lower()
-        if not p:
-            continue
-        if "alpinisti tridentini" in low or low == "sat":
-            p = "SAT"
-        elif low.startswith(("club alpino italiano", "cai", "c.a.i.")):
-            p = "CAI"
-        elif "alpenverein" in low or low.startswith("avs"):
-            p = "AVS"
-        elif "paneveggio" in low or "panevaggio" in low:
-            p = "Parco Naturale Paneveggio - Pale di San Martino"
-        elif "riserve alpi ledrensi" in low:
-            p = "Rete di Riserve Alpi Ledrensi"
-        elif low.startswith("comune di limone"):
-            p = "Comune di Limone sul Garda"
-        elif low.startswith("comune di") and not p.startswith("Comune"):
-            p = "C" + p[1:]
-        if p not in out:
-            out.append(p)
-    return out
 
 
 def split_cai(scale):

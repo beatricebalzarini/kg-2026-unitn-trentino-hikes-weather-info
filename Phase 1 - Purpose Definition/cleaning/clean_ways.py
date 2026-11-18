@@ -13,6 +13,8 @@ import re
 from collections import Counter
 from pathlib import Path
 
+from normalize import line_length_m
+
 BASE = Path(__file__).resolve().parent.parent
 DATA = BASE / "data"
 OUT = DATA / "clean"
@@ -56,10 +58,6 @@ BIKE_NO = {"no", "dismount", "private"}
 
 
 # ---------------- helpers ----------------
-def haversine_m(a, b):
-    lat1, lon1, lat2, lon2 = map(math.radians, (a["lat"], a["lon"], b["lat"], b["lon"]))
-    h = math.sin((lat2 - lat1) / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin((lon2 - lon1) / 2) ** 2
-    return 2 * 6371008.8 * math.asin(math.sqrt(h))
 
 
 def surface_info(t):
@@ -122,7 +120,7 @@ def bicycle_allowed(v):
     return True if v in BIKE_YES else False if v in BIKE_NO else None
 
 
-def build_way(el, t, length_m):
+def build_way(el, t, length_m, source):
     aerialway = t.get("aerialway")
     if aerialway:
         # lift used as a stage of a bike route: no surface, no slope from tags
@@ -146,6 +144,7 @@ def build_way(el, t, length_m):
         "wheelchair": t.get("wheelchair"),
         "stroller": t.get("stroller"),
         "via_ferrata_scale": t.get("via_ferrata_scale"),
+        "source_dataset": source,
     }
 
 
@@ -166,7 +165,7 @@ for seg_file, raw_files, clean_files in SOURCES:
                     wid = int(str(m["ref"]).replace("_fullGeom", ""))
                     if wid in used and wid not in lengths:
                         g = m["geometry"]
-                        lengths[wid] = round(sum(haversine_m(g[i], g[i + 1]) for i in range(len(g) - 1)), 1)
+                        lengths[wid] = round(line_length_m([(q["lon"], q["lat"]) for q in g]), 1)
 
     for el in json.load(open(DATA / seg_file, encoding="utf-8"))["elements"]:
         t = el.get("tags", {})
@@ -180,7 +179,7 @@ for seg_file, raw_files, clean_files in SOURCES:
             continue
         seen[el["id"]] = t
         stats[f"{seg_file}: kept"] += 1
-        ways.append(build_way(el, t, lengths.get(el["id"])))
+        ways.append(build_way(el, t, lengths.get(el["id"]), seg_file))
 
 ways.sort(key=lambda w: int(w["osm_id"].split("/")[1]))
 

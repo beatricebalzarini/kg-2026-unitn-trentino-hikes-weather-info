@@ -906,12 +906,7 @@
   "swimming": null,
   "fishing": null,
   "boat": true,
-  "duplicates": [
-   {
-    "osm_id": "way/17667218",
-    "file": "cultural_landmarks.json"
-   }
-  ]
+  "duplicates": null
  },
  {
   "osm_id": "way/17669165",
@@ -933,12 +928,7 @@
   "swimming": null,
   "fishing": null,
   "boat": null,
-  "duplicates": [
-   {
-    "osm_id": "way/17669165",
-    "file": "cultural_landmarks.json"
-   }
-  ]
+  "duplicates": null
  },
  {
   "osm_id": "way/179155457",
