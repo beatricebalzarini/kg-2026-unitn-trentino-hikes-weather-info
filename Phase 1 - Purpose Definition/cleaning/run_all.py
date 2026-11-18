@@ -36,6 +36,8 @@ STEPS = [  # (script, what it needs)
     ("clean_public_transport.py", "_pending_bus_shelters, ways"),
     ("dedup_cross_files.py", "all the point files (rewrites them)"),
     ("build_entities.py", "all data/clean files -> data/entities (one file per ER entity type)"),
+    ("fetch_dem.py", "Copernicus DEM tiles in data/dem (downloaded once)"),
+    ("enrich_dem.py", "data/entities + data/dem (fills missing elevations, ascent, slope)"),
     ("schema_report.py", "data/entities -> data/entities/SCHEMA.md"),
 ]
 

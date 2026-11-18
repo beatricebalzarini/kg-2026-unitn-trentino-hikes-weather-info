@@ -2,6 +2,8 @@
 
 The final data of Phase 1: **one JSON file per entity type** of the ER model (`../../ER-model.md`), built from the cleaned files in `../clean/` by `cleaning/build_entities.py` (last steps of `cleaning/run_all.py`). OSM data © OpenStreetMap contributors, ODbL.
 
+**`dem.md`** documents the elevation enrichment with the Copernicus DEM (missing elevations, ascent/descent, `max_incline_pct`), with its validation in `dem_validation.json`.
+
 **`SCHEMA.md`** describes every file and every field (type, how often it is filled, values, meaning) and the references between files. It is generated from the data by `cleaning/schema_report.py`, so it always matches the files.
 
 | File | EType | Entities |
@@ -37,4 +39,6 @@ The final data of Phase 1: **one JSON file per entity type** of the ER model (`.
 | `merged_osm_ids` (same file) and `duplicates` (other files) → one `merged_osm_ids` list of `{osm_id, file}`, without the entity's own id | one field |
 | `ele_source`, `source_dataset` added everywhere; segment `stroller` yes/no → boolean; food & drink places get `food_service = true` (`food_service_source = category`) and `overnight = false` | uniform provenance and types |
 
-Not computed yet (integration step): the derived Route attributes (`paved_pct`, `max_incline_pct`, `stroller_suitable`, `wheelchair_suitable`) and the spatial relationships (`passesBy`, `nearTo`, `startsNear`, `crosses`, `hasStation`).
+Elevations: every missing elevation, ascent/descent and `max_incline_pct` are filled from the Copernicus DEM (`dem.md`); OSM tags always win.
+
+Not computed yet (integration step): the derived Route attributes (`paved_pct`, `stroller_suitable`, `wheelchair_suitable`) and the spatial relationships (`passesBy`, `nearTo`, `startsNear`, `crosses`, `hasStation`).

@@ -1,0 +1,126 @@
+{
+ "points": {
+  "facilities:emergency_shelter": {
+   "n": 97,
+   "median_diff_m": 0.6,
+   "median_abs_diff_m": 4.8,
+   "within_25m_pct": 90.7
+  },
+  "facilities:guidepost": {
+   "n": 802,
+   "median_diff_m": 2.3,
+   "median_abs_diff_m": 6.8,
+   "within_25m_pct": 91.4
+  },
+  "hospitality:alpine_hut": {
+   "n": 174,
+   "median_diff_m": -1.2,
+   "median_abs_diff_m": 4.4,
+   "within_25m_pct": 90.8
+  },
+  "hospitality:hotel": {
+   "n": 16,
+   "median_diff_m": -0.9,
+   "median_abs_diff_m": 6.8,
+   "within_25m_pct": 81.2
+  },
+  "hospitality:wilderness_hut": {
+   "n": 73,
+   "median_diff_m": -0.1,
+   "median_abs_diff_m": 5.1,
+   "within_25m_pct": 87.7
+  },
+  "landmarks:cave_entrance": {
+   "n": 12,
+   "median_diff_m": 22.6,
+   "median_abs_diff_m": 22.6,
+   "within_25m_pct": 50.0
+  },
+  "landmarks:mine": {
+   "n": 42,
+   "median_diff_m": -37.5,
+   "median_abs_diff_m": 37.5,
+   "within_25m_pct": 26.2
+  },
+  "landmarks:peak": {
+   "n": 1869,
+   "median_diff_m": -21.0,
+   "median_abs_diff_m": 23.5,
+   "within_25m_pct": 51.8
+  },
+  "landmarks:ruins": {
+   "n": 12,
+   "median_diff_m": -1.9,
+   "median_abs_diff_m": 4.9,
+   "within_25m_pct": 83.3
+  },
+  "landmarks:saddle": {
+   "n": 647,
+   "median_diff_m": -2.8,
+   "median_abs_diff_m": 6.5,
+   "within_25m_pct": 85.3
+  },
+  "landmarks:viewpoint": {
+   "n": 25,
+   "median_diff_m": -6.0,
+   "median_abs_diff_m": 9.3,
+   "within_25m_pct": 84.0
+  },
+  "landmarks:wayside_cross": {
+   "n": 13,
+   "median_diff_m": -9.5,
+   "median_abs_diff_m": 9.5,
+   "within_25m_pct": 76.9
+  },
+  "transport:lift_station": {
+   "n": 86,
+   "median_diff_m": -1.9,
+   "median_abs_diff_m": 6.0,
+   "within_25m_pct": 82.6
+  }
+ },
+ "polygons": {
+  "lake": {
+   "n": 50,
+   "median_diff_m": -0.7,
+   "median_abs_diff_m": 2.0,
+   "within_25m_pct": 90.0
+  }
+ },
+ "routes": {
+  "ascent_m": {
+   "n": 1127,
+   "median_ratio_dem_tag": 0.965,
+   "within_20pct": 51.6
+  },
+  "ele_max_m": {
+   "n": 18,
+   "median_diff_m": 1.7,
+   "median_abs_diff_m": 7.3,
+   "within_25m_pct": 100.0
+  },
+  "orientation_check": {
+   "n": 542,
+   "same_direction_within_20pct": 26.4,
+   "opposite_direction_within_20pct": 21.4,
+   "total_climb_up_plus_down_within_20pct": 76.9,
+   "total_climb_median_ratio": 1.013
+  }
+ },
+ "parameters": {
+  "step_m": 30,
+  "ascent_threshold_m": 15,
+  "slope_window_m": 100,
+  "slope_smoothing_m": 150,
+  "slope_percentile": 95,
+  "dem": "Copernicus DEM GLO-30",
+  "tiles": [
+   "Copernicus_DSM_COG_10_N45_00_E010_00_DEM.tif",
+   "Copernicus_DSM_COG_10_N45_00_E011_00_DEM.tif",
+   "Copernicus_DSM_COG_10_N45_00_E012_00_DEM.tif",
+   "Copernicus_DSM_COG_10_N46_00_E010_00_DEM.tif",
+   "Copernicus_DSM_COG_10_N46_00_E011_00_DEM.tif",
+   "Copernicus_DSM_COG_10_N46_00_E012_00_DEM.tif"
+  ]
+ }
+}

@@ -32,7 +32,7 @@ COMMON = {
     "name_osm": "the OSM `name` tag, when there is one",
     "category": "the subtype of the entity (see the values)",
     "ele_m": "elevation in metres",
-    "ele_source": "`tag` (from OSM); `dem` will be used by the planned DEM enrichment",
+    "ele_source": "`tag` (OSM), `dem` (Copernicus DEM GLO-30, see `dem.md`); routes: `tag+dem` when some of the ele_* fields are tags and the others DEM",
     "lat": "latitude (WGS84) of the representative point",
     "lon": "longitude (WGS84) of the representative point",
     "municipality_istat": "ISTAT code of the municipality containing the point (→ municipalities.id)",
@@ -55,8 +55,10 @@ DOCS = {
         "sac_scale_max": "highest SAC difficulty of the segments (via ferrata, 0–6)",
         "distance_km": "declared length (OSM tag)", "distance_source": "`distance` or `length` tag",
         "length_km": "length computed from the geometry", "duration_forward_min": "declared walking time, forward",
-        "duration_backward_min": "declared walking time, backward", "ascent_m": "declared ascent",
-        "descent_m": "declared descent", "ele_from_m": "elevation of the start", "ele_to_m": "elevation of the end",
+        "duration_backward_min": "declared walking time, backward", "ascent_m": "ascent (OSM tag, else DEM; DEM values measured from `start` to `end`)",
+        "descent_m": "descent (OSM tag, else DEM; DEM values measured from `start` to `end`)", "ascent_source": "`tag` or `dem`", "descent_source": "`tag` or `dem`",
+        "max_incline_pct": "slope of the steepest stretches: 95th percentile of the slope over 100 m windows (DEM, see `dem.md`)",
+        "max_incline_source": "`dem`", "ele_from_m": "elevation of the start (tag, else DEM)", "ele_to_m": "elevation of the end (tag, else DEM)",
         "ele_max_m": "highest elevation", "ele_min_m": "lowest elevation", "roundtrip": "loop route",
         "roundtrip_source": "`tag`, or `geometry` (start and end within 50 m)", "start": "start point {lat, lon}",
         "end": "end point {lat, lon}", "segment_ids": "ids of the segments, in order (→ segments.id): relation hasSegment",
@@ -154,7 +156,8 @@ lines = ["# Entity files — schema", "",
          "OSM data © OpenStreetMap contributors, ODbL.", "",
          "Every row of a file has the same fields in the same order; `null` = not applicable or not known "
          "(a value not stated by a tag is never guessed). Derived Route attributes of the ER model "
-         "(`paved_pct`, `max_incline_pct`, `stroller_suitable`, `wheelchair_suitable`) are not computed yet "
+         "(`paved_pct`, `stroller_suitable`, `wheelchair_suitable`) are not computed yet; `max_incline_pct` and the missing "
+         "elevations come from the DEM (`dem.md`) "
          "(integration step).", "", "## Overview", "",
          "| File | EType | Entities | Fields | Built from (`data/clean/`) |", "|---|---|---|---|---|"]
 data = {f: json.load(open(ENT / f"{f}.json", encoding="utf-8")) for f in ENTITIES}

@@ -245,14 +245,14 @@ erDiagram
 ## CQ coverage
 | # | CQ | Path in the model |
 |---|---|---|
-| 1, 6 | height difference less than / equal to X | Route.ascent_m, descent_m |
-| 2 | maximum slope X | Route.max_incline_pct *(derived from Segment.incline_pct; sparse, DEM planned)* |
+| 1, 6 | height difference less than / equal to X | Route.ascent_m, descent_m (OSM tag, else DEM) |
+| 2 | maximum slope X | Route.max_incline_pct *(from the DEM, `data/entities/dem.md`)* |
 | 3 | stroller | Route.stroller_suitable *(derived from Segments)* |
 | 4 | food points | Route –nearTo→ Hospitality [food_service = true] |
 | 5 | overnight stay | Route –nearTo→ Hospitality [overnight = true] |
 | 7, 16 | no asphalt / totally asphalted | Route.paved_pct *(derived)*; Segment.surface |
 | 8 | less than X hours | Route.duration_min |
-| 9 | reach X m a.s.l. | Route.ele_max_m (sparse, DEM planned); Landmark.ele_m of the landmarks it passes by |
+| 9 | reach X m a.s.l. | Route.ele_max_m (OSM tag, else DEM); Landmark.ele_m of the landmarks it passes by |
 | 10 | by bike | Route.category ∈ {mtb, bicycle}; Segment.bicycle_allowed |
 | 11 | reachable by public transport | Route –startsNear→ Transport |
 | 15 | wheelchair | Route.wheelchair_suitable *(derived)* |
